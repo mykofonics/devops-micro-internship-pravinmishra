@@ -16,8 +16,8 @@ Write a clear ChatGPT prompt to help you understand:
 
 > "What is a protocol in networking? Explain with a simple real-life example."
 
-   <img src="screenshots/task_1.png" alt="What is protocol in networking">  
-<img src="screenshots/task_1B.png" alt="What is protocol in networking">  
+   <img src="/week-00-internet-and-networking/screenshots/task_1.png" alt="">  
+                  <img src="/week-00-internet-and-networking/screenshots/task_2_1.png" alt="">  
 
 
 ## What I Learned 
@@ -68,7 +68,7 @@ EpicReads bookstore has two application versions:
 ## Diagram Screenshot / Photo
 
 
-<img src="screenshots/task_3.png" alt="What is protocol in networking">
+<img src="screenshots/task_3.png" alt="">
 
 ## Technologies Used
 
@@ -145,7 +145,7 @@ ls
 
 * Your selected VS Code theme clearly visible
 
-<img src="screenshots/task_5.png" alt="What is protocol in networking">
+<img src="screenshots/task_5.png" alt="">
 
 # 🔗 Task 6: Publish Your Assignment as a LinkedIn Post
 
