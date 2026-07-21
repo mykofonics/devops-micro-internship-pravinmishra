@@ -16,27 +16,14 @@ Write a clear ChatGPT prompt to help you understand:
 
 > "What is a protocol in networking? Explain with a simple real-life example."
 
-Take a screenshot of your interaction showing:
-
-* Your detailed prompt (with clear expectations)
-* ChatGPT's simplified response with an example
-
-## Screenshot
-
-Save your screenshot in the `screenshots` folder and update the file name below.
-
-![Task 1 Screenshot](screenshots/task-1-chatgpt.png)
+   <img src="screenshots/task_1.png" alt="What is protocol in networking">  
+<img src="screenshots/task_1B.png" alt="What is protocol in networking">  
 
 
-Replace `task-1-chatgpt.png` with your actual screenshot file name.
+## What I Learned 
 
----
+Writing using a prompt is a good approach to learn prompt engineering, which is the skill of communicating effectuively with an AI agent to het high-quality responses. With this, Ai was able to give detail information with familiar oobject to explain indepth about network protocol.
 
-## What I Learned (2–3 lines)
-
-Add your answer here...
-
----
 
 # 🌐 Task 2: Internet and Networking
 
@@ -57,11 +44,7 @@ Write a short explanation (**100–150 words**) that includes:
 
 💡 **Tip:** You may use ChatGPT (as demonstrated in Task 1) to refine your explanation.
 
-## Answer
-
-Add your answer here...
-
----
+After a successful launch of the website, when a user anywhere in the world visits EpicReads, their request is sent across the Internet using packet switching, where the data is divided into small packets that travel through different routes before being reassembled at the destination. The website hosted in Finland is like a house on the street, which can be located with a unique number. The website is an entity on the network which is identified by a unique IP address, which enables devices to locate and communicate with the server. The TCP/IP protocol suite ensures that the packets are delivered accurately, in the correct order, and without data loss. Once the connection is established, HTTP (Hypertext Transfer Protocol) is the path used to request and deliver web pages. In practice, HTTPS is preferred because it encrypts the communication between the user's browser and the server, protecting sensitive information such as login credentials and payment details from unauthorised access.
 
 # 🏗️ Task 3: Application Architecture & Stack
 
@@ -80,42 +63,30 @@ EpicReads bookstore has two application versions:
 * Backend
 * Database
 
-## Your Task
 
-* Draw simple diagrams (hand-drawn or tool-based such as draw.io)
-* Label each layer clearly
-* List at least two common technologies or tools used for each layer
-* Submit a screenshot or photo clearly showing your own drawing
 
 ## Diagram Screenshot / Photo
 
-Save your diagram image in the `screenshots` folder and update the file name below.
 
-![Application Architecture Diagram](screenshots/task-3-diagram.png)
-
-
-Replace `task-3-diagram.png` with your actual diagram file name.
-
----
+<img src="screenshots/task_3.png" alt="What is protocol in networking">
 
 ## Technologies Used
 
 ### Frontend
 
-* Add your answer here...
-* Add your answer here...
+* Next.js
+* Taliwind CSS
 
 ### Backend
 
-* Add your answer here...
-* Add your answer here...
+* Node.js
+* Jwt (Json web Token)
 
 ### Database
 
-* Add your answer here...
-* Add your answer here...
+* MongoDb
+* Mysql
 
----
 
 # 🌍 Task 4: Domain Name & DNS (Basic Concepts)
 
@@ -142,9 +113,11 @@ In **50–100 words**, explain in your own words:
 
 ## Answer
 
-Add your answer here...
+DNS (Domain Name System) could be referred to as the internet’s phonebook. It helps to translate  easy-to-remember domain names such as epicreads.com, google.com into IP addresses that computers use to locate websites.
 
----
+For example, to connect epicreads.com to 52.172.142.222, an A (Address) Record should be used. An A Record maps a domain name directly to an IPv4 address, allowing users who type epicreads.com in their browser to reach the bookstore server hosted at 52.172.142.222. The port 3000 would still need to be handled by the web server or a reverse proxy configuration.
+
+
 
 # 💻 Task 5: Visual Studio Code Setup (Hands-on)
 
@@ -172,18 +145,7 @@ ls
 
 * Your selected VS Code theme clearly visible
 
-⚠️ **Important:** The screenshot must show your username or another identifiable detail to confirm it is your environment.
-
-## Screenshot
-
-Save your screenshot in the `screenshots` folder and update the file name below.
-
-![VS Code Setup Screenshot](screenshots/task-5-vscode.png)
-
-
-Replace `task-5-vscode.png` with your actual screenshot file name.
-
----
+<img src="screenshots/task_5.png" alt="What is protocol in networking">
 
 # 🔗 Task 6: Publish Your Assignment as a LinkedIn Post
 
@@ -211,43 +173,51 @@ Add the following credit note at the end of your post:
 
 > **P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by Pravin Mishra. You can start your DevOps journey by joining this Discord community: https://discord.pravinmishra.com/**
 
----
 
 ## LinkedIn Post URL
 
-Paste your LinkedIn post URL here:
-
-```text
-Add your URL here...
-```
-
----
+https://www.linkedin.com/posts/oyeku-michael-2215a920_devops-micro-internship-the-important-of-share-7485089326230482945-CfzC/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAARb4_kBmnrqkDDsuuYPPXrVCKNYnevZPAo
 
 ## LinkedIn Post Backup Copy
 
-Paste the full text of your LinkedIn post here:
+DevOps Micro-Internship – the Important of Building the Foundation
+Every successful DevOps journey begins with a strong understanding of the fundamentals. Before exploring cloud platforms, automation, CI/CD, containers, and Infrastructure as Code (IaC), it is essential to grasp the core technologies that power modern software systems. During our introductory class, we were introduced to these foundational concepts and their significance, providing a clear understanding of how each one contributes to the DevOps ecosystem and prepares us for the learning journey ahead.
 
-Add your post content here...
+ChatGPT
+Effective use of ChatGPT starts with good prompt engineering. Asking clear, structured questions helps generate more accurate, relevant, and insightful responses, making AI a valuable tool for learning, research, documentation, and problem-solving throughout the DevOps journey.
 
----
+Internet & Networking
+A strong understanding of Internet and networking is essential. Concepts such as packet switching, IP addresses, the TCP/IP protocol suite, and HTTP/HTTPS explain how devices communicate, how data travels across networks, and how users securely access web applications from anywhere in the world.
+
+App Architecture
+Modern applications are built using multiple technologies that work together. Frameworks such as Next.js, backend technologies like Node.js and Express.js, and databases such as MongoDB each play a unique role in delivering scalable, reliable, and high-performing web applications.
+
+DNS
+The Domain Name System (DNS) is one of the Internet's core services. It translates easy-to-remember domain names into IP addresses, allowing users to access websites without needing to remember numerical network addresses.
+
+VS Code Setup
+A productive development environment starts with the right tools. Visual Studio Code, together with essential extensions and Git integration, provides a powerful workspace for writing code, managing projects, collaborating with teams, and supporting DevOps workflows.
+
+These foundational concepts form the starting point for every aspiring DevOps engineer. Understanding them creates a strong base for exploring Linux, Git, cloud computing, Docker, Kubernetes, CI/CD, Infrastructure as Code, monitoring, security, and other core DevOps practices in the weeks ahead.
+
+I'm looking forward to learning, building, collaborating, and sharing my progress throughout this program.
+
+ **P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by Pravin Mishra. You can start your DevOps journey by joining this Discord community: https://discord.pravinmishra.com/**
 
 # Reflection – Week 0
 
 ### What did you find easy?
 
-Add your answer here...
-
----
+I found the mode of communication to be very effective and easy to follow. The approach used to deliver the information was engaging, ensuring that everyone could follow along regardless of their level of understanding. The concepts were explained using simple, relatable examples, which made them easier to grasp and apply. Overall, the teaching style created an inclusive and interactive learning environment that encouraged active participation.
 
 ### What was difficult?
 
-Add your answer here...
-
+One aspect I found a bit challenging was the long duration of the sessions. Sitting in front of my computer for nearly eight hours at a stretch required a great deal of focus and endurance. While the sessions were engaging and informative, incorporating short breaks between segments could help participants stay refreshed and maintain their concentration throughout the day.
 ---
 
 ### What will you improve next week?
 
-Add your answer here...
+One thing I would like to improve this week is my attention to detail. I want to be more deliberate in following instructions, observing key information, and reviewing my work carefully to minimize mistakes and ensure I fully understand each task.
 
 ---
 
