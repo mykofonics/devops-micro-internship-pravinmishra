@@ -20,7 +20,7 @@ Create the required `.claude/skills/` directory structure for all skills.
 
 #### Screenshot 1 — VS Code sidebar showing `.claude/skills/` folder with all 4 subfolders visible
 
-Add your screenshot here.
+<img src="screenshots\Screenshot_A3_1.png" alt=""> 
 
 ---
 
@@ -34,13 +34,12 @@ Place all required skill files into their correct directories and verify their c
 
 #### Screenshot 2 — `.claude/skills/scaffold-terraform/` open in VS Code showing both `SKILL.md` and `template-spec.md`
 
-Add your screenshot here.
-
+<img src="screenshots\Screenshot_A3_2.png" alt=""> 
 ---
 
 #### Screenshot 3 — Screenshot 3 — `tf-plan/SKILL.md` frontmatter showing `allowed-tools: Bash, Read, Grep` (no Write) and `disable-model-invocation: true`
 
-Add your screenshot here.
+<img src="screenshots\Screenshot_A3_3.png" alt=""> 
 
 ---
 
@@ -54,14 +53,13 @@ Execute the `/scaffold-terraform` skill to generate a full Terraform infrastruct
 
 #### Screenshot 4 — Claude's response showing the scaffold complete with the file list
 
-Add your screenshot here.
+<img src="screenshots\Screenshot_A3_4.png" alt=""> 
 
 ---
 
 #### Screenshot 5 — VS Code sidebar showing the `terraform/` folder with all generated files inside
 
-Add your screenshot here.
-
+<img src="screenshots\Screenshot_A3_5.png" alt=""> 
 ---
 
 # Task 4 — Run terraform init and /tf-plan
@@ -74,8 +72,7 @@ Initialize Terraform and execute the `/tf-plan` skill to observe plan execution 
 
 #### Screenshot 6 — Claude's `/tf-plan` response showing it ran the command and analyzed the result (pass or auth error both count)
 
-Add your screenshot here.
-
+<img src="screenshots\Screenshot_A3_5.png" alt=""> 
 ---
 
 # Submission Instructions
@@ -88,13 +85,12 @@ Add your screenshot here.
 
 ## GitHub Repository URL
 
-Paste your forked repository URL here:
-
+https://github.com/mykofonics/Ultimate-Agentic-DevOps-with-Claude-Code.git
 `__________________________`
 
 ## LinkedIn post URL
 
-Paste your forked repository URL here:
+[Paste your forked repository URL here:](https://www.linkedin.com/posts/oyeku-michael-2215a920_dmibypravinmishra-agenticai-claudecode-share-7481438548362072064-BmlK/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAARb4_kBmnrqkDDsuuYPPXrVCKNYnevZPAo)
 
 `__________________________`
 ---
