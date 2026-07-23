@@ -19,8 +19,7 @@ Capture Claude’s response before `CLAUDE.md` exists in the project to establis
 ### Evidence
 
 #### Screenshot 1 — Claude’s generic response before CLAUDE.md exists (project contains only `index.html`, `style.css`, `images/`, `README.MD`, `privacy.html`, `terms.html`)
-
-Add your screenshot here.
+<img src="screenshots\Screenshot_A2_1.png" alt=""> 
 
 ---
 
@@ -34,7 +33,7 @@ Generate an initial `CLAUDE.md` file using the `/init` command and review the au
 
 #### Screenshot 2 — The auto-generated CLAUDE.md open in VS Code showing its content
 
-Add your screenshot here.
+<img src="screenshots\Screenshot_A2_2.png" alt=""> 
 
 ---
 
@@ -48,7 +47,7 @@ Update the generated `CLAUDE.md` file by adding project-specific instructions ac
 
 #### Screenshot 3 — Your customized CLAUDE.md in VS Code showing all 5 sections (scroll to show the full file)
 
-Add your screenshot here.
+<img src="screenshots\Screenshot_A2_3.png" alt=""> 
 
 ---
 
@@ -62,13 +61,13 @@ Verify that Claude’s behavior changes after adding `CLAUDE.md` by running a ne
 
 #### Screenshot 4 — Claude's specific, detailed answer after reading CLAUDE.md (Claude mentioning S3, CloudFront and Terraform)
 
-Add your screenshot here.
+<img src="screenshots\Screenshot_A2_4.png" alt=""> 
 
 ---
 
 #### Screenshot 5 — Claude refusing or warning against adding React because of the "No JavaScript" convention defined in CLAUDE.md
 
-Add your screenshot here.
+<img src="screenshots\Screenshot_A2_5.png" alt=""> 
 
 ---
 
@@ -82,8 +81,7 @@ Commit the `CLAUDE.md` file and push it to your GitHub fork so the project instr
 
 #### Screenshot 6 — `CLAUDE.md` visible in your GitHub repository after pushing the commit
 
-Add your screenshot here.
-
+<img src="screenshots\Screenshot_A2_6.png" alt=""> 
 ---
 
 # Submission Instructions
@@ -96,9 +94,14 @@ Add your screenshot here.
 
 ## GitHub Repository URL
 
+<<<<<<< HEAD
+https://github.com/mykofonics/Ultimate-Agentic-DevOps-with-Claude-Code
+`__________________________`
+=======
 Paste your forked repository URL here:
 
 `Add your URL here`
+>>>>>>> upstream/main
 
 ---
 
