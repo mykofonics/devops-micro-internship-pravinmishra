@@ -46,15 +46,19 @@ You can publish your blog on:
 
 #### Screenshot 1 — Blog published and visible
 
-Add your screenshot here.
+<img src="screenshots\LinkedIn_post.png" alt=""> 
 
 ---
 
 ### Submission Field
 
+<<<<<<< HEAD
+_https://www.linkedin.com/posts/oyeku-michael-2215a920_reflection-week-2-learning-that-devops-ugcPost-7482955432416960512-9baP/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAARb4_kBmnrqkDDsuuYPPXrVCKNYnevZPAo______________________________________`
+=======
 Blog Link:
 
 `Add your URL here`
+>>>>>>> upstream/main
 
 ---
 
@@ -92,26 +96,20 @@ Your post must include:
 
 #### Screenshot 2 — LinkedIn post published
 
-Add your screenshot here.
-
----
+<img src="screenshots\LinnkedIn_2.png" alt=""> 
 
 ### Submission Field
 
-LinkedIn Post Content (copy-paste here):
-
-```
-Paste your LinkedIn post content here
-```
-
----
-
 ### LinkedIn Post Link:
 
+<<<<<<< HEAD
+=======
 `Add your URL here`
 
 ---
+>>>>>>> upstream/main
 
+https://www.linkedin.com/posts/oyeku-michael-2215a920_dmibypravinmishra-agenticai-claudecode-ugcPost-7482930953905070081-ytuQ/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAARb4_kBmnrqkDDsuuYPPXrVCKNYnevZPAoLinkedIn Post Link:
 # Submission Instructions
 
 * Blog must be publicly accessible
