@@ -77,7 +77,13 @@ Run three tests that prove Claude remembers what you told it — without you say
 
 ## Linkedin Post Link
 
+<<<<<<< HEAD
 https://www.linkedin.com/posts/oyeku-michael-2215a920_dmibypravinmishra-agenticai-claudecode-activity-7482930954634833922-imsr?utm_source=share&utm_medium=member_desktop&rcm=ACoAAARb4_kBmnrqkDDsuuYPPXrVCKNYnevZPAo_______________________`
+=======
+Paste your Linkedin post link here:
+
+`Add your URL here`
+>>>>>>> upstream/main
 
 ---
 
@@ -85,6 +91,12 @@ https://www.linkedin.com/posts/oyeku-michael-2215a920_dmibypravinmishra-agentica
 
 https://github.com/mykofonics/Ultimate-Agentic-DevOps-with-Claude-Code.git
 
+<<<<<<< HEAD
+=======
+`Add your URL here`
+
+---
+>>>>>>> upstream/main
 
 # Completion Checklist
 

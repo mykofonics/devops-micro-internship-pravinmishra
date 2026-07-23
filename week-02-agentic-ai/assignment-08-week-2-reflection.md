@@ -52,7 +52,13 @@ You can publish your blog on:
 
 ### Submission Field
 
+<<<<<<< HEAD
 _https://www.linkedin.com/posts/oyeku-michael-2215a920_reflection-week-2-learning-that-devops-ugcPost-7482955432416960512-9baP/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAARb4_kBmnrqkDDsuuYPPXrVCKNYnevZPAo______________________________________`
+=======
+Blog Link:
+
+`Add your URL here`
+>>>>>>> upstream/main
 
 ---
 
@@ -76,7 +82,7 @@ Your post must include:
 
 ### Required P.S. Line (Must Include Exactly)
 
-> **P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). You can start your DevOps journey by joining [DMI waiting list](https://forms.gle/3hvrWJBDzsDeJoPs6) (https://forms.gle/3hvrWJBDzsDeJoPs6).**
+> **P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). My graded progress is public: https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-linkedin&utm_campaign=cohort3**
 
 ---
 
@@ -96,6 +102,12 @@ Your post must include:
 
 ### LinkedIn Post Link:
 
+<<<<<<< HEAD
+=======
+`Add your URL here`
+
+---
+>>>>>>> upstream/main
 
 https://www.linkedin.com/posts/oyeku-michael-2215a920_dmibypravinmishra-agenticai-claudecode-ugcPost-7482930953905070081-ytuQ/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAARb4_kBmnrqkDDsuuYPPXrVCKNYnevZPAoLinkedIn Post Link:
 # Submission Instructions
