@@ -1,192 +1,73 @@
-# Assignment 5 — Open-Source Collaboration: Fork, Clone, Sync & Pull Request
 
-Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
+Assignment 5 — Open-Source Collaboration: Fork, Clone, Sync & Pull Request
 
----
 
-## Purpose
+Task 0 — Fork the Upstream Repository
 
-In this assignment, you will contribute one small documentation change to a shared repository using a standard open-source collaboration workflow: fork, clone, configure remotes, branch, commit, sync with upstream, push, and open a Pull Request. This is a different, separate practice repository from the one you submit your DMI work in.
+Screenshot 1 — Your fork page with your username and `devops-micro-internship-interviews` visible in the browser URL
 
----
+<img src="screenshots\Task_5_0_1.png">
 
-# Task 0 — Fork the Upstream Repository
+Task 1 — Authenticate GitHub from the Terminal
 
-## Goal
+Screenshot 2 — Output of `git config --global --get credential.helper` (HTTPS) or `ssh -T git@github.com` (SSH) showing successful authentication — never show your token or private key
 
-Fork `pravinmishraaws/devops-micro-internship-interviews` into your own GitHub account.
+<img src="screenshots\Task_5_1_2.png">
 
-### Evidence
+Task 2 — Clone Your Fork and Configure Remotes
 
-#### Screenshot 1 — Your fork page with your username and `devops-micro-internship-interviews` visible in the browser URL
 
-Add your screenshot here.
+Screenshot 3 — Output of `git remote -v` showing `origin` pointing to your fork and `upstream` pointing to `pravinmishraaws/devops-micro-internship-interviews`
 
----
+<img src="screenshots\Task_5_2_3.png">
 
-# Task 1 — Authenticate GitHub from the Terminal
+Task 3 — Create a Feature Branch and Make Your Change
 
-## Goal
+Screenshot 4 — Output of `git status` showing `pull_request.md` modified before staging
 
-Configure one authentication method — HTTPS with a Personal Access Token, or SSH — so you can push to your fork. Use only one method.
+<img src="screenshots\Task_5_3_4.png">
 
-### Evidence
+Screenshot 5 — Output of `git commit`
 
-#### Screenshot 2 — Output of `git config --global --get credential.helper` (HTTPS) or `ssh -T git@github.com` (SSH) showing successful authentication — never show your token or private key
+<img src="screenshots\Task_5_3_5.png">
 
-Add your screenshot here.
+Task 4 — Synchronize with Upstream and Push to Your Fork
 
----
 
-# Task 2 — Clone Your Fork and Configure Remotes
+Screenshot 6 — Output of `git push -u origin feature-readme-update` showing a successful push
 
-## Goal
+<img src="screenshots\Task_5_4_6.png">
 
-Clone your fork locally, then add the original repository as `upstream`.
+Screenshot 7 — Your fork on GitHub showing `feature-readme-update` in the branch selector or a "Compare & pull request" banner
 
-### Evidence
+<img src="screenshots\Task_5_4_7.png">
 
-#### Screenshot 3 — Output of `git remote -v` showing `origin` pointing to your fork and `upstream` pointing to `pravinmishraaws/devops-micro-internship-interviews`
+Task 5 — Create a Pull Request to Upstream
 
-Add your screenshot here.
 
----
+Screenshot 8 — Pull Request creation page showing the correct base repository, base branch, head repository, compare branch, and title
 
-# Task 3 — Create a Feature Branch and Make Your Change
+<img src="screenshots\Task_5_5_8.png">
 
-## Goal
+Screenshot 9 — Successfully created Pull Request page with the PR number visible
 
-Create the branch `feature-readme-update`, add only your own entry (`Full Name — Group <Group Name/Number>`) to the Student List at the end of `pull_request.md`, and commit it with the message `docs: add my name to student list`.
+<img src="screenshots\Task_5_5_9.png">
 
-### Evidence
+Pull Request URL
 
-#### Screenshot 4 — Output of `git status` showing `pull_request.md` modified before staging
+https://github.com/pravinmishraaws/devops-micro-internship-interviews/compare/main...mykofonics:devops-micro-internship-interviews:feature-readme-update 
 
-Add your screenshot here.
+ LinkedIn Post (Required)
 
----
+https://www.linkedin.com/posts/oyeku-michael-2215a920_dmibypravinmishra-devops-agenticai-share-7486485464359632896-0YGY/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAARb4_kBmnrqkDDsuuYPPXrVCKNYnevZPAo
 
-#### Screenshot 5 — Output of `git commit`
+Screenshot — LinkedIn post showing your successfully created Pull Request
 
-Add your screenshot here.
+<img src="screenshots\LinkedIn post for assign 5.png">
 
----
 
-# Task 4 — Synchronize with Upstream and Push to Your Fork
+Fork URL
 
-## Goal
+Phttps://github.com/mykofonics/devops-micro-internship-interviews/pulls
 
-Fetch and merge `upstream/main` into your local default branch, rebase your feature branch onto it, then push `feature-readme-update` to your fork.
 
-### Evidence
-
-#### Screenshot 6 — Output of `git push -u origin feature-readme-update` showing a successful push
-
-Add your screenshot here.
-
----
-
-#### Screenshot 7 — Your fork on GitHub showing `feature-readme-update` in the branch selector or a "Compare & pull request" banner
-
-Add your screenshot here.
-
----
-
-# Task 5 — Create a Pull Request to Upstream
-
-## Goal
-
-Open a Pull Request from `feature-readme-update` on your fork to `main` on the upstream repository, using the title `docs: add my name to student list`.
-
-### Evidence
-
-#### Screenshot 8 — Pull Request creation page showing the correct base repository, base branch, head repository, compare branch, and title
-
-Add your screenshot here.
-
----
-
-#### Screenshot 9 — Successfully created Pull Request page with the PR number visible
-
-Add your screenshot here.
-
----
-
-#### Pull Request URL
-
-Paste your Pull Request URL here:
-
-`Add your URL here`
-
----
-
-# LinkedIn Post (Required)
-
-## Evidence
-
-#### LinkedIn Post URL
-
-Paste your LinkedIn post URL here:
-
-`Add your URL here`
-
----
-
-#### Screenshot — LinkedIn post showing your successfully created Pull Request
-
-Add your screenshot here.
-
----
-
-# Submission Instructions
-
-- Add all required screenshots in your submission
-- Do not expose a Personal Access Token, SSH private key, password, or authentication secret
-- Only your own entry in `pull_request.md` may be added — do not edit or delete another student's entry
-- Include your fork URL and Pull Request URL
-
----
-
-## Fork URL
-
-Paste your fork URL here:
-
-`Add your URL here`
-
----
-
-# Completion Checklist
-
-- [ ] Upstream repository forked to your GitHub account (Screenshot 1)
-- [ ] GitHub authentication configured securely (Screenshot 2)
-- [ ] Fork cloned locally with `origin` and `upstream` configured (Screenshot 3)
-- [ ] Only `pull_request.md` modified, with your own entry added (Screenshots 4–5)
-- [ ] Local default branch synchronized with `upstream/main`, feature branch rebased and pushed (Screenshots 6–7)
-- [ ] Pull Request opened against the correct upstream repository and branch (Screenshots 8–9)
-- [ ] Fork URL and Pull Request URL included
-- [ ] LinkedIn post published and URL submitted
-- [ ] No PAT, password, private key, or authentication secret exposed
-
----
-
-## 📌 About DMI & CloudAdvisory
-
-DevOps Micro Internship (DMI) is a project-based DevOps program run by Pravin Mishra (The CloudAdvisory) focused on real-world execution, systems thinking, and career readiness.
-
-It helps learners build strong DevOps foundations with hands-on experience.
-
----
-
-## 📌 Resources
-
-- 🌐 DMI Official Website: https://pravinmishra.com/dmi  
-- 🎓 DevOps for Beginners (Udemy): https://www.udemy.com/course/devops-for-beginners-docker-k8s-cloud-cicd-4-projects/  
-- 🎓 Agentic AI DevOps with Claude Code: https://www.udemy.com/course/ultimate-agentic-ai-devops-with-claude-code/  
-- 🎓 DevOps with Claude Code: Terraform, EKS, ArgoCD & Helm: https://www.udemy.com/course/devops-with-claude-code-terraform-eks-argocd-helm/  
-- ▶️ YouTube Playlist: https://www.youtube.com/playlist?list=PLFeSNDtI4Cho  
-- 🔗 Pravin Mishra (LinkedIn): https://www.linkedin.com/in/pravin-mishra-aws-trainer/  
-- 🏢 CloudAdvisory (LinkedIn): https://www.linkedin.com/company/thecloudadvisory/
-
----
-
-*This submission is part of DevOps Micro Internship (DMI) Cohort 3 — Agentic AI Track.*
