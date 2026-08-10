@@ -36,6 +36,3 @@ Screenshot 6 — Your public GitHub profile showing your username and profession
 GitHub Profile URL
 
 https://github.com/mykofonics
-
-
-

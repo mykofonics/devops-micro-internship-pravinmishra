@@ -209,7 +209,76 @@ Sharing secrets, keys, or credentials publicly puts you at risk of unauthorized 
 Cloud resources should be stopped or terminated when no longer needed mainly to avoid unnecessary costs, since providers like AWS charge for running resources by the hour or by usage even if nothing meaningful is happening on them — and beyond cost, leaving unused resources running also unnecessarily expands your attack surface
 
 
-LinkedIn Post (Required)
-Evidence
-LinkedIn Post URL
-https://www.linkedin.com/posts/oyeku-michael-2215a920_dmibypravinmishra-devops-agenticai-ugcPost-7483979312291840000-Gii-/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAARb4_kBmnrqkDDsuuYPPXrVCKNYnevZPAo
+Write your answer here.
+
+---
+
+**5. Why should cloud resources be stopped or terminated when they are no longer needed?**
+
+Write your answer here.
+
+---
+
+# LinkedIn Post (Required)
+
+## Evidence
+
+#### LinkedIn Post URL
+
+Paste your LinkedIn post URL here:
+
+`Add your URL here`
+
+---
+
+#### Screenshot — Published LinkedIn post
+
+Add your screenshot here.
+
+---
+
+# Submission Instructions
+
+- Add all required screenshots in your submission
+- Full name must be visible in required screenshots
+- Do not expose sensitive information (keys, passwords, account IDs)
+
+---
+
+# Completion Checklist
+
+- [ ] Task 1: Screenshots (browser, ip a, ss -tulpen, ufw status) + Notes answered
+- [ ] Task 2: Screenshots (nginx status, nginx -t, ss port 80) + Notes answered
+- [ ] Task 3: Screenshots (access log, error log, journalctl) + Notes answered
+- [ ] Task 4: Screenshots (uptime, free -h, df -h, du -sh) + Notes answered
+- [ ] Task 5: Screenshots (ls html, grep deployed by, grep try_files) + Notes answered
+- [ ] Task 6: Screenshots (nginx -t fail, nginx -t pass, curl recovery) + Notes answered
+- [ ] Task 7: Screenshots (curl failure, curl recovery) + Notes answered
+- [ ] Task 8: Security & Reliability Notes answered
+- [ ] LinkedIn post published and URL submitted
+- [ ] Full Name visible in all required screenshots
+- [ ] No sensitive data exposed
+
+---
+
+## 📌 About DMI & CloudAdvisory
+
+DevOps Micro Internship (DMI) is a project-based DevOps program run by Pravin Mishra (The CloudAdvisory) focused on real-world execution, systems thinking, and career readiness.
+
+It helps learners build strong DevOps foundations with hands-on experience.
+
+---
+
+## 📌 Resources
+
+- 🌐 DMI Official Website: https://dmi.pravinmishra.com?utm_source=github&utm_medium=readme  
+- 🎓 University: https://university.pravinmishra.com?utm_source=github&utm_medium=readme  
+- 💬 Discord Community: https://discord.pravinmishra.com?utm_source=github&utm_medium=readme  
+- 📝 Blog: https://dmi.pravinmishra.com/blog?utm_source=github&utm_medium=readme  
+- ▶️ YouTube Playlist: https://www.youtube.com/playlist?list=PLFeSNDtI4Cho  
+- 🔗 Pravin Mishra (LinkedIn): https://www.linkedin.com/in/pravin-mishra-aws-trainer/  
+- 🏢 CloudAdvisory (LinkedIn): https://www.linkedin.com/company/thecloudadvisory/
+
+---
+
+*This submission is part of DevOps Micro Internship (DMI) Cohort 3 — Agentic AI Track.*

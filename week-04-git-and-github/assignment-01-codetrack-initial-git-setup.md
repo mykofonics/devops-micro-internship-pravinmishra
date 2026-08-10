@@ -24,4 +24,3 @@ Screenshot 3 — Output of `git config --local --list` showing your `user.name` 
 # Task 3 — Configure Git Identity Globally
 
 Screenshot 4 — Output of `git config --global --list` showing your `user.name` and `user.email`
-

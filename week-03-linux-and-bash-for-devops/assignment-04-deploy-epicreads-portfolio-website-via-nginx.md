@@ -66,4 +66,108 @@ https://www.linkedin.com/posts/oyeku-michael-2215a920_dmibypravinmishra-devops-a
 
 Screenshot — Published LinkedIn post showing the live website with your Full Name in the footer
 
-![alt text](screenshots/Assignment_4_linkedIn_post.png)
+# Task 4 — Verify Website is Live
+
+## Goal
+
+Verify the deployed website is publicly accessible and the footer contains your details.
+
+### Evidence
+
+#### Screenshot 5 — Output of `curl ifconfig.me` showing the server's public IP address
+
+Add your screenshot here.
+
+---
+
+#### Screenshot 6 — Browser showing the live website with your Full Name and deployment details in the footer
+
+Add your screenshot here.
+
+---
+
+# Task 5 — Mini Real DevOps Operational Check
+
+## Goal
+
+Verify the deployed website and Nginx service are healthy.
+
+### Evidence
+
+#### Screenshot 7 — Output of `systemctl is-enabled nginx`
+
+Add your screenshot here.
+
+---
+
+#### Screenshot 8 — Output of `curl -I http://localhost` showing 200 OK
+
+Add your screenshot here.
+
+---
+
+# LinkedIn Post (Mandatory)
+
+## Evidence
+
+#### LinkedIn Post URL
+
+Paste your LinkedIn post URL here:
+
+`Add your URL here`
+
+---
+
+#### Screenshot — Published LinkedIn post showing the live website with your Full Name in the footer
+
+Add your screenshot here.
+
+---
+
+# Submission Instructions
+
+- Add all required screenshots in your submission
+- Full name must be visible in required screenshots
+- Ownership proof in the footer is mandatory
+- Do not expose sensitive information (keys, passwords, account IDs)
+
+---
+
+# Completion Checklist
+
+- [ ] Screenshot 0: Nginx service status (active/running)
+- [ ] Screenshot 1: Website files downloaded and extracted
+- [ ] Screenshot 2: Footer updated with Full Name, Group, Week, and Date
+- [ ] Screenshot 3: Nginx configuration test successful
+- [ ] Screenshot 4: Website files deployed to /var/www/html
+- [ ] Screenshot 5: Public IP retrieved
+- [ ] Screenshot 6: Live website accessible in browser with footer details
+- [ ] Screenshot 7: Nginx enabled on boot
+- [ ] Screenshot 8: Local HTTP response returns 200 OK
+- [ ] LinkedIn post published and URL submitted
+- [ ] Full Name visible in all required screenshots
+- [ ] No sensitive data exposed
+
+---
+
+## 📌 About DMI & CloudAdvisory
+
+DevOps Micro Internship (DMI) is a project-based DevOps program run by Pravin Mishra (The CloudAdvisory) focused on real-world execution, systems thinking, and career readiness.
+
+It helps learners build strong DevOps foundations with hands-on experience.
+
+---
+
+## 📌 Resources
+
+- 🌐 DMI Official Website: https://dmi.pravinmishra.com?utm_source=github&utm_medium=readme  
+- 🎓 University: https://university.pravinmishra.com?utm_source=github&utm_medium=readme  
+- 💬 Discord Community: https://discord.pravinmishra.com?utm_source=github&utm_medium=readme  
+- 📝 Blog: https://dmi.pravinmishra.com/blog?utm_source=github&utm_medium=readme  
+- ▶️ YouTube Playlist: https://www.youtube.com/playlist?list=PLFeSNDtI4Cho  
+- 🔗 Pravin Mishra (LinkedIn): https://www.linkedin.com/in/pravin-mishra-aws-trainer/  
+- 🏢 CloudAdvisory (LinkedIn): https://www.linkedin.com/company/thecloudadvisory/
+
+---
+
+*This submission is part of DevOps Micro Internship (DMI) Cohort 3 — Agentic AI Track.*
