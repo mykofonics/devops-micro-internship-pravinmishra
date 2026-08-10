@@ -79,4 +79,3 @@ Screenshot 15 (Optional) — Output showing `feature/contact-page` deleted and n
 
 <img src="screenshots\Task_3_8_15.png">
 
-

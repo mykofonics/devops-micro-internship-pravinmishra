@@ -72,3 +72,46 @@ Confirm that your AWS account setup is complete by navigating to the Account sec
 Screenshot 1 — AWS Account page showing account name (email may be blurred)
 <img src="screenshots\aws_account_login.png">
 
+Add your screenshot here.
+
+---
+
+# Submission Instructions
+
+- Add all required screenshots in your GitHub repository submission
+- Full name must be visible in required screenshots
+- Do not expose sensitive information (keys, passwords, account IDs)
+
+---
+
+# Completion Checklist
+
+- [ ] Task 1 answers written in own words
+- [ ] AWS Free Tier account created successfully
+- [ ] Signed in to AWS Management Console
+- [ ] Screenshot of AWS Account page captured (full name visible, no sensitive data)
+- [ ] All required screenshots added to repository
+
+---
+
+## 📌 About DMI & CloudAdvisory
+
+DevOps Micro Internship (DMI) is a project-based DevOps program run by Pravin Mishra (The CloudAdvisory) focused on real-world execution, systems thinking, and career readiness.
+
+It helps learners build strong DevOps foundations with hands-on experience.
+
+---
+
+## 📌 Resources
+
+- 🌐 DMI Official Website: https://dmi.pravinmishra.com?utm_source=github&utm_medium=readme  
+- 🎓 University: https://university.pravinmishra.com?utm_source=github&utm_medium=readme  
+- 💬 Discord Community: https://discord.pravinmishra.com?utm_source=github&utm_medium=readme  
+- 📝 Blog: https://dmi.pravinmishra.com/blog?utm_source=github&utm_medium=readme  
+- ▶️ YouTube Playlist: https://www.youtube.com/playlist?list=PLFeSNDtI4Cho  
+- 🔗 Pravin Mishra (LinkedIn): https://www.linkedin.com/in/pravin-mishra-aws-trainer/  
+- 🏢 CloudAdvisory (LinkedIn): https://www.linkedin.com/company/thecloudadvisory/
+
+---
+
+*This submission is part of DevOps Micro Internship (DMI) Cohort 3 — Agentic AI Track.*

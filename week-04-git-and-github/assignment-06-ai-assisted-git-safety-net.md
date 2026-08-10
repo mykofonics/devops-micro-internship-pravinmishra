@@ -168,6 +168,3 @@ LinkedIn Post URL
 https://www.linkedin.com/posts/oyeku-michael-2215a920_dmibypravinmishra-git-github-ugcPost-7486545775964069888-GRF7/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAARb4_kBmnrqkDDsuuYPPXrVCKNYnevZPAo
 
 <img src="screenshots\LinkedIn post for assignment 6.png">
-
-GitHub Repository URL
-https://github.com/mykofonics/devops-micro-internship-pravinmishra.git

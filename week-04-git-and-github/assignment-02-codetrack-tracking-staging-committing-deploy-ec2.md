@@ -85,4 +85,3 @@ https://www.linkedin.com/posts/oyeku-michael-2215a920_dmibypravinmishra-devops-a
 Screenshot — LinkedIn post showing the deployed CodeTrack application
 
 <img src="screenshots\LinkedIn post for assignment 2.png">
-

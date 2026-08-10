@@ -280,3 +280,59 @@ GitHub Repository URL
 https://github.com/mykofonics/devops-micro-internship-pravinmishra/blob/main/week-03-linux-and-bash-for-devops
 
 
+Paste the URL of your GitHub folder or repository containing the assignment files here:
+
+`Add your URL here`
+
+---
+
+# Submission Instructions
+
+- Add all required screenshots in your submission
+- Full Name must be visible in required screenshots and the Bash report
+- All written answers must be in your own words
+- Do not expose sensitive information (keys, passwords, AWS account IDs, tokens)
+- GitHub URL must be included in this document
+
+---
+
+# Completion Checklist
+
+- [ ] Task 1: Healthy baseline confirmed, workspace created (Screenshots 1–2, Notes answered)
+- [ ] Task 2: CLAUDE.md created with all four sections (Screenshot 3, Notes answered)
+- [ ] Task 3: Five-check plan produced by Claude using read-only tools (Screenshot 4, Notes answered)
+- [ ] Task 4: `linux-triage.sh` created, syntax validated, executable permission set (Screenshots 5–8, Notes answered)
+- [ ] Task 5: Healthy-state report generated with no FAIL result (Screenshots 9–10, Notes answered)
+- [ ] Task 6: `/linux-triage` skill created and run successfully on healthy server (Screenshots 11–12, Notes answered)
+- [ ] Task 7: Nginx incident simulated, failed evidence captured, Claude did not execute recovery (Screenshots 13–15, Notes answered)
+- [ ] Task 8: Nginx recovered manually, recovery verified, reports saved, incident summary complete (Screenshots 16–19, Notes answered)
+- [ ] Incident summary contains all seven required sections
+- [ ] LinkedIn post published and URL submitted
+- [ ] Full Name visible in all required screenshots and the Bash report
+- [ ] Skill does not have Write permission
+- [ ] Skill did not execute any recovery commands
+- [ ] No sensitive data exposed
+
+---
+
+## 📌 About DMI & CloudAdvisory
+
+DevOps Micro Internship (DMI) is a project-based DevOps program run by Pravin Mishra (The CloudAdvisory) focused on real-world execution, systems thinking, and career readiness.
+
+It helps learners build strong DevOps foundations with hands-on experience.
+
+---
+
+## 📌 Resources
+
+- 🌐 DMI Official Website: https://dmi.pravinmishra.com?utm_source=github&utm_medium=readme  
+- 🎓 University: https://university.pravinmishra.com?utm_source=github&utm_medium=readme  
+- 💬 Discord Community: https://discord.pravinmishra.com?utm_source=github&utm_medium=readme  
+- 📝 Blog: https://dmi.pravinmishra.com/blog?utm_source=github&utm_medium=readme  
+- ▶️ YouTube Playlist: https://www.youtube.com/playlist?list=PLFeSNDtI4Cho  
+- 🔗 Pravin Mishra (LinkedIn): https://www.linkedin.com/in/pravin-mishra-aws-trainer/  
+- 🏢 CloudAdvisory (LinkedIn): https://www.linkedin.com/company/thecloudadvisory/
+
+---
+
+*This submission is part of DevOps Micro Internship (DMI) Cohort 3 — Agentic AI Track.*

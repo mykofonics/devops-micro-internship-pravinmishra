@@ -219,3 +219,69 @@ LinkedIn Post URL
 https://www.linkedin.com/posts/oyeku-michael-2215a920_dmibypravinmishra-devops-agenticai-ugcPost-7483979312291840000-Gii-/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAARb4_kBmnrqkDDsuuYPPXrVCKNYnevZPAo
 
 
+# LinkedIn Post (Required)
+
+## Evidence
+
+#### LinkedIn Post URL
+
+Paste your LinkedIn post URL here:
+
+`Add your URL here`
+
+---
+
+#### Screenshot — Published LinkedIn post
+
+Add your screenshot here.
+
+---
+
+# Submission Instructions
+
+- Add all required screenshots in your submission
+- Full name must be visible in required screenshots
+- All script files must be created and run successfully
+- Required notes must be answered clearly for every task
+- Do not expose sensitive information (keys, passwords, credentials)
+
+---
+
+# Completion Checklist
+
+- [ ] Task 1: Environment setup verified, workspace created (Screenshots 1–2, Notes answered)
+- [ ] Task 2: First script created, executed, permissions verified (Screenshots 1–3, Notes answered)
+- [ ] Task 3: Variables script created and run (Screenshots 1–2, Notes answered)
+- [ ] Task 4: Arrays and loops script created and run (Screenshots 1–2, Notes answered)
+- [ ] Task 5: Counter loop script created and run (Screenshots 1–2, Notes answered)
+- [ ] Task 6: File validation script created and run (Screenshots 1–3, Notes answered)
+- [ ] Task 7: Pass/Retry conditional script tested with both values (Screenshots 1–4, Notes answered)
+- [ ] Task 8: Final automation script created and run (Screenshots 1–3, Notes answered)
+- [ ] All scripts run without errors
+- [ ] Full Name visible in all required screenshots
+- [ ] LinkedIn post published and URL submitted
+- [ ] No sensitive data exposed
+
+---
+
+## 📌 About DMI & CloudAdvisory
+
+DevOps Micro Internship (DMI) is a project-based DevOps program run by Pravin Mishra (The CloudAdvisory) focused on real-world execution, systems thinking, and career readiness.
+
+It helps learners build strong DevOps foundations with hands-on experience.
+
+---
+
+## 📌 Resources
+
+- 🌐 DMI Official Website: https://dmi.pravinmishra.com?utm_source=github&utm_medium=readme  
+- 🎓 University: https://university.pravinmishra.com?utm_source=github&utm_medium=readme  
+- 💬 Discord Community: https://discord.pravinmishra.com?utm_source=github&utm_medium=readme  
+- 📝 Blog: https://dmi.pravinmishra.com/blog?utm_source=github&utm_medium=readme  
+- ▶️ YouTube Playlist: https://www.youtube.com/playlist?list=PLFeSNDtI4Cho  
+- 🔗 Pravin Mishra (LinkedIn): https://www.linkedin.com/in/pravin-mishra-aws-trainer/  
+- 🏢 CloudAdvisory (LinkedIn): https://www.linkedin.com/company/thecloudadvisory/
+
+---
+
+*This submission is part of DevOps Micro Internship (DMI) Cohort 3 — Agentic AI Track.*

@@ -70,4 +70,3 @@ Fork URL
 
 Phttps://github.com/mykofonics/devops-micro-internship-interviews/pulls
 
-
