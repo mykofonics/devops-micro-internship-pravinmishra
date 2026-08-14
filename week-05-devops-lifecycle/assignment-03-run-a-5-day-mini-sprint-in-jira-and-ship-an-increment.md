@@ -109,7 +109,8 @@ Replace the existing homepage tagline with the required DMI Website call-to-acti
 
 ![alt text](<screenshots/Screenshot_14_assig_3_5_1.png>)
 
-# Task 6 — Day 5: Demo, Retrospective, and Burndown
+# Task 6 — Day 5: Demo, Retrospective, and Burndowngit status
+
 
 ## Goal
 
@@ -148,14 +149,8 @@ Publish a LinkedIn post about your five-day mini-Sprint, including your GitHub r
 #### LinkedIn Post URL
 
 Paste your LinkedIn post URL here:
-
-`Add your URL here`
-
----
+https://www.linkedin.com/posts/oyeku-michael-2215a920_dmibypravinmishra-devops-agenticai-share-7492398002393862144-MOvL/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAARb4_kBmnrqkDDsuuYPPXrVCKNYnevZPAo
 
 #### LinkedIn Screenshot 1 — Published LinkedIn post showing the post content and at least one required link or proof image
 
-Add your screenshot here.
-
----
-
+![alt text](<screenshots/linkedIn .png>)
