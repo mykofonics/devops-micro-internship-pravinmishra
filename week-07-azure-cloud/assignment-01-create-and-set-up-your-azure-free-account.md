@@ -24,8 +24,7 @@ Complete the Azure Free Account registration process, including Microsoft accoun
 
 ## Goal
 
-Confirm successful Azure Portal access.
-Locate the required services and subscription.
+Confirm successful Azure Portal access and Locate the required services and subscription.
 
 ### Evidence
 
