@@ -30,9 +30,7 @@ In the Billing Dashboard, create a monthly Cost Budget with a name, amount, and 
 
 #### Screenshot 1 — AWS Budget setup page showing the budget name, budget amount, and alert thresholds
 
-Add your screenshot here.
-
----
+![alt text](<screenshots/Screenshot_1_assig_1_7.png>)
 
 ### Notes
 
@@ -40,47 +38,5 @@ Answer the following in your own words:
 
 **1. Why is it important to set up budget alerts when using an AWS account?**
 
-Write your answer here.
-
----
-
-# Submission Instructions
-
-- Add the required screenshot in your submission
-- Do not expose sensitive billing, card, identity, or account information
-
----
-
-# Completion Checklist
-
-- [ ] AWS Free Tier account created and Basic Support Plan (Free) selected
-- [ ] Logged in to the AWS Management Console
-- [ ] Monthly Cost Budget created with name, amount, and start month
-- [ ] Budget alert thresholds and notification email configured
-- [ ] Screenshot captured showing budget name, amount, and thresholds (Screenshot 1)
-- [ ] Notes question answered
-- [ ] No sensitive billing or account information exposed
-
----
-
-## 📌 About DMI & CloudAdvisory
-
-DevOps Micro Internship (DMI) is a project-based DevOps program run by Pravin Mishra (The CloudAdvisory) focused on real-world execution, systems thinking, and career readiness.
-
-It helps learners build strong DevOps foundations with hands-on experience.
-
----
-
-## 📌 Resources
-
-- 🌐 DMI Official Website: https://dmi.pravinmishra.com?utm_source=github&utm_medium=readme  
-- 🎓 University: https://university.pravinmishra.com?utm_source=github&utm_medium=readme  
-- 💬 Discord Community: https://discord.pravinmishra.com?utm_source=github&utm_medium=readme  
-- 📝 Blog: https://dmi.pravinmishra.com/blog?utm_source=github&utm_medium=readme  
-- ▶️ YouTube Playlist: https://www.youtube.com/playlist?list=PLFeSNDtI4Cho  
-- 🔗 Pravin Mishra (LinkedIn): https://www.linkedin.com/in/pravin-mishra-aws-trainer/  
-- 🏢 CloudAdvisory (LinkedIn): https://www.linkedin.com/company/thecloudadvisory/
-
----
-
-*This submission is part of DevOps Micro Internship (DMI) Cohort 3 — Agentic AI Track.*
+Because AWS won't stop charging you on its own, nothing auto-shuts-off when you go past the free tier.
+ Alerts are basically your early-warning system so you find out from an email, not from a surprise bill. Cheap insurance while you're still learning and might forget to turn something off.

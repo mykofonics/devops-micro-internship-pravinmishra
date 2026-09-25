@@ -52,56 +52,10 @@ Start the web server and confirm the Mini Finance website is accessible through 
 
 Take one screenshot showing the Mini Finance website running in the browser.
 
-Add your screenshot here.
+![alt text](<screenshots/mini_finance_website .png>)
 
----
 
 #### Public IP URL
 
 Paste the public IP address of your EC2 instance here (e.g. `http://3.91.105.10`):
-
-`Add your URL here`
-
----
-
-# Submission Instructions
-
-- Add the required screenshot in your submission
-- Include the EC2 Public IP URL
-- Do not expose private keys, passwords, or account IDs
-
----
-
-# Completion Checklist
-
-- [ ] EC2 instance launched in a public subnet with SSH (22) and HTTP (80) allowed
-- [ ] Connected to the instance via SSH
-- [ ] Web server (Nginx or Apache) installed
-- [ ] Mini Finance repository cloned and files copied to the web server root
-- [ ] Web server started and website verified in the browser (Screenshot 1)
-- [ ] EC2 Public IP URL included
-- [ ] No sensitive data exposed
-
----
-
-## 📌 About DMI & CloudAdvisory
-
-DevOps Micro Internship (DMI) is a project-based DevOps program run by Pravin Mishra (The CloudAdvisory) focused on real-world execution, systems thinking, and career readiness.
-
-It helps learners build strong DevOps foundations with hands-on experience.
-
----
-
-## 📌 Resources
-
-- 🌐 DMI Official Website: https://dmi.pravinmishra.com?utm_source=github&utm_medium=readme  
-- 🎓 University: https://university.pravinmishra.com?utm_source=github&utm_medium=readme  
-- 💬 Discord Community: https://discord.pravinmishra.com?utm_source=github&utm_medium=readme  
-- 📝 Blog: https://dmi.pravinmishra.com/blog?utm_source=github&utm_medium=readme  
-- ▶️ YouTube Playlist: https://www.youtube.com/playlist?list=PLFeSNDtI4Cho  
-- 🔗 Pravin Mishra (LinkedIn): https://www.linkedin.com/in/pravin-mishra-aws-trainer/  
-- 🏢 CloudAdvisory (LinkedIn): https://www.linkedin.com/company/thecloudadvisory/
-
----
-
-*This submission is part of DevOps Micro Internship (DMI) Cohort 3 — Agentic AI Track.*
+http://98.88.82.13 
