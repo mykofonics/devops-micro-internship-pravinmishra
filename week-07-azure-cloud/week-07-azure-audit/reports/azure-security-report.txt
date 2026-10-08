@@ -1,0 +1,22 @@
+========================================
+Azure Security Posture Audit Report
+========================================
+Full Name: Michael OYEKU
+Timestamp: 2026-09-26T01:05:13Z
+Resource Group: Epicbook-RG
+VM: epicbook-vm
+Storage Account: minifinanceoyeku
+MySQL Server: epicbook-mysql-fs
+
+[FAIL] NSG rule(s) allow unrestricted inbound SSH/RDP access: Allow-SSH
+[WARN] Could not determine Storage Account public blob access setting
+[PASS] VM OS managed disk is encrypted at rest (EncryptionAtRestWithPlatformKey)
+[PASS] Azure Database for MySQL public network access is disabled
+
+Summary:
+PASS: 2
+WARN: 1
+FAIL: 1
+Overall Status: FAIL
+Script Exit Code: 2
+Report File: /home/hp/DMI-3/devops-micro-internship-pravinmishra/week-07-azure-cloud/week-07-azure-audit/reports/azure-security-report.txt
