@@ -20,9 +20,7 @@ Clone `https://github.com/pravinmishraaws/my-react-app.git` and create a `.docke
 
 #### Screenshot 1 — Contents of the `.dockerignore` file
 
-Add your screenshot here.
-
----
+![alt text](screenshots/Screenshot1-Assignment2-1-week11.png)
 
 # Task 2 — Create a Single-Stage Docker Image
 
@@ -34,15 +32,11 @@ Create `Dockerfile.single`, build `react-single`, and run it on port 3000.
 
 #### Screenshot 2 — Contents of `Dockerfile.single`
 
-Add your screenshot here.
-
----
+![alt text](screenshots/Screenshot2-Assignment2-2-week11.png)
 
 #### Screenshot 3 — Browser displaying the application running from the single-stage container
 
-Add your screenshot here.
-
----
+![alt text](screenshots/Screenshot3-Assignment1-3-week11.png)
 
 # Task 3 — Create a Multi-Stage Docker Build
 
@@ -54,15 +48,11 @@ Create a multi-stage Dockerfile with separate build and Nginx runtime stages, bu
 
 #### Screenshot 4 — Contents of the multi-stage Dockerfile
 
-Add your screenshot here.
-
----
+![alt text](screenshots/Screenshot4-Assignment2-3-week-11.png)
 
 #### Screenshot 5 — Browser displaying the application running from the multi-stage container
 
-Add your screenshot here.
-
----
+![alt text](screenshots/Screenshot5-Assignment2-3-week11.png)
 
 # Task 4 — Compare Docker Image Sizes
 
@@ -74,9 +64,7 @@ Compare the single-stage and multi-stage image sizes and calculate the percentag
 
 #### Screenshot 6 — Docker image list showing both image sizes
 
-Add your screenshot here.
-
----
+![alt text](screenshots/Screenshot6-Assignment3-2-week11.png)
 
 # Task 5 — Analyze the Optimization Results
 
@@ -88,9 +76,7 @@ Write a 5–8 line analysis covering the percentage reduction, security benefits
 
 #### Screenshot 7 — Analysis included in your submission document
 
-Add your screenshot here.
-
----
+![alt text](screenshots/Screenshot7-Assignment1-7-week11.png)
 
 ### Notes
 

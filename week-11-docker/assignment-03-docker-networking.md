@@ -20,39 +20,27 @@ List Docker networks, verify/pull the Nginx image, run an Nginx container (`mywe
 
 #### Screenshot 1 — Output of `docker network ls`
 
-Add your screenshot here.
-
----
+![alt text](screenshots/Screenshot1-Assignment3-1-week11.png)
 
 #### Screenshot 2 — Output of `docker images`
 
-Add your screenshot here.
-
----
+![alt text](creenshots/Screenshot2-Assignment3-1-week11.png)
 
 #### Screenshot 3 — Output of `docker search nginx`
 
-Add your screenshot here.
-
----
+![alt text](screenshots/Screenshot3-Assignment3-1-week11.png)
 
 #### Screenshot 4 — Successful `docker pull nginx` (if applicable)
 
-Add your screenshot here.
-
----
+![alt text](screenshots/Screenshot4-Assignment3-1-week11.png)
 
 #### Screenshot 5 — Output of `docker ps` showing the running `myweb` container
 
-Add your screenshot here.
-
----
+![alt text](screenshots/Screenshot5-Assignment3-2-week11.png)
 
 #### Screenshot 6 — Browser displaying the Nginx Welcome Page using the Public IP address
 
-Add your screenshot here.
-
----
+![alt text](screenshots/Screenshot6-Assignment3-2-week11.png)
 
 # Task 2 — Connect Multiple Containers Using a Custom Bridge Network
 
@@ -64,11 +52,9 @@ Create a custom bridge network `mynetwork`, build and run a Node/Express `fronte
 
 #### Screenshot 1 — Output of `docker network create mynetwork`
 
-Add your screenshot here.
-
----
-
+![alt text](screenshots/Screenshot6-Assignment3-2-week11.png)
 #### Screenshot 2 — Output of `docker network ls`
+
 
 Add your screenshot here.
 
@@ -126,93 +112,64 @@ Build a three-tier app (frontend, backend, MongoDB) across `backend-network` (ba
 
 #### Screenshot 1 — Creation of `backend-network`
 
-Add your screenshot here.
-
----
+![alt text](screenshots/Screenshot1-Assignment3-1-week11.png)
 
 #### Screenshot 2 — Creation of `frontend-network`
 
-Add your screenshot here.
-
----
+![alt text](screenshots/Screenshot2-Assignment3-1-week11.png)
 
 #### Screenshot 3 — Project folder structure
 
-Add your screenshot here.
+![alt text](screenshots/Screenshot3-Assignment3-1-week11.png)
 
----
 
 #### Screenshot 4 — Database Dockerfile
 
-Add your screenshot here.
-
----
+![alt text](screenshots/Screenshot4-Assignment3-1-week11.png)
 
 #### Screenshot 5 — Backend Dockerfile
 
-Add your screenshot here.
-
----
+![alt text](screenshots/Screenshot5-Assignment3-2-week11.png)
 
 #### Screenshot 6 — Frontend Dockerfile
 
-Add your screenshot here.
-
----
+![alt text](screenshots/Screenshot6-Assignment3-2-week11.png)
 
 #### Screenshot 7 — Successful Docker image builds (database, backend, frontend)
 
-Add your screenshot here.
-
----
+![alt text](screenshots/Screenshot7-Assignment3-2-week11.png)
 
 #### Screenshot 8 — Running containers (`docker ps`)
 
-Add your screenshot here.
-
----
+![alt text](screenshots/Screenshot8-Assignment3-2-week11.png)
 
 #### Screenshot 9 — Output of `docker network inspect backend-network`
 
-Add your screenshot here.
-
----
+![alt text](screenshots/Screenshot9-Assignment3-3-week11.png)
 
 #### Screenshot 10 — Output of `docker network inspect frontend-network`
 
-Add your screenshot here.
-
----
+![alt text](screenshots/Screenshot10-Assignment3-3-week11.png)
 
 #### Screenshot 11 — Browser showing the frontend application
 
-Add your screenshot here.
-
----
+![alt text](screenshots/Screenshot11-Assignment3-3-week11.png)
 
 #### Screenshot 12 — Successful `curl api` from the frontend container
 
-Add your screenshot here.
-
----
+![alt text](screenshots/Screenshot12-Assignment3-3-week11.png)
 
 #### Screenshot 13 — MongoDB connection using `mongosh`
 
-Add your screenshot here.
-
----
+![alt text](screenshots/Screenshot13-Assignment3-3-week11.png)
 
 #### Screenshot 14 — Successful document insertion
 
-Add your screenshot here.
-
----
+![alt text](screenshots/Screenshot14-Assignment3-3-week11.png)
 
 #### Screenshot 15 — Successful retrieval of the inserted document
 
-Add your screenshot here.
-
----
+![alt text](screenshots/Screenshot15-Assignment3-3-week11.png)
 
 # Task 4 — Deploy an Application Using Docker Host Network Mode
 
@@ -224,33 +181,23 @@ Deploy an Nginx container (`fastapp`) using Host Network Mode and verify it's re
 
 #### Screenshot 1 — Output of `docker run --network host`
 
-Add your screenshot here.
-
----
+![alt text](screenshots/Screenshot17-Assignment3-4-week11.png)
 
 #### Screenshot 2 — Output of `docker ps` showing the running `fastapp` container
 
-Add your screenshot here.
-
----
+![alt text](screenshots/Screenshot17-Assignment3-4-week11.png)
 
 #### Screenshot 3 — Browser or terminal displaying the Nginx Welcome Page
 
-Add your screenshot here.
-
----
+![alt text](screenshots/Screenshot19-Assignment3-4-week11.png)
 
 #### Screenshot 4 — Output of `docker inspect fastapp | grep "NetworkMode"`
 
-Add your screenshot here.
-
----
+![alt text](screenshots/Screenshot18-assignment3-4-week11.png)
 
 #### Screenshot 5 — Successful cleanup showing `docker stop fastapp` and `docker rm fastapp`
 
-Add your screenshot here.
-
----
+![alt text](screenshots/Screenshot20-Assignment3-4-week11.png)
 
 # LinkedIn Post (Optional)
 

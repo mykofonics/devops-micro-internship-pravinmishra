@@ -20,9 +20,7 @@ Provision an Ubuntu VM on AWS or Azure with a public IP and Security Group/NSG r
 
 #### Screenshot 1 — Cloud VM overview page showing the running VM, public IP, and security rules
 
-Add your screenshot here.
-
----
+![alt text](screenshots/Screenshot1-Assignment1-1-week11.png)
 
 # Task 2 — Configure Cloud-Init for Docker Installation
 
@@ -34,9 +32,7 @@ Configure User Data (AWS) or Custom Data (Azure) to automatically install Docker
 
 #### Screenshot 2 — Output of `cat /var/log/cloud-init-output.log` showing Docker installation activity
 
-Add your screenshot here.
-
----
+![alt text](screenshots/Screenshot2-Assignment1-2-week11.png)
 
 # Task 3 — Verify Docker Installation
 
@@ -48,9 +44,7 @@ Connect via SSH and confirm Docker is installed and running.
 
 #### Screenshot 3 — Terminal showing `docker --version` and `docker ps`
 
-Add your screenshot here.
-
----
+![alt text](screenshots/Screenshot3-Asignment3-1-week11.png)
 
 # Task 4 — Clone the Application Repository
 
@@ -62,9 +56,7 @@ Clone `https://github.com/pravinmishraaws/Azure-Static-Website.git` and verify t
 
 #### Screenshot 4 — Terminal showing the project directory contents
 
-Add your screenshot here.
-
----
+![alt text](screenshots/Screenshot4-Assignment1-4-week11.png)
 
 # Task 5 — Create a Dockerfile
 
@@ -76,9 +68,7 @@ Create a Dockerfile that serves the static site with `nginx:alpine`.
 
 #### Screenshot 5 — Dockerfile contents
 
-Add your screenshot here.
-
----
+![alt text](screenshots/Screenshot5-Asignment1-5-week11.png)
 
 # Task 6 — Build the Docker Image
 
@@ -90,9 +80,7 @@ Build the image tagged `static-site:latest`.
 
 #### Screenshot 6 — Terminal showing `docker images` with the `static-site:latest` image
 
-Add your screenshot here.
-
----
+![alt text](screenshots/Screenshot6-Assignment1-6-week11.png)
 
 # Task 7 — Deploy the Docker Container
 
@@ -104,9 +92,7 @@ Run the container mapping port 80, named `static-site`.
 
 #### Screenshot 7 — Terminal showing `docker ps` displaying the running container
 
-Add your screenshot here.
-
----
+![alt text](screenshots/Screenshot7-Asignment4-1-week11.png)
 
 # Task 8 — Verify the Deployment
 
@@ -118,15 +104,11 @@ Confirm the site is accessible through the VM's public IP in a browser.
 
 #### Screenshot 8 — Terminal showing the Public IP
 
-Add your screenshot here.
-
----
+![alt text](screenshots/Screenshot8-Assignment1-8-week11.png)
 
 #### Screenshot 9 — Browser displaying the deployed website
 
-Add your screenshot here.
-
----
+![alt text](screenshots/Screenshot9-Assignment1-8-week11.png)
 
 # LinkedIn Post (Optional)
 

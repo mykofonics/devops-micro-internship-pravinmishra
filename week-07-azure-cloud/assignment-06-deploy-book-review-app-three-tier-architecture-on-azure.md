@@ -20,15 +20,11 @@ Create an architecture diagram and implementation plan identifying the presentat
 
 #### Screenshot 1 — Architecture diagram showing the public entry point, three tiers, network boundaries, and traffic flow
 
-Add your screenshot here.
-
----
+![alt text](screenshots/Screenshot_1_Assign_6_1.png)
 
 #### Screenshot 2 — Written architecture assumptions and selected Azure services
 
-Add your screenshot here.
 
----
 
 # Task 2 — Create the Azure Network Foundation
 
@@ -40,21 +36,15 @@ Create a dedicated Resource Group and VNet with separate subnets for the web, ap
 
 #### Screenshot 3 — Resource Group overview showing the assignment resources
 
-Add your screenshot here.
-
----
+![alt text](screenshots/Screenshot_3_Assign_6_2.png)
 
 #### Screenshot 4 — VNet overview showing the address space and all required subnets
 
-Add your screenshot here.
-
----
+![alt text](screenshots/Screenshot_4_Assign_6_2.png)
 
 #### Screenshot 5 — Route-table or Private DNS evidence where applicable
 
-Add your screenshot here.
-
----
+![alt text](screenshots/Screenshot_5-1_Assign_6_2.png)
 
 # Task 3 — Configure Security and Secret Management
 
@@ -66,15 +56,15 @@ Apply least-privilege NSG rules so traffic flows Internet → public entry point
 
 #### Screenshot 6 — NSG rules proving least-privilege access between the tiers
 
-Add your screenshot here.
+![alt text](screenshots/Screenshot_6-1_Assign_6_3.png)
 
----
+![alt text](screenshots/Screenshot_6-2_Assign_6_3.png)
+
+![alt text](screenshots/Screenshot_6-3_Assign_6_3.png)
 
 #### Screenshot 7 — Key Vault or approved secret-management configuration (without displaying secret values)
 
-Add your screenshot here.
-
----
+![alt text](screenshots/Screenshot_5-1_Assign_6_2.png)
 
 # Task 4 — Deploy the Presentation (Web) Tier
 

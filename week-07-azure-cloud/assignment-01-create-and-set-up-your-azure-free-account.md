@@ -30,13 +30,13 @@ Confirm successful Azure Portal access and Locate the required services and subs
 
 #### Screenshot 1 — Azure Portal homepage after successful login
 
-Add your screenshot here.
+![alt text](<screenshots/Screenshot_1_Assign_1_5.png>)
 
 ---
 
 #### Screenshot 2 — "Subscriptions" section showing the "Free Trial" subscription
 
-Add your screenshot here.
+![alt text](<screenshots/Screenshot_2_Assign_1_5.png>)
 
 ---
 
@@ -44,7 +44,11 @@ Add your screenshot here.
 
 Write a three-to-four-line paragraph explaining which Azure services you plan to explore first and why.
 
-Write your answer here.
+I will kick start my azure journey in DevOps with a tour on Azure Virtual Machines and Azure Virtual Network,as computing and networking are the basis most other services build on by trying to understanding how they work and makes everything else easier to reason about.
+
+ Next I would move to Azure Storage (Blob) and Azure SQL Database, since nearly every real application needs durable data, and they show the core trade-offs between object and relational storage. 
+ 
+ After that, I would look at Azure Microsoft Entra ID,to learn how identity and access are secured, which matter for almost any production workload.
 
 ---
 
