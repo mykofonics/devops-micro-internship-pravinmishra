@@ -20,9 +20,7 @@ Confirm your production-grade EpicBook containers from this week's capstone are 
 
 #### Screenshot 1 — `docker ps` showing your running EpicBook application container
 
-Add your screenshot here.
-
----
+![alt text](screenshots/Screenshot7-Assignment5-1-week11.png)
 
 # Task 2 — Create Project Context and Safety Rules in CLAUDE.md
 

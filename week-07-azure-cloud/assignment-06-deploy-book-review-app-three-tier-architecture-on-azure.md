@@ -64,7 +64,7 @@ Apply least-privilege NSG rules so traffic flows Internet → public entry point
 
 #### Screenshot 7 — Key Vault or approved secret-management configuration (without displaying secret values)
 
-![alt text](screenshots/Screenshot_5-1_Assign_6_2.png)
+![alt text](screenshots/Screenshot_7_Assign_6_3.png)
 
 # Task 4 — Deploy the Presentation (Web) Tier
 
@@ -76,15 +76,13 @@ Deploy the Book Review App presentation layer on the approved web-tier compute s
 
 #### Screenshot 8 — Web-tier compute overview showing subnet and availability configuration
 
-Add your screenshot here.
+![alt text](screenshots/Screenshot_7_Assign.png)
 
----
 
 #### Screenshot 9 — Terminal or service output proving the presentation layer is running
 
-Add your screenshot here.
+![alt text](screenshots/Screenshot_7_Assign_6_3.png)
 
----
 
 # Task 5 — Deploy the Business (Application) Tier
 
