@@ -22,7 +22,7 @@ Create separate directories and files for the Terraform infrastructure and Ansib
 
 #### Screenshot 1 — Terminal or VS Code showing the complete `mini-finance` project structure
 
-Add your screenshot here.
+![screenshot](./screenshots/ass4-screen1.png)
 
 ---
 
@@ -42,13 +42,13 @@ Use Terraform to provision an Ubuntu Virtual Machine with the required Azure net
 
 #### Screenshot 2 — Terraform code showing the `Allow-SSH` rule for port `22` and the `Allow-HTTP` rule for port `80`
 
-Add your screenshot here.
+![screenshot](./screenshots/ass4-screen2.png)
 
 ---
 
 #### Screenshot 3 — Terraform code showing the association between `nsg-mini-finance` and `nic-mini-finance`
 
-Add your screenshot here.
+![screenshot](./screenshots/ass4-screen3.png)
 
 ---
 
@@ -68,13 +68,13 @@ Format and validate the Terraform configuration, review the execution plan, and 
 
 #### Screenshot 4 — End of the `terraform apply` output showing `Apply complete!` with no errors
 
-Add your screenshot here.
+![screenshot](./screenshots/ass4-screen4.png)
 
 ---
 
 #### Screenshot 5 — Output of `terraform output public_ip` showing the VM’s public IP address
 
-Add your screenshot here.
+![screenshot](./screenshots/ass4-screen5.png)
 
 ---
 
@@ -94,7 +94,7 @@ Confirm that the Ansible controller can connect to the Terraform-provisioned Azu
 
 #### Screenshot 6 — Passwordless SSH command and the returned `mini-finance` hostname
 
-Add your screenshot here.
+![screenshot](./screenshots/ass4-screen6.png)
 
 ---
 
@@ -114,7 +114,7 @@ Add the Terraform-provisioned Azure VM to the Ansible inventory and confirm that
 
 #### Screenshot 7 — Ansible ping output showing `SUCCESS` and `pong` from the Azure VM
 
-Add your screenshot here.
+![screenshot](./screenshots/ass4-screen7.png)
 
 ---
 
@@ -145,7 +145,7 @@ Screenshot must show:
 - Nginx service configured as started and enabled
 - Beginning of Play 2 with the Git repository URL and synchronization task
 
-Add your screenshot here.
+![screenshot](./screenshots/ass4-screen8.png)
 
 ---
 
@@ -159,7 +159,7 @@ Screenshot must show:
 - Play 3 targeting `localhost`
 - The `uri` verification and `assert` condition
 
-Add your screenshot here.
+![screenshot](./screenshots/ass4-screen9.png)
 
 ---
 
@@ -168,7 +168,13 @@ Add your screenshot here.
 Copy and paste the complete contents of your `ansible/site.yml` file below:
 
 ```yaml
-Add your site.yml content here.
+- name: Apply Common System Updates
+  hosts: web
+  become: yes
+  roles:
+    - common
+    - nginx
+    - mini_finance
 ```
 
 ---
@@ -183,19 +189,19 @@ Validate the syntax of the multi-play Ansible playbook and run it to install Ngi
 
 #### Screenshot 10 — Successful playbook syntax check showing `playbook: site.yml`
 
-Add your screenshot here.
+![screenshot](./screenshots/ass4-screen10.png)
 
 ---
 
 #### Screenshot 11 — Play 3 output showing the successful HTTP verification and assertion
 
-Add your screenshot here.
+![screenshot](./screenshots/ass4-screen11.png)
 
 ---
 
 #### Screenshot 12 — Final `PLAY RECAP` showing `failed=0` and `unreachable=0`
 
-Add your screenshot here.
+![screenshot](./screenshots/ass4-screen12.png)
 
 ---
 
@@ -215,7 +221,7 @@ Confirm that the Mini Finance website is publicly accessible through the Azure V
 
 #### Screenshot 13 — Mini Finance website successfully loading in the browser, with the Azure VM’s public IP address visible in the address bar
 
-Add your screenshot here.
+![screenshot](./screenshots/ass4-screen13.png)
 
 ---
 
@@ -224,7 +230,7 @@ Add your screenshot here.
 Add your deployed website URL below:
 
 ```text
-http://<PUBLIC_IP>
+http://16.59.27.127
 ```
 
 ---
@@ -239,7 +245,7 @@ Create a `README.md` file to document the Mini Finance infrastructure and deploy
 
 #### Screenshot 14 — Completed `README.md` displayed in the VS Code Markdown preview or terminal
 
-Add your screenshot here.
+![screenshot](./screenshots/ass4-screen14.png)
 
 ---
 
@@ -248,7 +254,189 @@ Add your screenshot here.
 Copy and paste the complete contents of your `README.md` file below:
 
 ```markdown
-Add your README.md content here.
+# Project Title: Deploy Mini Finance on AWS Using Terraform and Ansible
+
+## Project Objective
+
+   This project demonstrates the automated deployment of a Mini Finance website on AWS using Terraform for infrastructure provisioning and Ansible for server configuration and application deployment.
+
+Terraform was used to provision the required AWS infrastructure, including an EC2 instance, VPC, subnet, security group, and Internet Gateway. Ansible was then used to configure the EC2 server, install and configure Nginx, deploy the Mini Finance website, and verify that the application was successfully served over HTTP.
+
+The project demonstrates how Infrastructure as Code (IaC) and Configuration Management can work together to create a repeatable and automated deployment workflow. 
+
+## Tools and Technologies
+
+-  AWS — Cloud infrastructure
+- Terraform — Infrastructure provisioning
+- Ansible — Configuration management and deployment
+- Nginx — Web server
+- Git — Version control
+- Rsync — Application/file synchronization
+- Linux — Server operating system 
+
+## Infrastructure Created
+
+- EC2 instance
+- VPC
+- Subnet
+- Security Group
+- Internet Gateway
+
+Terraform handles the infrastructure layer, while Ansible handles the configuration and application deployment layer. 
+
+## Ansible Deployment Workflow
+
+- Install and configure Nginx
+- Clone and deploy the Mini Finance website
+- Verify that the website returns HTTP status code 200
+ After Terraform provisioned the EC2 instance, Ansible was used to configure and deploy the application.
+
+```
+Ansible Control Node
+        │
+        │ SSH
+        ▼
+    EC2 Instance
+        │
+        ├── Install Nginx
+        │
+        ├── Configure Nginx
+        │
+        ├── Deploy Mini Finance Website
+        │
+        └── Verify Web Server
+        │
+        ▼
+
+    HTTP Status 200
+```
+### step1. Install and Configure Nginx
+
+Ansible connects to the EC2 instance and installs Nginx.
+
+The playbook also configures Nginx to serve the Mini Finance website.
+
+This removes the need to manually SSH into the server and perform the installation and configuration steps.
+
+### step2. Deploy the Mini Finance Website
+
+The website files are deployed to the EC2 instance using Ansible and rsync.
+
+This provides an efficient way to synchronize the application files from the Ansible control node to the remote server.
+
+### step3. Verify the Deployment
+
+After deployment, the web server was tested to confirm that the website was accessible.
+
+The deployment was verified using Ansible and a web browser, with the web server returning:
+
+HTTP 200 OK
+
+An HTTP 200 response confirms that the web server successfully received and processed the request.
+
+## Verification
+
+The Ansible playbook was executed against the EC2 instance.
+
+The final Ansible play recap showed:
+
+PLAY RECAP
+
+     web1 : ok=10 changed=8 unreachable=0 failed=0
+This indicates that:
+
+- 10 tasks completed successfully.
+- 8 tasks made changes to the target server.
+- 0 hosts were unreachable.
+- 0 tasks failed.
+
+The website was then accessed through the EC2 instance's public address using a web browser.
+
+The deployment was considered successful after confirming that the Mini Finance website loaded correctly and returned an HTTP 200 response.
+
+
+## Challenge and Solution
+
+ ### Challenge
+
+One important deployment consideration was ensuring that the EC2 instance could be reached by Ansible and that the web server could be accessed externally.
+
+For Ansible to communicate with the EC2 instance successfully, the following had to be correctly configured:
+
+- EC2 public connectivity
+- Security Group rules
+- SSH access
+- Correct inventory configuration
+- SSH private key
+- Correct remote username
+
+For the website to be accessible, HTTP traffic also needed to be allowed through the Security Group.
+
+### Solution
+
+The infrastructure and connectivity requirements were handled during the Terraform provisioning process.
+
+The Security Group was configured to allow the necessary traffic, while the Ansible inventory contained the EC2 instance information required to establish the SSH connection.
+
+Before running the deployment, the server connectivity was checked to ensure that Ansible could reach the target host.
+
+This helped prevent deployment failures caused by infrastructure or SSH configuration issues.
+
+Important Checks Before Deployment
+
+Before running the Ansible playbook, the following were checked:
+
+1. EC2 Instance: Confirmed that the EC2 instance was running and reachable.
+2. SSH Connectivity: Confirmed that the Ansible control node could connect to the EC2 instance using SSH.
+3. Ansible Inventory: Verified that the EC2 instance was correctly defined in the Ansible inventory.
+4. Security Group: Verified that the required ports were allowed for:
+SSH — 22
+HTTP — 80
+5. Nginx Configuration: Confirmed that the Nginx configuration pointed to the correct website directory.
+6. Website Files
+
+Verified that the Mini Finance website files were successfully synchronized to the EC2 instance. 
+
+## What You Learned
+
+ This project helped me understand how Terraform and Ansible complement each other in a real-world DevOps workflow.
+
+Terraform — Infrastructure
+
+Terraform is responsible for creating and managing the infrastructure.
+
+                Terraform
+                   ↓
+            AWS Infrastructure
+                   ↓
+     EC2 + VPC + Subnet + Security Group + Internet Gateway
+
+Ansible — Configuration and Deployment
+
+Ansible is responsible for configuring the infrastructure and deploying the application.
+
+               Ansible
+                  ↓
+            EC2 Configuration
+                  ↓
+            Nginx Installation
+                  ↓
+            Website Deployment
+                  ↓
+         Application Verification
+
+The key lesson was understanding that provisioning infrastructure and configuring infrastructure are separate responsibilities.
+
+Terraform answers:
+
+"What infrastructure should exist?"
+
+Ansible answers:
+
+"How should that infrastructure be configured and what should be deployed on it?"
+
+Together, they create a more automated and repeatable deployment process. 
+    
 ```
 
 ---

@@ -24,7 +24,7 @@ Terraform will be used to provision the cloud infrastructure. Ansible roles will
 
 #### Screenshot 1 — Terminal showing the completed `epicbook-prod` project structure
 
-Add your screenshot here.
+![screeenshot](./screenshots/ass5-screen1.png)
 
 ---
 
@@ -62,25 +62,25 @@ Terraform will create the VM, managed MySQL database, networking, security rules
 
 #### Screenshot 2 — `terraform apply` completed successfully
 
-Add your screenshot here.
+![screeenshot](./screenshots/ass5-screen2.png)
 
 ---
 
 #### Screenshot 3 — Output of `terraform output`
 
-Add your screenshot here.
+![screeenshot](./screenshots/ass5-screen3.png)
 
 ---
 
 #### Screenshot 4 — Azure Portal or AWS Console showing the VM running
 
-Add your screenshot here.
+![screeenshot](./screenshots/ass5-screen4.png)
 
 ---
 
 #### Screenshot 5 — Azure Portal or AWS Console showing the managed MySQL database created
 
-Add your screenshot here.
+![screeenshot](./screenshots/ass5-screen5.png)
 
 ---
 
@@ -116,7 +116,7 @@ Verify that the cloud VM can be accessed from the Ansible controller using SSH k
 
 #### Screenshot 6 — Successful SSH hostname check from the Ansible controller
 
-Add your screenshot here.
+![screeenshot](./screenshots/ass5-screen6.png)
 
 ---
 
@@ -154,19 +154,19 @@ The inventory tells Ansible which VM to manage and which SSH user to use.
 
 #### Screenshot 7 — `inventory.ini` showing the VM under the `web` group
 
-Add your screenshot here.
+![screeenshot](./screenshots/ass5-screen7.png)
 
 ---
 
 #### Screenshot 8 — Output of `ansible-inventory -i inventory.ini --graph`
 
-Add your screenshot here.
+![screeenshot](./screenshots/ass5-screen8.png)
 
 ---
 
 #### Screenshot 9 — Output of `ansible web -i inventory.ini -m ping`
 
-Add your screenshot here.
+![screeenshot](./screenshots/ass5-screen9.png)
 
 ---
 
@@ -210,13 +210,13 @@ The `site.yml` file will call the `common`, `nginx`, and `epicbook` roles.
 
 #### Screenshot 10 — `site.yml` showing the roles in the correct order
 
-Add your screenshot here.
+![screeenshot](./screenshots/ass5-screen10.png)
 
 ---
 
 #### Screenshot 11 — Output of `ansible-playbook -i inventory.ini site.yml --syntax-check`
 
-Add your screenshot here.
+![screeenshot](./screenshots/ass5-screen11.png)
 
 ---
 
@@ -254,7 +254,7 @@ This role handles the common server setup before Nginx and the application are c
 
 #### Screenshot 12 — `roles/common/tasks/main.yml` showing the common setup tasks
 
-Add your screenshot here.
+![screeenshot](./screenshots/ass5-screen12.png)
 
 ---
 
@@ -292,13 +292,13 @@ Nginx will receive browser traffic on port `80` and forward it to the EpicBook N
 
 #### Screenshot 13 — `roles/nginx/tasks/main.yml` showing Nginx installation and site configuration tasks
 
-Add your screenshot here.
+![screeenshot](./screenshots/ass5-screen13.png)
 
 ---
 
 #### Screenshot 14 — `roles/nginx/templates/epicbook.conf.j2` showing the reverse proxy configuration
 
-Add your screenshot here.
+![screeenshot](./screenshots/ass5-screen14.png)
 
 ---
 
@@ -334,19 +334,19 @@ Create the `epicbook` role to deploy the EpicBook application, connect it to the
 
 #### Screenshot 15 — `roles/epicbook/tasks/main.yml` showing application deployment tasks
 
-Add your screenshot here.
+![screeenshot](./screenshots/ass5-screen15.png)
 
 ---
 
 #### Screenshot 16 — Task or file showing how the database connection is configured, with secrets hidden
 
-Add your screenshot here.
+![screeenshot](./screenshots/ass5-screen16.png)
 
 ---
 
 #### Screenshot 17 — Task or output showing the EpicBook application managed by PM2
 
-Add your screenshot here.
+![screeenshot](./screenshots/ass5-screen17.png)
 
 ---
 
@@ -390,7 +390,7 @@ The `group_vars/web.yml` file stores values that can be reused across the Ansibl
 
 #### Screenshot 18 — `group_vars/web.yml` showing the application, PM2, and database variables, with passwords hidden or masked
 
-Add your screenshot here.
+![screeenshot](./screenshots/ass5-screen18.png)
 
 ---
 
@@ -432,31 +432,31 @@ The playbook should run the roles in this order:
 
 #### Screenshot 19 — Ansible playbook output showing the roles running
 
-Add your screenshot here.
+![screeenshot](./screenshots/ass5-screen19.png)
 
 ---
 
 #### Screenshot 20 — Final Ansible recap showing `failed=0`
 
-Add your screenshot here.
+![screeenshot](./screenshots/ass5-screen20.png)
 
 ---
 
 #### Screenshot 21 — Output of `ansible web -i inventory.ini -m command -a "systemctl is-active nginx" --become`
 
-Add your screenshot here.
+![screeenshot](./screenshots/ass5-screen21.png)
 
 ---
 
 #### Screenshot 22 — Output of `ansible web -i inventory.ini -m command -a "pm2 status"`
 
-Add your screenshot here.
+![screeenshot](./screenshots/ass5-screen22.png)
 
 ---
 
 #### Screenshot 23 — Output of `ansible web -i inventory.ini -m command -a "curl -I http://localhost:8080"`
 
-Add your screenshot here.
+![screeenshot](./screenshots/ass5-screen23.png)
 
 ---
 
@@ -504,25 +504,25 @@ Verify that the EpicBook application is running, accessible in the browser, and 
 
 #### Screenshot 24 — Output of `curl -I http://<public_ip>`
 
-Add your screenshot here.
+![screeenshot](./screenshots/ass5-screen24.png)
 
 ---
 
 #### Screenshot 25 — Output of the cart API test command
 
-Add your screenshot here.
+![screeenshot](./screenshots/ass5-screen25.png)
 
 ---
 
 #### Screenshot 26 — Output of the `/cart` HTTP status check
 
-Add your screenshot here.
+![screeenshot](./screenshots/ass5-screen26.png)
 
 ---
 
 #### Screenshot 27 — Browser showing the EpicBook application loaded from `http://<public_ip>`
 
-Add your screenshot here.
+![screeenshot](./screenshots/ass5-screen27.png)
 
 ---
 
