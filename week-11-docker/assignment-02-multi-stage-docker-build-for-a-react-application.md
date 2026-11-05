@@ -30,7 +30,7 @@ cat .dockerignore
 
 The file must exclude `node_modules`, `build`, and `.env`.
 
-Add your screenshot here.
+![screenshot](./screenshots/ass2-screen1.png)
 
 ---
 
@@ -46,7 +46,7 @@ Create a baseline single-stage Docker image and run the application on port 3000
 
 Add a screenshot showing the completed `Dockerfile.single`.
 
-Add your screenshot here.
+![screenshot](./screenshots/ass2-screen2.png)
 
 ---
 
@@ -60,7 +60,7 @@ http://localhost:3000
 
 Ensure that your full name is visible in the application.
 
-Add your screenshot here.
+![screenshot](./screenshots/ass2-screen3.png)
 
 ---
 
@@ -76,7 +76,7 @@ Create an optimized multi-stage Docker image with separate builder and Nginx run
 
 Add a screenshot showing the completed multi-stage `Dockerfile`.
 
-Add your screenshot here.
+![screenshot](./screenshots/ass2-screen4.png)
 
 ---
 
@@ -90,7 +90,7 @@ http://localhost
 
 Ensure that your full name is visible in the application.
 
-Add your screenshot here.
+![screenshot](./screenshots/ass2-screen5.png)
 
 ---
 
@@ -117,7 +117,7 @@ react-single:latest
 react-multistage:latest
 ```
 
-Add your screenshot here.
+![screenshot](./screenshots/ass2-screen6.png)
 
 ---
 
@@ -126,15 +126,15 @@ Add your screenshot here.
 Record the image sizes and calculate the reduction using the same unit for both images.
 
 ```text
-Single-stage image size: Add size here
+Single-stage image size: 505MB
 
-Multi-stage image size: Add size here
+Multi-stage image size: 26.6MB
 
 Percentage reduction =
-((Single-stage image size − Multi-stage image size)
-÷ Single-stage image size) × 100
+((505− 26.6)
+÷ 505) × 100
 
-Percentage reduction: Add result here
+Percentage reduction: 98.7%
 ```
 
 ---
@@ -175,7 +175,7 @@ You may choose to:
 - Experiment with a lighter runtime image
 - Compare the resulting image size with your original multi-stage image
 
-Screenshots are optional.
+![screenshot](./screenshots/ass2-screen7.png)
 
 ---
 
