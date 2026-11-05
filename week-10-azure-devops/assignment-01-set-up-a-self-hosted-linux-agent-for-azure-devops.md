@@ -58,7 +58,7 @@ Add a screenshot from AWS or Azure showing:
 * VM status as **Running**
 * Public IP address
 
-Add your screenshot here.
+![screenshot](./screenshots/ass1-screen1.png)
 
 ---
 
@@ -72,7 +72,7 @@ Add an SSH terminal screenshot showing the output of:
 
 The screenshot must confirm a supported Ubuntu version, `x86_64` architecture, and a successful HTTP response from Azure DevOps.
 
-Add your screenshot here.
+![screenshot](./screenshots/ass1-screen2.png)
 
 ---
 
@@ -93,7 +93,7 @@ Add a terminal screenshot showing:
 * Agent service start
 * `sudo ./svc.sh status` reporting that the service is running
 
-Add your screenshot here.
+![screenshot](./screenshots/ass1-screen3.png)
 
 > Ensure that the PAT is not visible.
 
@@ -116,7 +116,7 @@ Add a screenshot of the Azure DevOps Agent Pool **Agents** page showing:
 * Agent status as **Online**
 * Agent enabled and available
 
-Add your screenshot here.
+![screenshot](./screenshots/ass1-screen4.png)
 
 ---
 
@@ -138,7 +138,7 @@ Add a screenshot of `azure-pipelines.yml` open in the Azure Repos editor showing
 * Your Full Name
 * Linux verification commands
 
-Add your screenshot here.
+![screenshot](./screenshots/ass1-screen5.png)
 
 ---
 
@@ -156,7 +156,7 @@ Add a screenshot of the successful Azure DevOps pipeline run showing:
 * Output from `df -h`
 * Output from `pwd`
 
-Add your screenshot here.
+![screenshot](./screenshots/ass1-screen6.png)
 
 ---
 
@@ -165,7 +165,50 @@ Add your screenshot here.
 Paste the contents of your completed `azure-pipelines.yml` file below.
 
 ```yaml
-# Paste your completed azure-pipelines.yml here
+trigger:
+    - main
+pool:
+    name: "StaticSiteAgentPool"
+
+variables:
+    sshService: 'ubuntu-nginx-ssh'
+    webRoot: '/var/www/html'
+
+stages:
+    - stage: DeployHTML
+      displayName: 'Deploy HTML Page to Azure VM'
+      jobs:
+        - job: Deploy
+
+          displayName: 'Copy index.html to NGINX web root'
+          steps:
+            - checkout: self
+            - task: SSH@0
+              displayName: 'Set secure permissions for web root'
+              inputs:
+                sshEndpoint: '$(sshService)'
+                runOptions: 'inline'
+                inline: |
+                    sudo usermod -aG www-data $(whoami)
+                    sudo chown -R www-data:www-data /var/www/html
+                    sudo chmod -R 775 /var/www/html    
+            - task: CopyFilesOverSSH@0
+              displayName: 'Copy index.html to VM'
+              inputs:
+                sshEndpoint: '$(sshService)'
+                sourceFolder: '$(Build.SourcesDirectory)'
+                contents: 'index.html'
+                targetFolder: '$(webRoot)'
+
+  
+            - task: SSH@0
+              displayName: 'Restart NGINX on VM'
+              inputs:
+                sshEndpoint: '$(sshService)'
+                runOptions: 'inline'
+                inline: |
+                  echo "Restarting NGINX..."
+                  sudo systemctl restart nginx      
 ```
 
 > Do not include your PAT, SSH private key, password, or cloud credentials in the YAML file.
