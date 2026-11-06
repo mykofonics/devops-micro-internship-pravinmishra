@@ -20,7 +20,7 @@ Create and enter a dedicated directory for the NodePort Service lab.
 
 #### Screenshot 1 — Terminal showing that you are working inside `~/k8s-labs/services/nodeport`
 
-Add your screenshot here.
+![screenshot](./screenshots/ass8-screen1.png)
 
 ### Notes
 
@@ -44,13 +44,13 @@ Create a healthy NGINX Deployment that can act as the backend for the NodePort S
 
 #### Screenshot 2 — Completed `00-nginx-deploy.yaml` manifest
 
-Add your screenshot here.
+![screenshot](./screenshots/ass8-screen2.png)
 
 ---
 
 #### Screenshot 3 — Output showing successful rollout and two ready NGINX Pods
 
-Add your screenshot here.
+![screenshot](./screenshots/ass8-screen3.png)
 
 ### Notes
 
@@ -78,13 +78,13 @@ Create a NodePort Service that exposes the NGINX application through a port on e
 
 #### Screenshot 4 — Completed `01-nginx-svc-nodeport.yaml` manifest
 
-Add your screenshot here.
+![screenshot](./screenshots/ass8-screen4.png)
 
 ---
 
 #### Screenshot 5 — Output showing the NodePort Service and its endpoints or EndpointSlices
 
-Add your screenshot here.
+![screenshot](./screenshots/ass8-screen5.png)
 
 ### Notes
 
@@ -116,13 +116,13 @@ Find a reachable node IP and access the NodePort Service.
 
 #### Screenshot 6 — Output of `kubectl get nodes -o wide`
 
-Add your screenshot here.
+![screenshot](./screenshots/ass8-screen6.png)
 
 ---
 
 #### Screenshot 7 — Output showing the `tester` Pod running
 
-Add your screenshot here.
+![screenshot](./screenshots/ass8-screen7.png)
 
 ---
 
@@ -130,7 +130,7 @@ Add your screenshot here.
 
 If neither route is supported by your environment, include the failed request output and ready endpoint evidence, and explain the limitation in your Notes.
 
-Add your screenshot here.
+![screenshot](./screenshots/ass8-screen8.png)
 
 ### Notes
 
@@ -160,19 +160,19 @@ Complete the Evidence and Notes below only if you attempted this optional task.
 
 #### Screenshot 9 — `02-nginx-svc-selector-broken.yaml` showing the incorrect selector
 
-Add your screenshot here.
+![screenshot](./screenshots/ass8-screen9.png)
 
 ---
 
 #### Screenshot 10 — Empty endpoints or EndpointSlice output after applying the broken selector
 
-Add your screenshot here.
+![screenshot](./screenshots/ass8-screen10.png)
 
 ---
 
 #### Screenshot 11 — Restored endpoints or EndpointSlices after applying the original Service manifest
 
-Add your screenshot here.
+![screenshot](./screenshots/ass8-screen11.png)
 
 ### Notes
 
@@ -200,13 +200,13 @@ Delete one NGINX Pod and observe its replacement while the Service continues rou
 
 #### Screenshot 12 — Output of the Pod deletion command
 
-Add your screenshot here.
+![screenshot](./screenshots/ass8-screen12.png)
 
 ---
 
 #### Screenshot 13 — Output showing the replacement Pod and two running, ready Pods
 
-Add your screenshot here.
+![screenshot](./screenshots/ass8-screen13.png)
 
 ### Notes
 

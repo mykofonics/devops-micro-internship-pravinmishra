@@ -14,9 +14,9 @@ Configure a read-only Bash triage script for your Book Review App, connect it to
 
 ## Submission Details
 
-**Full Name:** Add your full name here.
+**Full Name:** Michael Oyeku
 
-**Kubernetes Platform:** Add your platform here.
+**Kubernetes Platform:** Amazon EKS
 
 **Selected Workload:** Add the Deployment name here.
 
@@ -42,13 +42,13 @@ Identify the actual application configuration and prove that the selected worklo
 
 #### Screenshot 1 — Healthy Pods and ready Service backends
 
-Add your screenshot here.
+![screenshot](./screenshots/ass11-screen1.png)
 
 ---
 
 #### Screenshot 2 — Workspace directory structure
 
-Add your screenshot here.
+![screenshot](./screenshots/ass11-screen2.png)
 
 ### Notes
 
@@ -76,7 +76,7 @@ Define the project configuration, incident workflow, and safety boundary for Cla
 
 #### Screenshot 3 — CLAUDE.md showing application configuration, workflow, safety rules, and output rules
 
-Add your screenshot here.
+![screenshot](./screenshots/ass11-screen3.png)
 
 ### Notes
 
@@ -104,7 +104,7 @@ Ask Claude Code to explain the five health checks before running the supplied sc
 
 #### Screenshot 4 — Claude Code showing the five-check read-only plan
 
-Add your screenshot here.
+![screenshot](./screenshots/ass11-screen4.png)
 
 ### Notes
 
@@ -132,25 +132,25 @@ Configure the supplied triage script for the selected workload and validate its 
 
 #### Screenshot 5 — Script configuration variables and checks array
 
-Add your screenshot here.
+![screenshot](./screenshots/ass11-screen5.png)
 
 ---
 
 #### Screenshot 6 — Functions for status, readiness, restarts, events, and Service backends
 
-Add your screenshot here.
+![screenshot](./screenshots/ass11-screen6.png)
 
 ---
 
 #### Screenshot 7 — Preflight, summary, and exit-code logic
 
-Add your screenshot here.
+![screenshot](./screenshots/ass11-screen7.png)
 
 ---
 
 #### Screenshot 8 — Successful syntax validation and executable permission
 
-Add your screenshot here.
+![screenshot](./screenshots/ass11-screen8.png)
 
 ### Notes
 
@@ -182,13 +182,13 @@ Run the script on the healthy application and confirm that it contains no failed
 
 #### Screenshot 9 — Baseline report showing your full name and all checks
 
-Add your screenshot here.
+![screenshot](./screenshots/ass11-screen9.png)
 
 ---
 
 #### Screenshot 10 — Captured exit code and final summary
 
-Add your screenshot here.
+![screenshot](./screenshots/ass11-screen10.png)
 
 ### Notes
 
@@ -216,13 +216,13 @@ Connect the Bash script to a manually invoked Claude Code evidence-analysis work
 
 #### Screenshot 11 — SKILL.md showing frontmatter and safety rules
 
-Add your screenshot here.
+![screenshot](./screenshots/ass11-screen11.png)
 
 ---
 
 #### Screenshot 12 — Baseline `/k8s-triage` analysis
 
-Add your screenshot here.
+![screenshot](./screenshots/ass11-screen12.png)
 
 ### Notes
 
@@ -250,19 +250,19 @@ Create one controlled failure, save its evidence, and let Claude analyze it with
 
 #### Screenshot 13 — Failed or unready Pod evidence and current Service backends
 
-Add your screenshot here.
+![screenshot](./screenshots/ass11-screen13.png)
 
 ---
 
 #### Screenshot 14 — Failed `/k8s-triage` analysis with evidence and a suggested manual recovery command
 
-Add your screenshot here.
+![screenshot](./screenshots/ass11-screen14.png)
 
 ---
 
 #### Screenshot 15 — Saved `incident-failure-report.txt`
 
-Add your screenshot here.
+![screenshot](./screenshots/ass11-screen15.png)
 
 ### Notes
 
@@ -294,25 +294,25 @@ Restore the healthy configuration yourself and verify recovery using a second tr
 
 #### Screenshot 16 — Recovered Pods and ready Service backends
 
-Add your screenshot here.
+![screenshot](./screenshots/ass11-screen16.png)
 
 ---
 
 #### Screenshot 17 — Recovered `/k8s-triage` analysis
 
-Add your screenshot here.
+![screenshot](./screenshots/ass11-screen17.png)
 
 ---
 
 #### Screenshot 18 — Reports directory showing failure and recovery reports
 
-Add your screenshot here.
+![screenshot](./screenshots/ass11-screen18.png)
 
 ---
 
 #### Screenshot 19 — `incident-summary.md` with all required sections
 
-Add your screenshot here.
+![screenshot](./screenshots/ass11-screen19.png)
 
 ### Notes
 
