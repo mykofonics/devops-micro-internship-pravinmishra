@@ -61,7 +61,8 @@ This is not a course. It is an internship-style program — real deployments, re
 
 **Preview — what your full stack looks like:**
 
-[![Week 00](./badges/week-00.svg)](./week-00-internet-and-networking/)[![Week 01](./badges/week-01.svg)](./week-01-success-mindset/)
+[![Week 00](./badges/week-00.svg)](./week-00-internet-and-networking/)
+[![Week 01](./badges/week-01.svg)](./week-01-success-mindset/)
 [![Week 02](./badges/week-02.svg)](./week-02-agentic-ai/)
 [![Week 03](./badges/week-03.svg)](./week-03-linux-and-bash-for-devops/)
 [![Week 04](./badges/week-04.svg)](./week-04-git-and-github/)
@@ -97,26 +98,26 @@ This is not a course. It is an internship-style program — real deployments, re
       Week 05 → DevOps Lifecycle & Agile 
      [![Week 05 – Agile](./badges/week-05.svg)](./week-05-devops-lifecycle/)
 
-<!-- Week 06 → AWS Cloud -->
-<!-- [![Week 06 – AWS](./badges/week-06.svg)](./week-06-aws-cloud/) -->
+  Week 06 → AWS Cloud 
+    [![Week 06 – AWS](./badges/week-06.svg)](./week-06-aws-cloud/)
 
-<!-- Week 07 → Azure Cloud -->
-<!-- [![Week 07 – Azure](./badges/week-07.svg)](./week-07-azure-cloud/) -->
+    Week 07 → Azure Cloud 
+    [![Week 07 – Azure](./badges/week-07.svg)](./week-07-azure-cloud/) 
 
-<!-- Week 08 → Terraform -->
-<!-- [![Week 08 – Terraform](./badges/week-08.svg)](./week-08-terraform/) -->
+    Week 08 → Terraform 
+    [![Week 08 – Terraform](./badges/week-08.svg)](./week-08-terraform/) 
 
-<!-- Week 09 → Ansible -->
-<!-- [![Week 09 – Ansible](./badges/week-09.svg)](./week-09-ansible/) -->
+     Week 09 → Ansible 
+     [![Week 09 – Ansible](./badges/week-09.svg)](./week-09-ansible/) 
 
-<!-- Week 10 → Azure DevOps CI/CD -->
-<!-- [![Week 10 – CI/CD](./badges/week-10.svg)](./week-10-azure-devops/) -->
+     Week 10 → Azure DevOps CI/CD 
+   [![Week 10 – CI/CD](./badges/week-10.svg)](./week-10-azure-devops/) 
 
-<!-- Week 11 → Docker -->
-<!-- [![Week 11 – Docker](./badges/week-11.svg)](./week-11-docker/) -->
+    Week 11 → Docker 
+    [![Week 11 – Docker](./badges/week-11.svg)](./week-11-docker/) 
 
-<!-- Week 12 → Kubernetes -->
-<!-- [![Week 12 – K8s](./badges/week-12.svg)](./week-12-kubernetes/) -->
+    Week 12 → Kubernetes 
+     [![Week 12 – K8s](./badges/week-12.svg)](./week-12-kubernetes/) 
 
 <!-- Week 13 → Final Project / Capstone -->
 <!-- [![Week 13 – Capstone](./badges/week-13.svg)](./week-13-final-project/) -->
@@ -148,14 +149,14 @@ This is not a course. It is an internship-style program — real deployments, re
 | 03 | Linux & Bash for DevOps | ✅ Completed| ✅ Completed | https://www.linkedin.com/posts/oyeku-michael-2215a920_dmibypravinmishra-git-github-activity-7486545778262437889-PGgt?utm_source=share&utm_medium=member_desktop&rcm=ACoAAARb4_kBmnrqkDDsuuYPPXrVCKNYnevZPAo | https://www.linkedin.com/posts/oyeku-michael-2215a920_dmibypravinmishra-git-github-activity-7486545778262437889-PGgt?utm_source=share&utm_medium=member_desktop&rcm=ACoAAARb4_kBmnrqkDDsuuYPPXrVCKNYnevZPAo|
 | 04 | Git & GitHub | ✅ Completed | ⏳ ✅ Completed | https://www.linkedin.com/posts/oyeku-michael-2215a920_dmibypravinmishra-devops-agenticai-activity-7492398003622744064-xepC?utm_source=share&utm_medium=member_desktop&rcm=ACoAAARb4_kBmnrqkDDsuuYPPXrVCKNYnevZPAo| https://www.linkedin.com/posts/oyeku-michael-2215a920_dmibypravinmishra-devops-agenticai-activity-7492398003622744064-xepC?utm_source=share&utm_medium=member_desktop&rcm=ACoAAARb4_kBmnrqkDDsuuYPPXrVCKNYnevZPAo|
 | 05 | DevOps Lifecycle & Agile | ✅ completed | ⏳ ✅ Completed | https://lnkd.in/p/eCNyb9gu | https://lnkd.in/p/eCNyb9gu |
-| 06 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
-| 07 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |
-| 08 | Terraform | ⬜ Not Started | ⏳ Pending | — | — |
-| 09 | Ansible | ⬜ Not Started | ⏳ Pending | — | — |
-| 10 | Azure DevOps (CI/CD) | ⬜ Not Started | ⏳ Pending | — | — |
-| 11 | Docker | ⬜ Not Started | ⏳ Pending | — | — |
-| 12 | Kubernetes | ⬜ Not Started | ⏳ Pending | — | — |
-| 13 | Final Project | ⬜ Not Started | ⏳ Pending | — | — |
+| 06 | AWS Cloud | ✅ Completed | ⏳ ✅ Completed | — | — |
+| 07 | Azure Cloud |✅ Completed | ⏳ ✅ Completed | — | — |
+| 08 | Terraform | ✅ Completed | ⏳ ✅ Completed| — | — |
+| 09 | Ansible |✅ Completed | ⏳ ✅ Completed| — | — |
+| 10 | Azure DevOps (CI/CD) | ✅ Completed | ⏳ ✅ Completed | https://lnkd.in/p/eRDG8NTZ| — |
+| 11 | Docker | ✅ Completed | ⏳ ✅ Completed| https://lnkd.in/p/eytMM2Um| — |
+| 12 | Kubernetes | ✅ Completed | ⏳ ✅ Completed| — | — |
+| 13 | Final Project | ✅ Completed | ⏳ ✅ Completed | — | — |
 
 **Status:** ⬜ Not Started &nbsp;|&nbsp; 🔄 In Progress &nbsp;|&nbsp; ✅ Completed<br>
 **Assignment:** ⏳ Pending &nbsp;|&nbsp; ✅ Solved

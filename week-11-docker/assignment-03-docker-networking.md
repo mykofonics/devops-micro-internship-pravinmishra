@@ -300,7 +300,7 @@ The output must confirm:
 Add a browser screenshot showing the Nginx Welcome Page at:
 
 ```text
-http://<YOUR-VM-PUBLIC-IP>
+http://3.15.202.63
 ```
 
 Ensure that the VM public IP is visible in the address bar. Add your full name as a clear caption directly below the screenshot.
@@ -333,6 +333,19 @@ Write a short note explaining:
 
 Write your note here.
 
+Here’s a more natural, human version:
+
+1. Default Bridge Networking  
+Docker automatically creates a default bridge network. Containers on this network can talk to each other using IP addresses. To reach them from outside, you need to publish ports. Unlike custom bridges, the default bridge doesn’t give you automatic DNS resolution by container name.
+
+2. Container-name Communication on Custom Bridge Networks  
+Custom bridge networks come with built-in DNS service discovery. Any containers connected to the same custom network can reach each other simply by using their container names — no need to hardcode IP addresses.
+
+3. Why the Frontend Could Not Access the Database  
+The frontend and database were sitting on two separate, isolated networks. The frontend was on `frontend-network` and the database was on `backend-network`. Because the frontend wasn’t connected to the backend network, it couldn’t talk directly to the database. The backend container acted as the bridge that allowed controlled communication between the two networks.
+
+4. Difference Between Bridge and Host Networking  
+Bridge networking keeps containers isolated from the host. You have to map ports if you want external access. Host networking removes that isolation — the container shares the host’s network stack and can use the host’s network interfaces directly, so no port mapping is needed. The trade-off is less network isolation.
 ---
 
 # LinkedIn Requirement
@@ -347,13 +360,14 @@ Create a LinkedIn post about the Docker networking modes explored, one key lesso
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+`https://lnkd.in/p/eQpTHYMY
 
 ---
 
 #### LinkedIn Post Screenshot
 
-Add a screenshot of the published LinkedIn post here.
+![screenshot](./screenshots/dockerassig3-linkedInpost shot.png)
+
 
 ---
 

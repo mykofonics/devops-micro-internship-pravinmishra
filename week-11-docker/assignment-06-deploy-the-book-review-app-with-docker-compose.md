@@ -279,11 +279,23 @@ Write a short explanation of 5–8 lines covering:
 
 Write your explanation here.
 
+The docker compose down command stops and removes the containers and default network created by Docker Compose, but it preserves named volumes and their stored data.
+
+Named volumes are important because they retain MySQL database information, including registered users and book reviews, even when containers are removed.
+
+When docker compose up -d is executed again, the services are recreated and reconnect to the existing named volume.
+
+However, docker compose down -v removes the named volumes alongside the containers and networks, resulting in permanent deletion of the stored database data.
+
+A full reset is useful when troubleshooting persistent configuration problems or when a completely fresh application environment is required.
+
+It is important not to perform a full reset before capturing persistence evidence because deleting the named volume would destroy the data needed to demonstrate successful database persistence.
+
 ---
 
 # Final Public Frontend URL
 
-**Frontend URL:** `http://<VM_PUBLIC_IP>:<FRONTEND_PORT>`
+**Frontend URL:** `http://10.0.1.245:3000`
 
 Replace the placeholder with your working application URL.
 
@@ -293,6 +305,7 @@ Replace the placeholder with your working application URL.
 
 **Your Fork or Repository URL:** `Add your GitHub repository URL here`
 
+https://github.com/mykofonics/devops-micro-internship-pravinmishra
 ---
 
 # LinkedIn Requirement

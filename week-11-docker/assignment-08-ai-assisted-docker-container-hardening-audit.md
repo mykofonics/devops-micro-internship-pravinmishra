@@ -177,7 +177,21 @@ Write a short comparison covering:
 
 Write your comparison here.
 
----
+1. Initial Audit Finding
+
+The initial Docker security audit identified that the application container was running with root privileges. Running containers as root can increase security risks because a compromised application may gain unnecessary administrative privileges within the container.
+
+2. Hardening Change Applied
+
+To address this security weakness, I manually modified the Dockerfile to create a dedicated non-root user and configured the application to run under that user using the USER instruction. I subsequently rebuilt the Docker image and recreated the affected container using Docker Compose.
+
+3. Final Audit Result
+
+After rebuilding and restarting the container, I reran the Docker security audit. The final audit confirmed that the container was no longer running as root, indicating that the selected hardening improvement had been successfully implemented.
+
+4. Security Benefit
+
+Running the application as a non-root user follows the principle of least privilege. It reduces the potential impact of application compromise by preventing the application process from unnecessarily having root-level privileges within the container.
 
 # LinkedIn Requirement
 

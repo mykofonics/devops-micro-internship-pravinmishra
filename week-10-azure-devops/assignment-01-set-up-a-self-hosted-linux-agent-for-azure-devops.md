@@ -219,7 +219,8 @@ stages:
 
 Write a short summary of what you configured.
 
-[Write your summary here.]
+In this assignment, I provisioned an Ubuntu virtual machine and configured it as a self-hosted Azure DevOps agent. I created an agent pool, securely registered the agent using a Personal Access Token (PAT), and configured it to run as a Linux system service. I verified that the agent was online in Azure DevOps and successfully executed a YAML-based pipeline to test the agent's ability to run commands on the Ubuntu machine.
+
 
 ---
 
@@ -234,9 +235,9 @@ Add a screenshot of your LinkedIn post showing:
 * Three to five lines explaining your experience
 * A screenshot of the successful pipeline run with no secrets visible
 
-Add your screenshot here.
+![screenshot](./screenshots/week10 linkedIn.png)
 
-**LinkedIn Post URL:** [Paste your LinkedIn post URL here]
+**LinkedIn Post URL:** https://lnkd.in/p/eRDG8NTZ
 
 ---
 

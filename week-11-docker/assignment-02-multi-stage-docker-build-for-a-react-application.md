@@ -158,6 +158,13 @@ Write a short analysis of 5–8 lines covering:
 
 Write your analysis here.
 
+The single-stage Docker image was 505 MB. The optimized multi-stage image was only 26.6 MB — a 98.7% reduction in size.  
+
+We got this big drop by separating the React build environment from the production runtime. The multi-stage approach leaves out development dependencies, build tools, and source files from the final image. That shrinks the attack surface and improves security. Smaller images also use less storage and speed up image pulls and deployments.  
+
+One useful Docker build-caching trick is to copy `package.json` and the lock file first, then install the dependencies. This lets Docker reuse the dependency layer whenever the application source files change.
+
+
 ---
 
 # Task 6 — Explore Additional Production Optimizations (Optional)
@@ -191,13 +198,15 @@ Create a LinkedIn post describing what you built, what a multi-stage Docker buil
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+`https://lnkd.in/p/eytMM2Um
 
 ---
 
 #### LinkedIn Post Screenshot
 
-Add a screenshot of the published LinkedIn post here.
+![screenshot](./screenshots/dockerpostlinkedIn-assign.png)
+
+
 
 ---
 

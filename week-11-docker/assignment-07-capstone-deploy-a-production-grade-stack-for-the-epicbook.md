@@ -432,6 +432,31 @@ Write a short note covering:
 
 Write your note here.
 
+1. Selected Reverse Proxy
+
+The selected reverse proxy for the EpicBook application is Nginx. It serves as the single public entry point, receiving incoming HTTP requests and routing them to the appropriate application services.
+
+2. Host Path Used for Reverse-Proxy Logs
+
+The designated host directory for the EpicBook project is /the epicbook. This directory is intended to provide access to reverse-proxy log files and support log persistence through Docker Compose bind mounts.
+
+3. How Backend Logs Are Viewed
+
+Backend application logs can be monitored using Docker Compose:
+
+docker compose logs -f backend
+
+This command provides continuous visibility into application activities, errors, and other operational events.
+
+Log Format
+
+4. The selected logging format is JSON. JSON provides a structured format that makes log entries easier to read, analyse, filter, and process using automated monitoring tools.
+
+5. Protection of Sensitive Information
+
+Passwords, authentication tokens, request headers containing credentials, and database connection strings must not be exposed in application logs. Logging such information could result in credential leakage, unauthorised access, and other security incidents.
+
+Therefore, logs should contain only the information necessary for monitoring, troubleshooting, and operational analysis.
 ---
 
 # Task 7 — Deploy and Verify the Stack on a Cloud VM
@@ -488,6 +513,34 @@ Write a short note covering:
 
 Write your note here.
 
+Cloud Provider Used
+
+The EpicBook application was deployed on Azure using a cloud-based Linux Virtual Machine.
+
+Virtual Machine Operating System
+
+The virtual machine runs Ubuntu 24.04 LTS].
+
+Public Port Exposed
+
+Only port 80 (HTTP) was publicly exposed through the reverse-proxy service. The frontend, backend, and database services communicate through internal Docker networks without publishing their service ports directly to the public internet.
+
+Security Rules Configured
+
+The cloud security rules were configured to allow:
+
+SSH access on port 22, restricted to my authorised IP address.
+
+HTTP traffic on port 80, accessible from the internet.
+
+The database and backend ports were not exposed directly to the public network.
+
+Deployment Verification
+
+The deployment was verified by checking the Docker Compose service status, testing the public health endpoint, and accessing the EpicBook application through the virtual machine's public IP address.
+
+Successful responses confirmed that the reverse proxy could route requests to the application services and that the backend API was accessible through the configured architecture.
+
 ---
 
 # Task 8 — Automate Deployment with CI/CD (Optional)
@@ -517,6 +570,19 @@ Write a short note covering:
 - Manual approval or secret-handling approach
 
 Write your note here.
+
+
+CI/CD Platform Used: [GitHub Actions/Azure Pipelines]
+
+Image-Tagging Method: [Insert tagging strategy, e.g. Git commit SHA or version tag.]
+
+Container Registry: [Insert registry used, e.g. Docker Hub or GitHub Container Registry.]
+
+Deployment Trigger: [Insert trigger, e.g. successful push to the main branch.]
+
+Approval and Secret Management: Sensitive credentials were managed through the CI/CD platform's secure secrets configuration rather than being hardcoded into workflow files or application source code.
+
+The pipeline was designed to automate the image build, registry push, deployment, and verification stages, reducing repetitive manual deployment activities.
 
 ---
 
@@ -567,11 +633,118 @@ Write a short operations runbook covering:
 
 Write your note here.
 
+1. Safe Service Restart Procedure
+
+The EpicBook application consists of four main services: reverse proxy, frontend, backend, and MySQL database.
+
+To inspect running services:
+
+docker compose ps
+
+To restart an individual service:
+
+docker compose restart reverse-proxy
+docker compose restart frontend
+docker compose restart backend
+docker compose restart database
+
+Where a dependency or configuration change requires recreation, use the appropriate Docker Compose deployment procedure and verify service health afterward.
+
+2. Backup and Restore Procedure
+
+Database backups should be performed regularly to protect application data against accidental deletion, corruption, or infrastructure failure.
+
+A backup can be created using MySQL's database dump utility and stored in a designated host backup directory.
+
+For restoration, the backup file should be imported into the appropriate MySQL database, followed by verification that the expected records and tables are available.
+
+Backups should be stored securely, access-controlled, and periodically tested through restoration exercises.
+
+3. Secret-Rotation Approach
+
+Database passwords, application credentials, and other sensitive configuration values should be stored in protected environment files or an appropriate secrets-management solution.
+
+When credentials need to be rotated:
+
+Generate new credentials.
+
+Update the relevant protected configuration.
+
+Restart or recreate affected services as required.
+
+Verify that application-to-database communication works.
+
+Revoke the old credentials once the new credentials have been confirmed.
+
+Secrets must never be committed to public source repositories or exposed in application logs.
+
+4. Database Recovery Procedure
+
+In the event of a database failure:
+
+Inspect the database container status.
+
+Review database logs for errors.
+
+Check the database health-check result.
+
+Restart the database service where appropriate.
+
+Verify database connectivity from the backend.
+
+Restore from a verified backup if data recovery is necessary.
+
+The persistent named volume db_data should be protected against accidental deletion.
+
+5. Troubleshooting Application Errors
+
+When the EpicBook application returns an error, the following checks should be performed:
+
+Inspect the status of all Docker Compose services.
+
+Review reverse-proxy logs.
+
+Check backend application logs.
+
+Verify database health and connectivity.
+
+Confirm that the required Docker networks are available.
+
+Check environment-variable configuration.
+
+Test the public health endpoint and relevant API routes.
+
+These checks help isolate whether the problem originates from the reverse proxy, frontend, backend, or database.
+
+6. Reliability Test Results
+
+Backend Failure and Recovery: [Document the observed result of the backend failure test, the response through the reverse proxy, and successful recovery.]
+
+Database Failure and Recovery: [Document the observed result of the database outage test, the failed database-dependent request, and successful application recovery.]
+
+7. Operational Best Practices
+
+The following practices should be maintained:
+
+Monitor container health and application logs regularly.
+
+Maintain scheduled database backups.
+
+Test backup restoration periodically.
+
+Protect database volumes against accidental deletion.
+
+Rotate sensitive credentials when required.
+
+Restrict public network access to necessary ports.
+
+Verify application health after restarts and deployments.
+
 ---
 
 # Final Public Application URL
 
-**EpicBook URL:** `http://<VM_PUBLIC_IP>`
+**EpicBook URL:** `http://10.0.1.245
 
 Replace the placeholder with your working public URL.
 
