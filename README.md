@@ -61,24 +61,7 @@ This is not a course. It is an internship-style program — real deployments, re
 
 **Preview — what your full stack looks like:**
 
-<<<<<<< HEAD
-[![Week 00](./badges/week-00.svg)](./week-00-internet-and-networking/)
-[![Week 01](./badges/week-01.svg)](./week-01-success-mindset/)
-[![Week 02](./badges/week-02.svg)](./week-02-agentic-ai/)
-[![Week 03](./badges/week-03.svg)](./week-03-linux-and-bash-for-devops/)
-[![Week 04](./badges/week-04.svg)](./week-04-git-and-github/)
-[![Week 05](./badges/week-05.svg)](./week-05-devops-lifecycle/)
-[![Week 06](./badges/week-06.svg)](./week-06-aws-cloud/)
-[![Week 07](./badges/week-07.svg)](./week-07-azure-cloud/)
-[![Week 08](./badges/week-08.svg)](./week-08-terraform/)
-[![Week 09](./badges/week-09.svg)](./week-09-ansible/)
-[![Week 10](./badges/week-10.svg)](./week-10-azure-devops/)
-[![Week 11](./badges/week-11.svg)](./week-11-docker/)
-[![Week 12](./badges/week-12.svg)](./week-12-kubernetes/)
-[![Week 13](./badges/week-13.svg)](./week-13-final-project/)
-=======
 [![Week 00](./badges/week-00.svg)](./week-00-internet-and-networking/)[![Week 01](./badges/week-01.svg)](./week-01-success-mindset/)[![Week 02](./badges/week-02.svg)](./week-02-agentic-ai/)[![Week 03](./badges/week-03.svg)](./week-03-linux-and-bash-for-devops/)[![Week 04](./badges/week-04.svg)](./week-04-git-and-github/)[![Week 05](./badges/week-05.svg)](./week-05-devops-lifecycle/)[![Week 06](./badges/week-06.svg)](./week-06-aws-cloud/)[![Week 07](./badges/week-07.svg)](./week-07-azure-cloud/)[![Week 08](./badges/week-08.svg)](./week-08-terraform/)[![Week 09](./badges/week-09.svg)](./week-09-ansible/)[![Week 10](./badges/week-10.svg)](./week-10-azure-devops/)[![Week 11](./badges/week-11.svg)](./week-11-docker/)[![Week 12](./badges/week-12.svg)](./week-12-kubernetes/)[![Week 13](./badges/week-13.svg)](./week-13-final-project/)
->>>>>>> upstream/main
 
 ---
 
@@ -93,37 +76,6 @@ This is not a course. It is an internship-style program — real deployments, re
        Week 02 → Agentic AI with Claude Code 
     [![Week 02 – Agentic AI](./badges/week-02.svg)](./week-02-agentic-ai/) 
 
-<<<<<<< HEAD
-     <Week 03 → Linux & Bash for DevOps
-    [![Week 03 – Linux & Bash](./badges/week-03.svg)](./week-03-linux-and-bash-for-devops/)
-
-     Week 04 → Git & GitHub 
-      [![Week 04 – Git](./badges/week-04.svg)](./week-04-git-and-github/)
-
-      Week 05 → DevOps Lifecycle & Agile 
-     [![Week 05 – Agile](./badges/week-05.svg)](./week-05-devops-lifecycle/)
-
-  Week 06 → AWS Cloud 
-    [![Week 06 – AWS](./badges/week-06.svg)](./week-06-aws-cloud/)
-
-    Week 07 → Azure Cloud 
-    [![Week 07 – Azure](./badges/week-07.svg)](./week-07-azure-cloud/) 
-
-    Week 08 → Terraform 
-    [![Week 08 – Terraform](./badges/week-08.svg)](./week-08-terraform/) 
-
-     Week 09 → Ansible 
-     [![Week 09 – Ansible](./badges/week-09.svg)](./week-09-ansible/) 
-
-     Week 10 → Azure DevOps CI/CD 
-   [![Week 10 – CI/CD](./badges/week-10.svg)](./week-10-azure-devops/) 
-
-    Week 11 → Docker 
-    [![Week 11 – Docker](./badges/week-11.svg)](./week-11-docker/) 
-
-    Week 12 → Kubernetes 
-     [![Week 12 – K8s](./badges/week-12.svg)](./week-12-kubernetes/) 
-=======
 <!-- Week 03 → Linux & Bash for DevOps -->
 <!-- [![Week 03 – Linux & Bash](./badges/week-03.svg)](./week-03-linux-and-bash-for-devops/) -->
 
@@ -153,7 +105,6 @@ This is not a course. It is an internship-style program — real deployments, re
 
 <!-- Week 12 → Kubernetes -->
 <!-- [![Week 12 – K8s](./badges/week-12.svg)](./week-12-kubernetes/) -->
->>>>>>> upstream/main
 
 <!-- Week 13 → Final Project / Capstone -->
 <!-- [![Week 13 – Capstone](./badges/week-13.svg)](./week-13-final-project/) -->
@@ -179,22 +130,6 @@ This is not a course. It is an internship-style program — real deployments, re
 
 | Week | Topic | Status | Assignment | LinkedIn Post | Blog Post |
 |------|-------|--------|------------|---------------|-----------|
-<<<<<<< HEAD
-| 00 | Internet & Networking Basics | ✅ Completed | ✅ Completed| https://www.linkedin.com/posts/oyeku-michael-2215a920_a-personal-reflection-on-my-journey-from-activity-7478529495352811520-atXl?utm_source=share&utm_medium=member_desktop&rcm=ACoAAARb4_kBmnrqkDDsuuYPPXrVCKNYnevZPAo |https://www.linkedin.com/posts/oyeku-michael-2215a920_a-personal-reflection-on-my-journey-from-activity-7478529495352811520-atXl?utm_source=share&utm_medium=member_desktop&rcm=ACoAAARb4_kBmnrqkDDsuuYPPXrVCKNYnevZPAo |
-| 01 | Success Mindset | ✅ Completed| ⏳ ✅ Completed |https://www.linkedin.com/posts/oyeku-michael-2215a920_devops-learninginpublic-careergrowth-activity-7478627045909016576-IBls?utm_source=share&utm_medium=member_desktop&rcm=ACoAAARb4_kBmnrqkDDsuuYPPXrVCKNYnevZPAo| https://www.linkedin.com/posts/oyeku-michael-2215a920_devops-learninginpublic-careergrowth-activity-7478627045909016576-IBls?utm_source=share&utm_medium=member_desktop&rcm=ACoAAARb4_kBmnrqkDDsuuYPPXrVCKNYnevZPAo|
-| 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Completed| https://www.linkedin.com/posts/oyeku-michael-2215a920_reflection-week-2-learning-that-devops-activity-7482955432924217345-BXdg?utm_source=share&utm_medium=member_desktop&rcm=ACoAAARb4_kBmnrqkDDsuuYPPXrVCKNYnevZPAo | https://www.linkedin.com/posts/oyeku-michael-2215a920_reflection-week-2-learning-that-devops-activity-7482955432924217345-BXdg?utm_source=share&utm_medium=member_desktop&rcm=ACoAAARb4_kBmnrqkDDsuuYPPXrVCKNYnevZPAo|
-| 03 | Linux & Bash for DevOps | ✅ Completed| ✅ Completed | https://www.linkedin.com/posts/oyeku-michael-2215a920_dmibypravinmishra-git-github-activity-7486545778262437889-PGgt?utm_source=share&utm_medium=member_desktop&rcm=ACoAAARb4_kBmnrqkDDsuuYPPXrVCKNYnevZPAo | https://www.linkedin.com/posts/oyeku-michael-2215a920_dmibypravinmishra-git-github-activity-7486545778262437889-PGgt?utm_source=share&utm_medium=member_desktop&rcm=ACoAAARb4_kBmnrqkDDsuuYPPXrVCKNYnevZPAo|
-| 04 | Git & GitHub | ✅ Completed | ⏳ ✅ Completed | https://www.linkedin.com/posts/oyeku-michael-2215a920_dmibypravinmishra-devops-agenticai-activity-7492398003622744064-xepC?utm_source=share&utm_medium=member_desktop&rcm=ACoAAARb4_kBmnrqkDDsuuYPPXrVCKNYnevZPAo| https://www.linkedin.com/posts/oyeku-michael-2215a920_dmibypravinmishra-devops-agenticai-activity-7492398003622744064-xepC?utm_source=share&utm_medium=member_desktop&rcm=ACoAAARb4_kBmnrqkDDsuuYPPXrVCKNYnevZPAo|
-| 05 | DevOps Lifecycle & Agile | ✅ completed | ⏳ ✅ Completed | https://lnkd.in/p/eCNyb9gu | https://lnkd.in/p/eCNyb9gu |
-| 06 | AWS Cloud | ✅ Completed | ⏳ ✅ Completed | — | — |
-| 07 | Azure Cloud |✅ Completed | ⏳ ✅ Completed | — | — |
-| 08 | Terraform | ✅ Completed | ⏳ ✅ Completed| — | — |
-| 09 | Ansible |✅ Completed | ⏳ ✅ Completed| — | — |
-| 10 | Azure DevOps (CI/CD) | ✅ Completed | ⏳ ✅ Completed | https://lnkd.in/p/eRDG8NTZ| — |
-| 11 | Docker | ✅ Completed | ⏳ ✅ Completed| https://lnkd.in/p/eytMM2Um| — |
-| 12 | Kubernetes | ✅ Completed | ⏳ ✅ Completed| — | — |
-| 13 | Final Project | ✅ Completed | ⏳ ✅ Completed | — | — |
-=======
 | 00 | Internet & Networking Basics | ⬜ Not Started | ⏳ Pending | — | — |
 | 01 | Success Mindset | ⬜ Not Started | ⏳ Pending | — | — |
 | 02 | Agentic AI with Claude Code | ⬜ Not Started | ⏳ Pending | — | — |
@@ -209,7 +144,6 @@ This is not a course. It is an internship-style program — real deployments, re
 | 11 | Docker | ⬜ Not Started | ⏳ Pending | — | — |
 | 12 | Kubernetes | ⬜ Not Started | ⏳ Pending | — | — |
 | 13 | Final Project | ⬜ Not Started | ⏳ Pending | — | — |
->>>>>>> upstream/main
 
 **Status:** ⬜ Not Started &nbsp;|&nbsp; 🔄 In Progress &nbsp;|&nbsp; ✅ Completed<br>
 **Assignment:** ⏳ Pending &nbsp;|&nbsp; ✅ Solved
@@ -229,10 +163,6 @@ This is not a course. It is an internship-style program — real deployments, re
 If you found this repo useful or want to follow my DevOps journey:
 
 - ⭐ Star this repo
-<<<<<<< HEAD
-- 🔗 Connect with me on [LinkedIn]: www.linkedin.com/in/oyeku-michael-2215a920
-=======
 - 🔗 Connect with me on [LinkedIn](#)
->>>>>>> upstream/main
 - 🌐 Learn more about the program: https://dmi.pravinmishra.com?utm_source=github&utm_medium=readme
 - 💬 Join the community: https://discord.pravinmishra.com?utm_source=github&utm_medium=readme
