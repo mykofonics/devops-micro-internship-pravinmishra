@@ -20,7 +20,11 @@ Create a clean working directory for all Pod-related files used in this lab.
 
 #### Screenshot 01 — Output of `pwd` showing the current directory ending in `/k8s-labs/pods`
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass1-screen1.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -34,13 +38,21 @@ Create an NGINX Pod directly from the command line, verify that it is running, a
 
 #### Screenshot 02 — Output of `kubectl run nginx-pod --image=nginx` showing the creation message, and `kubectl get pods` showing `nginx-pod` with `1/1` under `READY` and `Running` under `STATUS`, before deletion
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass1-screen2.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 03 — Output of `kubectl delete pod nginx-pod` showing the successful deletion message
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass1-screen3.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -54,19 +66,31 @@ Define the NGINX Pod in a YAML file, apply the manifest, and verify the resultin
 
 #### Screenshot 04 — The filename `nginx-pod.yaml` and the complete YAML manifest with clear, readable indentation
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass1-screen4.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 05 — Output of `kubectl apply -f nginx-pod.yaml` showing the successful creation message
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass1-screen5.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 06 — Output of `kubectl get pods` showing the declarative `nginx-pod` with `1/1` under `READY` and `Running` under `STATUS`
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass1-screen6.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -88,13 +112,21 @@ Inspect the running Pod, view its logs, and open a shell inside the NGINX contai
 
 #### Screenshot 07 — Output of `kubectl describe pod nginx-pod` showing the Pod name, `app=nginx` label, `Running` status, container name, and NGINX image
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass1-screen7.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 08 — Output of `kFilename: `08-pod-logs.png`
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass1-screen8.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 If no logs appear, add a caption stating that the command completed without output.
 
@@ -102,7 +134,11 @@ If no logs appear, add a caption stating that the command completed without outp
 
 #### Screenshot 09 — Container shell opened using `kubectl exec -it nginx-pod -- /bin/bash`, showing `cd /usr/share/nginx/html`, `pwd`, and `ls -la`, with the directory path and default NGINX files visible before exiting
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass1-screen9.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 

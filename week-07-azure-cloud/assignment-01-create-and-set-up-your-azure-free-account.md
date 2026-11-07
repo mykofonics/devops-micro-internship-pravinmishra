@@ -1,6 +1,10 @@
 # Assignment 1 — Create and Set Up Your Azure Free Account
 
+<<<<<<< HEAD
 Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
+=======
+Part of the DevOps Micro Internship (DMI) with Agentic AI
+>>>>>>> upstream/main
 
 ---
 
@@ -30,13 +34,21 @@ Confirm successful Azure Portal access and Locate the required services and subs
 
 #### Screenshot 1 — Azure Portal homepage after successful login
 
+<<<<<<< HEAD
 ![alt text](<screenshots/Screenshot_1_Assign_1_5.png>)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 2 — "Subscriptions" section showing the "Free Trial" subscription
 
+<<<<<<< HEAD
 ![alt text](<screenshots/Screenshot_2_Assign_1_5.png>)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -44,11 +56,31 @@ Confirm successful Azure Portal access and Locate the required services and subs
 
 Write a three-to-four-line paragraph explaining which Azure services you plan to explore first and why.
 
+<<<<<<< HEAD
 I will kick start my azure journey in DevOps with a tour on Azure Virtual Machines and Azure Virtual Network,as computing and networking are the basis most other services build on by trying to understanding how they work and makes everything else easier to reason about.
 
  Next I would move to Azure Storage (Blob) and Azure SQL Database, since nearly every real application needs durable data, and they show the core trade-offs between object and relational storage. 
  
  After that, I would look at Azure Microsoft Entra ID,to learn how identity and access are secured, which matter for almost any production workload.
+=======
+Write your answer here.
+
+---
+
+# Share Your Progress on WhatsApp
+
+## Goal
+
+Share your Azure account setup achievement and DMI Leaderboard progress together in the same WhatsApp Status.
+
+### Evidence
+
+#### Screenshot 3 — Published WhatsApp Status showing your Azure account setup update, automatically generated DMI Leaderboard rank, and personal progress link
+
+Add your screenshot here.
+
+> **Privacy Note:** Do not include payment details, subscription IDs, private phone numbers, or other sensitive information.
+>>>>>>> upstream/main
 
 ---
 
@@ -90,4 +122,8 @@ It helps learners build strong DevOps foundations with hands-on experience.
 
 ---
 
+<<<<<<< HEAD
 *This submission is part of DevOps Micro Internship (DMI) Cohort 3 — Agentic AI Track.*
+=======
+*This submission is part of DevOps Micro Internship (DMI) — Agentic AI Track.*
+>>>>>>> upstream/main

@@ -30,7 +30,11 @@ backend/
 docker-compose.yml
 ```
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass6-screen1.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -47,7 +51,11 @@ backend/.dockerignore
 
 Ensure that no real passwords, tokens, or secrets are visible.
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass6-screen2.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -63,7 +71,11 @@ Prepare Dockerfiles for the frontend and backend services and build both service
 
 Add a screenshot showing the completed `frontend/Dockerfile`.
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass6-screen3.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -71,7 +83,11 @@ Add a screenshot showing the completed `frontend/Dockerfile`.
 
 Add a screenshot showing the completed `backend/Dockerfile`.
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass6-screen4.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -83,7 +99,11 @@ Add a screenshot of the terminal showing successful completion of:
 docker compose build
 ```
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass6-screen5.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -105,7 +125,11 @@ Add a screenshot showing the MySQL service in `docker-compose.yml`, including:
 - `mysql_data` volume mount
 - No published MySQL port
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass6-screen6.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -118,7 +142,11 @@ Add a screenshot showing the backend service configuration, including:
 - Browser frontend origin configured for CORS
 - Published backend port
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass6-screen7.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -130,7 +158,11 @@ Add a screenshot showing the frontend service configuration, including:
 - `depends_on` for the backend service
 - Browser-facing `NEXT_PUBLIC_API_URL`
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass6-screen8.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -138,7 +170,11 @@ Add a screenshot showing the frontend service configuration, including:
 
 Add a screenshot showing the `mysql_data` volume definition in `docker-compose.yml`.
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass6-screen9.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -160,7 +196,11 @@ docker compose ps
 
 The output must show the MySQL, backend, and frontend services running. MySQL must show as healthy.
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass6-screen10.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -174,7 +214,11 @@ docker compose logs mysql backend --tail=50
 
 The logs must show MySQL readiness and successful backend database connection.
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass6-screen11.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -192,7 +236,11 @@ Add a browser screenshot showing successful user registration or login.
 
 Add your full name as a clear caption directly below the screenshot.
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass6-screen12.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -202,7 +250,11 @@ Add a browser screenshot showing a created book review visible in the applicatio
 
 Add your full name as a clear caption directly below the screenshot.
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass6-screen13.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -213,7 +265,11 @@ Add a browser developer-tools screenshot with:
 - The Network tab showing a successful API request
 - The Console drawer showing no CORS error after the API interaction
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass6-screen14.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -231,7 +287,11 @@ Add a browser screenshot showing the registered user or created review before th
 
 Add your full name as a clear caption directly below the screenshot.
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass6-screen15.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -247,7 +307,11 @@ docker compose ps
 
 Do not use `docker compose down -v`.
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass6-screen16.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -257,7 +321,11 @@ Add a browser screenshot showing the same registered user or review after the st
 
 Add your full name as a clear caption directly below the screenshot.
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass6-screen17.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -279,6 +347,7 @@ Write a short explanation of 5–8 lines covering:
 
 Write your explanation here.
 
+<<<<<<< HEAD
 The docker compose down command stops and removes the containers and default network created by Docker Compose, but it preserves named volumes and their stored data.
 
 Named volumes are important because they retain MySQL database information, including registered users and book reviews, even when containers are removed.
@@ -291,11 +360,17 @@ A full reset is useful when troubleshooting persistent configuration problems or
 
 It is important not to perform a full reset before capturing persistence evidence because deleting the named volume would destroy the data needed to demonstrate successful database persistence.
 
+=======
+>>>>>>> upstream/main
 ---
 
 # Final Public Frontend URL
 
+<<<<<<< HEAD
 **Frontend URL:** `http://10.0.1.245:3000`
+=======
+**Frontend URL:** `http://<VM_PUBLIC_IP>:<FRONTEND_PORT>`
+>>>>>>> upstream/main
 
 Replace the placeholder with your working application URL.
 
@@ -305,7 +380,10 @@ Replace the placeholder with your working application URL.
 
 **Your Fork or Repository URL:** `Add your GitHub repository URL here`
 
+<<<<<<< HEAD
 https://github.com/mykofonics/devops-micro-internship-pravinmishra
+=======
+>>>>>>> upstream/main
 ---
 
 # LinkedIn Requirement

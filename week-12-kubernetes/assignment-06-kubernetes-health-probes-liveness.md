@@ -30,7 +30,11 @@ Create and enter a dedicated directory for the liveness-probe lab.
 
 #### Screenshot 1 — Terminal showing that you are working inside `~/k8s-labs/health-probes-liveness`
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass6-screen1.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -56,19 +60,31 @@ Create a baseline NGINX Deployment with two replicas and no health probes.
 
 #### Screenshot 2 — Completed `00-nginx-deploy-baseline.yaml` manifest
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass6-screen2.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 3 — Output showing a successful rollout and two running NGINX Pods
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass6-screen3.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 4 — Relevant output from `kubectl describe deployment nginx-deployment`
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass6-screen4.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -98,19 +114,31 @@ Add an HTTP liveness probe so Kubernetes can periodically check whether the NGIN
 
 #### Screenshot 5 — Completed `01-nginx-deploy-liveness.yaml` manifest showing the liveness probe
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass6-screen5.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 6 — Output showing successful rollout and running Pods
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass6-screen6.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 7 — Pod description showing liveness-probe details
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass6-screen7.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -144,25 +172,41 @@ Intentionally make the liveness probe fail and observe Kubernetes restart the un
 
 #### Screenshot 8 — `02-nginx-liveness-broken.yaml` showing `/does-not-exist`
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass6-screen8.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 9 — Pod output showing an increased RESTARTS count
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass6-screen9.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 10 — Pod description showing liveness-probe failure events or restart details
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass6-screen10.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 11 — Output showing stable running Pods after applying the fixed configuration
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass6-screen11.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -200,7 +244,11 @@ Complete this section only if you attempt Task 5. Otherwise, mark it as “Not a
 
 #### Optional Screenshot — Pod output showing the RESTARTS count increasing during the restart-loop observation
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass6-option.png)
+=======
+Add your screenshot here if attempted.
+>>>>>>> upstream/main
 
 No specific restart count or CrashLoopBackOff status is required.
 

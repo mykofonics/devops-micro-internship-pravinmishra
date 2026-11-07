@@ -1,6 +1,10 @@
 # Assignment 5 — Deploy a Highly Available Two-Tier Application on AWS (VPC + ALB + ASG + Multi-AZ RDS)
 
+<<<<<<< HEAD
 Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
+=======
+Part of the DevOps Micro Internship (DMI) with Agentic AI
+>>>>>>> upstream/main
 
 ---
 
@@ -20,6 +24,7 @@ Build a VPC (10.0.0.0/16) with two public and two private subnets across two Ava
 
 #### Screenshot 1 — VPC details showing CIDR 10.0.0.0/16
 
+<<<<<<< HEAD
 ![alt text](<screenshots/Screenshot_1_assig_5_1.png>)
 
 #### Screenshot 2 — Subnets list showing four subnets and their Availability Zones
@@ -37,6 +42,35 @@ Build a VPC (10.0.0.0/16) with two public and two private subnets across two Ava
 #### Screenshot 5 — NAT Gateway status showing Available and the Elastic IP
 
 ![alt text](<screenshots/Screenshot_5_assig_5_2.png>)
+=======
+Add your screenshot here.
+
+---
+
+#### Screenshot 2 — Subnets list showing four subnets and their Availability Zones
+
+Add your screenshot here.
+
+---
+
+#### Screenshot 3 — Public route table showing the Internet Gateway route and both public-subnet associations
+
+Add your screenshot here.
+
+---
+
+#### Screenshot 4 — Private route table showing the NAT Gateway route and both private-subnet associations
+
+Add your screenshot here.
+
+---
+
+#### Screenshot 5 — NAT Gateway status showing Available and the Elastic IP
+
+Add your screenshot here.
+
+---
+>>>>>>> upstream/main
 
 # Task 2 — Create Security Groups (ALB, EC2, RDS) with Least Privilege
 
@@ -48,6 +82,7 @@ Create `ha-alb-sg` (HTTP public), `ha-web-sg` (HTTP only from `ha-alb-sg`, SSH f
 
 #### Screenshot 6 — ALB Security Group inbound rules
 
+<<<<<<< HEAD
 ![alt text](<screenshots/Screenshot_6_assig_5_3.png>)
 
 #### Screenshot 7 — EC2 Security Group inbound rules showing the ALB Security Group reference and SSH from your IP
@@ -57,22 +92,55 @@ Create `ha-alb-sg` (HTTP public), `ha-web-sg` (HTTP only from `ha-alb-sg`, SSH f
 #### Screenshot 8 — RDS Security Group inbound rule showing the database port allowed only from the EC2 Security Group
 
 ![alt text](<screenshots/Screenshot_8_assig_5_4.png>)
+=======
+Add your screenshot here.
+
+---
+
+#### Screenshot 7 — EC2 Security Group inbound rules showing the ALB Security Group reference and SSH from your IP
+
+Add your screenshot here.
+
+---
+
+#### Screenshot 8 — RDS Security Group inbound rule showing the database port allowed only from the EC2 Security Group
+
+Add your screenshot here.
+
+---
+>>>>>>> upstream/main
 
 # Task 3 — Deploy Database Tier (RDS Multi-AZ in Private Subnets)
 
 ## Goal
 
+<<<<<<< HEAD
 Launch a private, Multi-AZ RDS database (MySQL or PostgreSQL) using the private DB Subnet Group and `ha-db-sg`.
+=======
+Launch a private, Multi-AZ RDS database (MySQL) using the private DB Subnet Group and `ha-db-sg`.
+>>>>>>> upstream/main
 
 ### Evidence
 
 #### Screenshot 9 — RDS summary showing Multi-AZ = Yes and Publicly accessible = No
 
+<<<<<<< HEAD
 ![alt text](<screenshots/Screenshot_9_assig_5_4.png>)
 
 #### Screenshot 10 — RDS connectivity section showing the DB Subnet Group and Security Group
 
 ![alt text](<screenshots/Screenshot_10_assig_5_4.png>)
+=======
+Add your screenshot here.
+
+---
+
+#### Screenshot 10 — RDS connectivity section showing the DB Subnet Group and Security Group
+
+Add your screenshot here.
+
+---
+>>>>>>> upstream/main
 
 # Task 4 — Build a Launch Template (User Data Installs App + Connects to DB)
 
@@ -84,11 +152,23 @@ Create a Launch Template whose user data installs the web-server runtime, deploy
 
 #### Screenshot 11 — Launch Template details showing that user data exists, including a visible snippet
 
+<<<<<<< HEAD
 ![alt text](<screenshots/Screenshot_11_assig_5_5.png>)
 
 #### Screenshot 12 — A running instance created from the template showing that the application responds on port 80 through a local test or browser using its public IP
 
 ![alt text](<screenshots/Screenshot_12_assig_5_5.png>)
+=======
+Add your screenshot here.
+
+---
+
+#### Screenshot 12 — A running instance created from the template showing that the application responds on port 80 through a local test or browser using its public IP
+
+Add your screenshot here.
+
+---
+>>>>>>> upstream/main
 
 # Task 5 — Create an Application Load Balancer (ALB) Across 2 Public Subnets
 
@@ -100,11 +180,23 @@ Create an internet-facing ALB across both public subnets with an HTTP listener a
 
 #### Screenshot 13 — ALB details showing two public subnets in two Availability Zones
 
+<<<<<<< HEAD
 ![alt text](<screenshots/Screenshot_13_assig_5_6.png>)
 
 #### Screenshot 14 — Target group showing at least one healthy target
 
 ![alt text](<screenshots/Screenshot_14_assig_5_7.png>)
+=======
+Add your screenshot here.
+
+---
+
+#### Screenshot 14 — Target group showing at least one healthy target
+
+Add your screenshot here.
+
+---
+>>>>>>> upstream/main
 
 # Task 6 — Create Auto Scaling Group (ASG) in 2 Public Subnets
 
@@ -116,11 +208,23 @@ Create an Auto Scaling Group from the Launch Template across both public subnets
 
 #### Screenshot 15 — Auto Scaling Group showing desired, minimum, and maximum capacity and the selected subnet Availability Zones
 
+<<<<<<< HEAD
 ![alt text](<screenshots/Screenshot_15_assig_5_7.png>)
 
 #### Screenshot 16 — EC2 instances list showing two running instances in different Availability Zones
 
 ![alt text](<screenshots/Screenshot_16_assig_5_7.png>)
+=======
+Add your screenshot here.
+
+---
+
+#### Screenshot 16 — EC2 instances list showing two running instances in different Availability Zones
+
+Add your screenshot here.
+
+---
+>>>>>>> upstream/main
 
 # Task 7 — Configure App to Use RDS + Validate Read/Write
 
@@ -132,11 +236,23 @@ Confirm the application communicates with the RDS database through the ALB DNS n
 
 #### Screenshot 17 — Browser showing the application loaded through the ALB DNS name with the URL visible
 
+<<<<<<< HEAD
 ![alt text](<screenshots/Screenshot_17_assig_5_8.png>)
 
 #### Screenshot 18 — Proof of a database write through a UI message or database query output
 
 ![alt text](<screenshots/Screenshot_18_assig_5_8.png>)
+=======
+Add your screenshot here.
+
+---
+
+#### Screenshot 18 — Proof of a database write through a UI message or database query output
+
+Add your screenshot here.
+
+---
+>>>>>>> upstream/main
 
 # Task 8 — High Availability Tests (Must Do Both)
 
@@ -150,6 +266,7 @@ Test B: simulate an Availability Zone impact (stop, detach, or reduce desired ca
 
 #### Screenshot 19 — EC2 showing the terminated instance and the newly launched instance; timestamps are helpful
 
+<<<<<<< HEAD
 ![alt text](<screenshots/Screenshot_19_assig_5_9.png>)
 
 #### Screenshot 20 — Target group showing healthy targets after replacement
@@ -159,6 +276,23 @@ Test B: simulate an Availability Zone impact (stop, detach, or reduce desired ca
 #### Screenshot 21 — Evidence that an instance was removed, detached, placed in Standby, or stopped in one Availability Zone
 
 ![alt text](<screenshots/Screenshot_21_assig_5_9.png>)
+=======
+Add your screenshot here.
+
+---
+
+#### Screenshot 20 — Target group showing healthy targets after replacement
+
+Add your screenshot here.
+
+---
+
+#### Screenshot 21 — Evidence that an instance was removed, detached, placed in Standby, or stopped in one Availability Zone
+
+Add your screenshot here.
+
+---
+>>>>>>> upstream/main
 
 #### Screenshot 22 — Browser showing that the ALB DNS endpoint still works during the change
 
@@ -265,4 +399,8 @@ It helps learners build strong DevOps foundations with hands-on experience.
 
 ---
 
+<<<<<<< HEAD
 *This submission is part of DevOps Micro Internship (DMI) Cohort 3 — Agentic AI Track.*
+=======
+*This submission is part of DevOps Micro Internship (DMI) — Agentic AI Track.*
+>>>>>>> upstream/main

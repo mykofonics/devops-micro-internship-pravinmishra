@@ -32,7 +32,11 @@ Create and enter a dedicated directory for the readiness-probe lab.
 
 #### Screenshot 1 — Terminal showing that you are working inside `~/k8s-labs/health-probes-readiness`
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass5-screen1.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -58,19 +62,31 @@ Create a baseline NGINX Deployment with two replicas and no readiness probe.
 
 #### Screenshot 2 — Completed `00-nginx-deploy-baseline.yaml` manifest
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass5-screen2.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 3 — Output showing a successful rollout and two running NGINX Pods
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass5-screen3.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 4 — Relevant output from `kubectl describe deployment nginx-deployment`
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass5-screen4.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -100,19 +116,31 @@ Add an HTTP readiness probe so Kubernetes checks whether each NGINX container is
 
 #### Screenshot 5 — Completed `01-nginx-deploy-readiness.yaml` manifest showing the readiness probe
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass5-screen5.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 6 — Output of the successful rollout and ready Pods
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass5-screen6.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 7 — Pod description showing readiness conditions and readiness probe details
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass5-screen7.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -146,25 +174,41 @@ Intentionally fail the readiness probe, observe the NotReady behavior, and then 
 
 #### Screenshot 8 — `02-nginx-readiness-broken.yaml` showing `/does-not-exist`
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass5-screen8.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 9 — Output showing the rollout timeout or incomplete rollout
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass5-screen9.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 10 — Pod details showing `Ready: False` or readiness-probe failure events
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass5-screen10.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 11 — Output showing successful rollout and ready Pods after the fix
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass5-screen11.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -198,37 +242,61 @@ Observe how readiness prevents a bad new Pod from replacing healthy Pods during 
 
 #### Screenshot 12 — Successful update command and rollout status
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass5-screen12.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 13 — ReplicaSets and Pods after the successful rolling update
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass5-screen13.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 14 — Completed `04-readiness-broken-patch.yaml`
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass5-screen14.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 15 — Output showing the expected stalled rollout or timeout
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass5-screen15.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 16 — Deployment or Pod output showing the effect of the broken readiness probe
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass5-screen16.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 17 — Successful rollout status after restoring the fixed configuration
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass5-screen17.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 

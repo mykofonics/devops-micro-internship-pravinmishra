@@ -24,7 +24,11 @@ Create the assignment workspace, initialize a Git repository, prepare the requir
 
 #### Screenshot 1 — Terminal showing the `ansible-onboarding` path, `ls -la` output, and `git status` confirming the Git repository is on the `main` branch
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass1-screeen1.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -38,7 +42,11 @@ Create an isolated Python virtual environment and install Ansible and the requir
 
 #### Screenshot 2 — Terminal showing the active `(.venv)` environment, `which ansible`, `ansible --version`, `ansible-lint --version`, `yamllint --version`, and `pre-commit --version`
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass1-screeen2.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -52,13 +60,21 @@ Configure Visual Studio Code to use the project’s Python virtual environment a
 
 #### Screenshot 3 — VS Code Extensions panel showing the Ansible, YAML, and Python extensions installed
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass1-screeen3.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 4 — VS Code showing `.vscode/settings.json` and `.editorconfig` open side by side, with the required settings clearly visible
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass1-screeen4.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -72,13 +88,21 @@ Create a reusable `ansible.cfg` file containing the default settings that will b
 
 #### Screenshot 5 — `ansible.cfg` open in VS Code or another editor, showing the complete configuration
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass1-screeen5.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 6 — Terminal showing `ansible --version` with the `ansible.cfg` path and the output of `ansible-config dump --only-changed`
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass1-screeen6.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -92,7 +116,11 @@ Prepare SSH key authentication, load the key into the SSH agent, configure reusa
 
 #### Screenshot 7 — Terminal showing `ssh-add -l` with the ED25519 key loaded and the SSH configuration verification output
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass1-screeen7.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -106,7 +134,11 @@ Configure your Git identity and install pre-commit hooks that validate YAML and 
 
 #### Screenshot 8 — Terminal showing your Git full name, Git email, default branch, successful `pre-commit install` output, and `.git/hooks/pre-commit`
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass1-screeen8.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -120,13 +152,21 @@ Verify that Ansible, the linting tools, Git hooks, SSH agent, and Git ignore rul
 
 #### Screenshot 9 — Terminal showing `pre-commit run --all-files` completing successfully
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass1-screeen9.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 10 — Terminal showing `ansible --version` with the project configuration path and `ssh-add -l` with the ED25519 key loaded
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass1-screeen10.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -140,13 +180,21 @@ Document the completed Ansible workstation setup and create a reusable checklist
 
 #### Screenshot 11 — Terminal showing the final `ansible-onboarding` project structure
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass1-screeen11.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 12 — VS Code Markdown preview showing your full name, project summary, and part of the “New Machine? Do This” checklist
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass1-screeen12.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 

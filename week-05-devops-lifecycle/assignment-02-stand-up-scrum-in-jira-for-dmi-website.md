@@ -1,6 +1,10 @@
 # Assignment 2 — Stand Up Scrum in Jira for the DevOps Micro-Internship Website
 
+<<<<<<< HEAD
 Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
+=======
+Part of the DevOps Micro Internship (DMI) with Agentic AI
+>>>>>>> upstream/main
 
 ---
 
@@ -20,7 +24,13 @@ Create a private, team-managed Scrum Space named `DevOps Micro-Internship Websit
 
 #### Screenshot 1 — Space confirmation or Space sidebar showing the Space name and key
 
+<<<<<<< HEAD
 <img src="screenshots/scrum_space.png">
+=======
+Add your screenshot here.
+
+---
+>>>>>>> upstream/main
 
 # Task 2 — Create Your First Epic from the Backlog
 
@@ -32,8 +42,14 @@ Create the Epic `Polish DMI Website UI & Deploy` to group the website UI and dep
 
 #### Screenshot 2 — Backlog showing the Epic panel enabled and the Epic visible
 
+<<<<<<< HEAD
 <img src="screenshots/Epic_panel.png">
 
+=======
+Add your screenshot here.
+
+---
+>>>>>>> upstream/main
 
 # Task 3 — Seed the Product Backlog with Six Stories
 
@@ -45,6 +61,7 @@ Create all six required Stories (S1–S6) under the Epic, assign every Story to 
 
 #### Screenshot 3 — Backlog showing the Epic and all six Stories under it
 
+<<<<<<< HEAD
 <img src="screenshots/six-storyin_the_backlog.png">
 
 
@@ -53,6 +70,17 @@ Create all six required Stories (S1–S6) under the Epic, assign every Story to 
 <img src="screenshots/a_story_with details_1.png">
 
 <img src="screenshots/a_story_with details_2.png">
+=======
+Add your screenshot here.
+
+---
+
+#### Screenshot 4 — One opened Story showing its Story point estimate, acceptance criteria, and label
+
+Add your screenshot here.
+
+---
+>>>>>>> upstream/main
 
 # Task 4 — Add Sub-tasks to at Least Two Stories
 
@@ -64,11 +92,23 @@ Break down S2 (Primary button color refresh) and S4 (Footer with version and dat
 
 #### Screenshot 5 — S2 showing all four Sub-tasks
 
+<<<<<<< HEAD
 <img src="screenshots/subtask_2.png">
 
 #### Screenshot 6 — S4 showing all four Sub-tasks
 
 <img src="screenshots/subtask_4.png">
+=======
+Add your screenshot here.
+
+---
+
+#### Screenshot 6 — S4 showing all four Sub-tasks
+
+Add your screenshot here.
+
+---
+>>>>>>> upstream/main
 
 # Task 5 — Tag Stories by Workstream
 
@@ -80,7 +120,13 @@ Apply the `frontend` label to S1, S2, S3, S5, and S6, and the `devops` label to 
 
 #### Screenshot 7 — Backlog or Story details showing labels applied to at least two visible Stories
 
+<<<<<<< HEAD
 <img src="screenshots/Label_show.png">
+=======
+Add your screenshot here.
+
+---
+>>>>>>> upstream/main
 
 # Task 6 — Create and Start Sprint 1
 
@@ -92,11 +138,24 @@ Create a one-week Sprint, move two or three Stories into it (approximately 3–5
 
 #### Screenshot 8 — Sprint 1 before starting, showing the selected Stories and Story Points
 
+<<<<<<< HEAD
 <img src="screenshots/Label_show.png">
 
 #### Screenshot 9 — Active Sprint board showing the started Sprint and Sprint Goal
 
 <img src="screenshots/Screenshot_9_assig_2_6.png">
+=======
+Add your screenshot here.
+
+---
+
+#### Screenshot 9 — Active Sprint board showing the started Sprint and Sprint Goal
+
+Add your screenshot here.
+
+---
+
+>>>>>>> upstream/main
 # Task 7 — Filter Stories, Sub-tasks, and Status
 
 ## Goal
@@ -107,11 +166,23 @@ Filter Jira work by the `frontend` and `devops` labels and review Stories with S
 
 #### Screenshot 10 — Filter for label = frontend showing the filtered results
 
+<<<<<<< HEAD
 <img src="screenshots/Screenshot_10_assig_2_7.png">
 
 #### Screenshot 11 — Filter for label = devops showing the filtered results
 
 <img src="screenshots/Screenshot_11_assig_2_7.png">
+=======
+Add your screenshot here.
+
+---
+
+#### Screenshot 11 — Filter for label = devops showing the filtered results
+
+Add your screenshot here.
+
+---
+>>>>>>> upstream/main
 
 # Task 8 — Open the Burndown Report
 
@@ -123,5 +194,72 @@ Locate the Burndown Chart for Sprint 1 so it is ready for later progress trackin
 
 #### Screenshot 12 — Burndown Chart page opened for Sprint 1
 
+<<<<<<< HEAD
 <img src="screenshots/Screenshot_12_assig_2_8.png">
 
+=======
+Add your screenshot here.
+
+---
+
+# LinkedIn Post (Required)
+
+## Evidence
+
+#### LinkedIn Post URL
+
+Paste your LinkedIn post URL here:
+
+Add your URL here...
+
+#### Screenshot 13 — LinkedIn Post Showing Your Scrum Project Setup and DMI Leaderboard Progress Link
+
+Add your screenshot here.
+
+---
+
+# Submission Instructions
+
+- Add all 13 required screenshots in the specified order
+- Full name must be visible in required screenshots
+- Do not expose passwords, verification codes, private email content, account recovery details, or other sensitive information
+---
+
+# Completion Checklist
+
+- [ ] Task 1: Private team-managed Scrum Space created with your name (Screenshot 1)
+- [ ] Task 2: Epic "Polish DMI Website UI & Deploy" created (Screenshot 2)
+- [ ] Task 3: All six Stories connected to the Epic, assigned to you, with descriptions/acceptance criteria/points/labels (Screenshots 3 & 4)
+- [ ] Task 4: Four Sub-tasks created under both S2 and S4 (Screenshots 5 & 6)
+- [ ] Task 5: Frontend and devops labels applied to all Stories (Screenshot 7)
+- [ ] Task 6: One-week Sprint 1 started with the required Sprint Goal (Screenshots 8 & 9)
+- [ ] Task 7: Frontend and devops filters demonstrated (Screenshots 10 & 11)
+- [ ] Task 8: Burndown Chart opened for Sprint 1 (Screenshot 12)
+- [ ] LinkedIn post published
+- [ ] Full Name visible in required screenshots
+- [ ] No sensitive data exposed
+
+---
+
+## 📌 About DMI & CloudAdvisory
+
+DevOps Micro Internship (DMI) is a project-based DevOps program run by Pravin Mishra (The CloudAdvisory) focused on real-world execution, systems thinking, and career readiness.
+
+It helps learners build strong DevOps foundations with hands-on experience.
+
+---
+
+## 📌 Resources
+
+- 🌐 DMI Official Website: https://dmi.pravinmishra.com?utm_source=github&utm_medium=readme  
+- 🎓 University: https://university.pravinmishra.com?utm_source=github&utm_medium=readme  
+- 💬 Discord Community: https://discord.pravinmishra.com?utm_source=github&utm_medium=readme  
+- 📝 Blog: https://dmi.pravinmishra.com/blog?utm_source=github&utm_medium=readme  
+- ▶️ YouTube Playlist: https://www.youtube.com/playlist?list=PLFeSNDtI4Cho  
+- 🔗 Pravin Mishra (LinkedIn): https://www.linkedin.com/in/pravin-mishra-aws-trainer/  
+- 🏢 CloudAdvisory (LinkedIn): https://www.linkedin.com/company/thecloudadvisory/
+
+---
+
+*This submission is part of DevOps Micro Internship (DMI) — Agentic AI Track.*
+>>>>>>> upstream/main

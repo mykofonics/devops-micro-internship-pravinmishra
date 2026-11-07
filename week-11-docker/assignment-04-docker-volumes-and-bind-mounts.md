@@ -26,7 +26,11 @@ Add a screenshot of the terminal showing successful completion of:
 docker pull nginx:alpine
 ```
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass4-screen1.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -38,7 +42,11 @@ Add a screenshot of the terminal showing the created host directory:
 $HOME/nginx-logs
 ```
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass4-screen2.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -56,7 +64,11 @@ The output must show the `myweb` container with:
 0.0.0.0:80->80/tcp
 ```
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass4-screen3.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -70,7 +82,11 @@ http://<YOUR-VM-PUBLIC-IP>
 
 Ensure that the VM public IP is visible in the address bar. Add your full name as a clear caption directly below the screenshot.
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass4-screen4.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -84,7 +100,11 @@ $HOME/nginx-logs
 
 The output must show `access.log`, `error.log`, and an access-log entry created when you opened the Nginx page.
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass4-screen5.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -97,7 +117,11 @@ docker stop myweb
 docker rm myweb
 ```
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass4-screen6.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -111,7 +135,11 @@ $HOME/nginx-logs
 
 The access log must retain its content after the container has been removed.
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass4-screen7.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -127,7 +155,11 @@ Deploy backend and frontend containers that share data through a named Docker Vo
 
 Add a screenshot of the terminal showing the `two-tier-app` project structure, including separate `backend` and `frontend` directories with a `Dockerfile` and `index.js` file in each.
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass4-screen8.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -139,7 +171,11 @@ Add a screenshot of the terminal showing `mynetwork` in:
 docker network ls
 ```
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass4-screen9.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -151,7 +187,11 @@ Add a screenshot of the terminal showing `shared-data` in:
 docker volume ls
 ```
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass4-screen10.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -159,7 +199,11 @@ docker volume ls
 
 Add a screenshot of the terminal showing the completed backend `Dockerfile`.
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass4-screen11.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -167,7 +211,11 @@ Add a screenshot of the terminal showing the completed backend `Dockerfile`.
 
 Add a screenshot of the terminal showing successful completion of the `backend-app:latest` image build.
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass4-screen12.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -181,7 +229,11 @@ docker ps
 
 The output must show the running `backend` container.
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass4-screen13.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -189,7 +241,11 @@ The output must show the running `backend` container.
 
 Add a screenshot of the terminal showing the completed frontend `Dockerfile`.
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass4-screen14.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -197,7 +253,11 @@ Add a screenshot of the terminal showing the completed frontend `Dockerfile`.
 
 Add a screenshot of the terminal showing successful completion of the `frontend-app:latest` image build.
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass4-screen15.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -215,7 +275,11 @@ The output must show both `backend` and `frontend` containers running. Only `fro
 0.0.0.0:80->80/tcp
 ```
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass4-screen16.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -229,7 +293,11 @@ The output must include:
 Data written: Hello from Backend!
 ```
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass4-screen17.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -243,7 +311,11 @@ Hello from Backend!
 
 Add your full name as a clear caption directly below the screenshot.
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass4-screen18.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -257,7 +329,11 @@ Test Data 1
 
 Add your full name as a clear caption directly below the screenshot.
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass4-screen19.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -271,7 +347,11 @@ Test Data 2 - New Update
 
 Add your full name as a clear caption directly below the screenshot.
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass4-screen20.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -279,7 +359,11 @@ Add your full name as a clear caption directly below the screenshot.
 
 Add a screenshot of the terminal showing the `frontend` and `backend` containers removed and recreated using the same `shared-data` Docker Volume.
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass4-screen21.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -295,7 +379,11 @@ This proves that the `shared-data` Docker Volume outlived both application conta
 
 Add your full name as a clear caption directly below the screenshot.
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass4-screen22.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -310,6 +398,7 @@ Write a short explanation covering:
 
 Write your explanation here.
 
+<<<<<<< HEAD
 Here’s a simplified, more natural version:
 
 1. Difference Between Bind Mounts and Docker Volumes  
@@ -324,11 +413,17 @@ The backend and frontend containers shared a named Docker Volume called `shared-
 4. Why Docker Volumes Are Commonly Used for Application Data  
 Docker Volumes give reliable persistent storage for application data, databases, logs, and shared files. They make data management simpler, allow containers to be replaced or recreated easily, and help prevent data loss when containers are removed.
 
+=======
+>>>>>>> upstream/main
 ---
 
 # Public Application URL
 
+<<<<<<< HEAD
 **Application URL:** `http://18.188.255.176`
+=======
+**Application URL:** `Add your VM public IP URL here`
+>>>>>>> upstream/main
 
 ---
 

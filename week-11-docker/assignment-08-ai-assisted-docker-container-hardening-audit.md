@@ -32,7 +32,12 @@ Add a terminal screenshot showing your full name and both supplied files:
 docker-audit.sh
 SKILL.md
 ```
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass8-screen1.png)
+=======
+
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -48,7 +53,11 @@ Add the supplied `docker-audit` skill to Claude Code and confirm that it is avai
 
 Add a screenshot of Claude Code showing `docker-audit` in the available skill list.
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass8-screen2.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -69,7 +78,11 @@ Add a terminal screenshot showing:
 - Your full name
 - The usage message displayed when the script runs without a container name
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass8-screen3.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -89,7 +102,11 @@ Add a terminal screenshot showing:
 - `docker ps`
 - The audit command using the selected target container name
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass8-screen4.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -97,7 +114,11 @@ Add a terminal screenshot showing:
 
 Add a terminal screenshot showing the initial Docker audit results.
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass8-screen5.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -118,7 +139,11 @@ Add a Claude Code screenshot showing:
 - Recommended manual fix
 - Verification method
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass8-screen6.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -134,7 +159,11 @@ Manually fix one WARN or FAIL finding from the initial audit.
 
 Add a screenshot of the updated Dockerfile or `docker-compose.yml` showing the selected hardening fix.
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass8-screen7.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -142,7 +171,11 @@ Add a screenshot of the updated Dockerfile or `docker-compose.yml` showing the s
 
 Add a terminal screenshot showing your full name and the rebuilt or recreated service/container running successfully.
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass8-screen8.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -162,7 +195,11 @@ Add a terminal screenshot showing:
 - The updated running container
 - The final audit report
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass8-screen9.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -177,6 +214,7 @@ Write a short comparison covering:
 
 Write your comparison here.
 
+<<<<<<< HEAD
 1. Initial Audit Finding
 
 The initial Docker security audit identified that the application container was running with root privileges. Running containers as root can increase security risks because a compromised application may gain unnecessary administrative privileges within the container.
@@ -192,6 +230,9 @@ After rebuilding and restarting the container, I reran the Docker security audit
 4. Security Benefit
 
 Running the application as a non-root user follows the principle of least privilege. It reduces the potential impact of application compromise by preventing the application process from unnecessarily having root-level privileges within the container.
+=======
+---
+>>>>>>> upstream/main
 
 # LinkedIn Requirement
 

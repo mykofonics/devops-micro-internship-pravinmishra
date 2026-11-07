@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Assignment 2 — Deploy a React App on Ubuntu VM Using Nginx
 
 Task 1 — Setup Environment (Node.js & npm)
@@ -51,6 +52,54 @@ Screenshot 10 — Browser showing the deployed React app at http://<public-ip> w
 
 <<<<<<< HEAD
 =======
+=======
+# Assignment 2 — Deploy a React App on Ubuntu VM Using Nginx
+
+Part of the DevOps Micro Internship (DMI) with Agentic AI
+
+---
+
+## Purpose
+
+In this assignment, you will deploy a React application on an Ubuntu EC2 instance and serve it using Nginx. You will provision a Linux server, install the required tools, personalize the application with your details, and verify that it is publicly accessible via a browser.
+
+---
+
+# Task 1 — Setup Environment (Node.js & npm)
+
+## Goal
+
+Install Node.js and npm on the Ubuntu VM and verify the installation.
+
+### Evidence
+
+#### Screenshot 1 — Output of `node -v && npm -v` showing installed versions
+
+Add your screenshot here.
+
+---
+
+# Task 2 — Setup Environment (Nginx)
+
+## Goal
+
+Install Nginx, start the service, and confirm it is running.
+
+### Evidence
+
+#### Screenshot 2 — Output of `systemctl status nginx --no-pager` showing Active (running)
+
+Add your screenshot here.
+
+---
+
+# Task 3 — Clone React Application
+
+## Goal
+
+Clone the project repository and verify the project files are present.
+
+>>>>>>> upstream/main
 ### Evidence
 
 #### Screenshot 3 — Output of `ls` inside the `my-react-app` directory showing project files
@@ -203,5 +252,9 @@ It helps learners build strong DevOps foundations with hands-on experience.
 
 ---
 
+<<<<<<< HEAD
 *This submission is part of DevOps Micro Internship (DMI) Cohort 3 — Agentic AI Track.*
+>>>>>>> upstream/main
+=======
+*This submission is part of DevOps Micro Internship (DMI) — Agentic AI Track.*
 >>>>>>> upstream/main

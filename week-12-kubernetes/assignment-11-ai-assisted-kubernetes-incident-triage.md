@@ -14,9 +14,15 @@ Configure a read-only Bash triage script for your Book Review App, connect it to
 
 ## Submission Details
 
+<<<<<<< HEAD
 **Full Name:** Michael Oyeku
 
 **Kubernetes Platform:** Amazon EKS
+=======
+**Full Name:** Add your full name here.
+
+**Kubernetes Platform:** Add your platform here.
+>>>>>>> upstream/main
 
 **Selected Workload:** Add the Deployment name here.
 
@@ -42,13 +48,21 @@ Identify the actual application configuration and prove that the selected worklo
 
 #### Screenshot 1 — Healthy Pods and ready Service backends
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass11-screen1.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 2 — Workspace directory structure
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass11-screen2.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ### Notes
 
@@ -76,7 +90,11 @@ Define the project configuration, incident workflow, and safety boundary for Cla
 
 #### Screenshot 3 — CLAUDE.md showing application configuration, workflow, safety rules, and output rules
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass11-screen3.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ### Notes
 
@@ -104,7 +122,11 @@ Ask Claude Code to explain the five health checks before running the supplied sc
 
 #### Screenshot 4 — Claude Code showing the five-check read-only plan
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass11-screen4.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ### Notes
 
@@ -132,25 +154,41 @@ Configure the supplied triage script for the selected workload and validate its 
 
 #### Screenshot 5 — Script configuration variables and checks array
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass11-screen5.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 6 — Functions for status, readiness, restarts, events, and Service backends
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass11-screen6.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 7 — Preflight, summary, and exit-code logic
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass11-screen7.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 8 — Successful syntax validation and executable permission
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass11-screen8.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ### Notes
 
@@ -182,13 +220,21 @@ Run the script on the healthy application and confirm that it contains no failed
 
 #### Screenshot 9 — Baseline report showing your full name and all checks
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass11-screen9.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 10 — Captured exit code and final summary
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass11-screen10.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ### Notes
 
@@ -216,13 +262,21 @@ Connect the Bash script to a manually invoked Claude Code evidence-analysis work
 
 #### Screenshot 11 — SKILL.md showing frontmatter and safety rules
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass11-screen11.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 12 — Baseline `/k8s-triage` analysis
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass11-screen12.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ### Notes
 
@@ -250,19 +304,31 @@ Create one controlled failure, save its evidence, and let Claude analyze it with
 
 #### Screenshot 13 — Failed or unready Pod evidence and current Service backends
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass11-screen13.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 14 — Failed `/k8s-triage` analysis with evidence and a suggested manual recovery command
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass11-screen14.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 15 — Saved `incident-failure-report.txt`
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass11-screen15.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ### Notes
 
@@ -294,25 +360,41 @@ Restore the healthy configuration yourself and verify recovery using a second tr
 
 #### Screenshot 16 — Recovered Pods and ready Service backends
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass11-screen16.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 17 — Recovered `/k8s-triage` analysis
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass11-screen17.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 18 — Reports directory showing failure and recovery reports
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass11-screen18.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 19 — `incident-summary.md` with all required sections
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass11-screen19.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ### Notes
 

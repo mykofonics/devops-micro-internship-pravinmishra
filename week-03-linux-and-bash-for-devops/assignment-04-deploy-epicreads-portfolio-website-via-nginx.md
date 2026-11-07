@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Assignment 4 — Deploy EpicReads Portfolio Website via Nginx
 
 Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
@@ -65,6 +66,81 @@ https://www.linkedin.com/posts/oyeku-michael-2215a920_dmibypravinmishra-devops-a
 
 
 Screenshot — Published LinkedIn post showing the live website with your Full Name in the footer
+=======
+# Assignment 4 — Deploy EpicReads Portfolio Website via Nginx
+
+Part of the DevOps Micro Internship (DMI) with Agentic AI
+
+---
+
+## Purpose
+
+In this assignment, you will deploy a static portfolio website on an Ubuntu VM using Nginx. You will download the website template, add your ownership proof in the footer, deploy the files to the Nginx web root, and verify the website is publicly accessible via a browser.
+
+---
+
+# Task 0 — Pre-flight Check
+
+## Goal
+
+Verify the Ubuntu VM and Nginx are ready for deployment.
+
+### Evidence
+
+#### Screenshot 0 — Output of `sudo systemctl status nginx --no-pager` showing Active (running)
+
+Add your screenshot here.
+
+---
+
+# Task 1 — Get the Website Source Code
+
+## Goal
+
+Download and extract the portfolio website template.
+
+### Evidence
+
+#### Screenshot 1 — Output of `ls -la` showing the extracted project folder
+
+Add your screenshot here.
+
+---
+
+# Task 2 — Add Ownership Proof (Anti-Copy Change)
+
+## Goal
+
+Update the website footer with your deployment details.
+
+### Evidence
+
+#### Screenshot 2 — Nano editor open with the updated footer showing your Full Name, Group, Week, and Date
+
+Add your screenshot here.
+
+---
+
+# Task 3 — Deploy Website via Nginx
+
+## Goal
+
+Deploy the portfolio website to the Nginx web root.
+
+### Evidence
+
+#### Screenshot 3 — Output of `sudo nginx -t` showing configuration test successful
+
+Add your screenshot here.
+
+---
+
+#### Screenshot 4 — Output of `ls /var/www/html` showing deployed website files
+
+Add your screenshot here.
+
+---
+>>>>>>> upstream/main
 
 # Task 4 — Verify Website is Live
 
@@ -170,4 +246,8 @@ It helps learners build strong DevOps foundations with hands-on experience.
 
 ---
 
+<<<<<<< HEAD
 *This submission is part of DevOps Micro Internship (DMI) Cohort 3 — Agentic AI Track.*
+=======
+*This submission is part of DevOps Micro Internship (DMI) — Agentic AI Track.*
+>>>>>>> upstream/main

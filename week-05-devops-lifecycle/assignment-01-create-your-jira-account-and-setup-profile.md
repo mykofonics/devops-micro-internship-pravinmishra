@@ -1,6 +1,10 @@
 # Assignment 1 — Create Your Jira Account & Setup Profile
 
+<<<<<<< HEAD
 Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
+=======
+Part of the DevOps Micro Internship (DMI) with Agentic AI
+>>>>>>> upstream/main
 
 ---
 
@@ -20,8 +24,14 @@ Create or access your Jira Cloud account and reach the Jira Software workspace s
 
 #### Screenshot 1 — Jira welcome page, dashboard, or main workspace after successful login, with your name or avatar visible
 
+<<<<<<< HEAD
 
 <img src="screenshots/Jira_dashboard.png">
+=======
+Add your screenshot here.
+
+---
+>>>>>>> upstream/main
 
 # Task 2 — Verify Your Atlassian Account
 
@@ -33,9 +43,15 @@ Confirm your email address if Atlassian requests verification.
 
 #### Screenshot 2 (if applicable) — Confirmation screen after email verification, or the inbox showing the Atlassian verification email subject
 
+<<<<<<< HEAD
   <img src="screenshots/jira_mail_verification.png">
 
 ## I have registered for this account before. The confiremation page is not available for the screenshot capture.
+=======
+Add your screenshot here.
+
+---
+>>>>>>> upstream/main
 
 ### Notes
 
@@ -57,9 +73,15 @@ Update your Jira profile with your full name, a job title or role (e.g. "Aspirin
 
 #### Screenshot 3 — Updated profile page showing your full name, role/title, and bio
 
+<<<<<<< HEAD
 <img src="screenshots/updated_profile_page.png">
 
 
+=======
+Add your screenshot here.
+
+---
+>>>>>>> upstream/main
 
 # Task 4 — Explore the Jira Dashboard and Projects
 
@@ -71,9 +93,80 @@ Locate the project list and open a project's Board or Backlog, and view Project 
 
 #### Screenshot 4 — "View all projects" page showing at least one project
 
+<<<<<<< HEAD
 <img src="screenshots/view-all proj.png">
 
 #### Screenshot 5 — Opened project showing either the Board or Backlog screen
 
 <img src="screenshots/Backlog_screen.png">
 
+=======
+Add your screenshot here.
+
+---
+
+#### Screenshot 5 — Opened project showing either the Board or Backlog screen
+
+Add your screenshot here.
+
+---
+
+# Task 5 — Share Your Jira Setup Progress on WhatsApp Status
+
+## Goal
+
+Share your Jira setup progress on WhatsApp Status, including your generated DMI leaderboard progress link.
+
+### Evidence
+
+#### Screenshot 6 — Published WhatsApp Status showing your Jira setup message and generated DMI leaderboard progress link
+
+Add your screenshot here.
+
+---
+
+# Submission Instructions
+
+- Add all five required screenshots, unless separate email verification was not required
+- If Screenshot 2 is not applicable, include the Google sign-in note instead
+- Your full name or profile avatar must be visible where specifically required
+- Do not expose passwords, verification codes, private email content, account recovery information, or other sensitive information
+- You may hide or blur your email address if it appears in a screenshot
+
+---
+
+# Completion Checklist
+
+- [ ] Task 1: Jira Software Cloud account created or existing account accessed (Screenshot 1)
+- [ ] Task 2: Email verification completed, or a Google sign-in note included (Screenshot 2 or Notes)
+- [ ] Task 3: Professional profile updated with full name, role/title, and bio (Screenshot 3)
+- [ ] Task 4: Projects page, Board or Backlog, and Project settings explored without making changes (Screenshots 4 & 5)
+- [ ] Task 5: WhatsApp Status shared with the Jira setup message and generated DMI leaderboard progress link (Screenshot 6)
+- [ ] No Jira issues created
+- [ ] Full Name visible in required screenshots
+- [ ] No sensitive data exposed
+
+---
+
+## 📌 About DMI & CloudAdvisory
+
+DevOps Micro Internship (DMI) is a project-based DevOps program run by Pravin Mishra (The CloudAdvisory) focused on real-world execution, systems thinking, and career readiness.
+
+It helps learners build strong DevOps foundations with hands-on experience.
+
+---
+
+## 📌 Resources
+
+- 🌐 DMI Official Website: https://dmi.pravinmishra.com?utm_source=github&utm_medium=readme  
+- 🎓 University: https://university.pravinmishra.com?utm_source=github&utm_medium=readme  
+- 💬 Discord Community: https://discord.pravinmishra.com?utm_source=github&utm_medium=readme  
+- 📝 Blog: https://dmi.pravinmishra.com/blog?utm_source=github&utm_medium=readme  
+- ▶️ YouTube Playlist: https://www.youtube.com/playlist?list=PLFeSNDtI4Cho  
+- 🔗 Pravin Mishra (LinkedIn): https://www.linkedin.com/in/pravin-mishra-aws-trainer/  
+- 🏢 CloudAdvisory (LinkedIn): https://www.linkedin.com/company/thecloudadvisory/
+
+---
+
+*This submission is part of DevOps Micro Internship (DMI) — Agentic AI Track.*
+>>>>>>> upstream/main

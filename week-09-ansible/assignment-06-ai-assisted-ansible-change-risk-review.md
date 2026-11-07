@@ -22,19 +22,31 @@ Confirm that your previous EpicBook Ansible project is working before creating t
 
 #### Screenshot 1 — Output of `ansible web -i inventory.ini -m ping`
 
+<<<<<<< HEAD
 ![screeenshot](./screenshots/ass6-screen1.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 2 — Output of `ansible-playbook -i inventory.ini site.yml --syntax-check`
 
+<<<<<<< HEAD
 ![screeenshot](./screenshots/ass6-screen2.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 3 — Output of `pwd` and `find . -maxdepth 4 -type d | sort`
 
+<<<<<<< HEAD
 ![screeenshot](./screenshots/ass6-screen3.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -64,7 +76,11 @@ Create a `CLAUDE.md` file that tells Claude Code how this project must behave.
 
 #### Screenshot 4 — `CLAUDE.md` open in VS Code or terminal showing the safety rules
 
+<<<<<<< HEAD
 ![screeenshot](./screenshots/ass6-screen4.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -100,7 +116,11 @@ Use Claude Code to produce a read-only plan before writing the Bash script.
 
 #### Screenshot 5 — Claude Code showing the four-category risk-classification plan
 
+<<<<<<< HEAD
 ![screeenshot](./screenshots/ass6-screen5.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -136,25 +156,41 @@ Create a Bash script that runs an Ansible dry run and classifies risky changes.
 
 #### Screenshot 6 — Top section of `ansible-check-review.sh` showing `full_name`, `playbook_path`, `inventory_path`, and the `checks` array
 
+<<<<<<< HEAD
 ![screeenshot](./screenshots/ass6-screen6.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 7 — Middle section showing `extract_changed_tasks` and `check_tasks_matching_pattern`
 
+<<<<<<< HEAD
 ![screeenshot](./screenshots/ass6-screen7.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 8 — Bottom section showing the loop, summary, and exit behavior
 
+<<<<<<< HEAD
 ![screeenshot](./screenshots/ass6-screen8.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 9 — Output of `bash -n ansible-check-review.sh` and `ls -l ansible-check-review.sh`
 
+<<<<<<< HEAD
 ![screeenshot](./screenshots/ass6-screen9.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -196,13 +232,21 @@ Run the script against your current EpicBook playbook and confirm the baseline r
 
 #### Screenshot 10 — Output of `./ansible-check-review.sh`
 
+<<<<<<< HEAD
 ![screeenshot](./screenshots/ass6-screen10.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 11 — Output of `echo "Captured Exit Code: $script_exit_code"` and `cat reports/ansible-risk-report.txt`
 
+<<<<<<< HEAD
 ![screeenshot](./screenshots/ass6-screen11.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -244,13 +288,21 @@ Turn the Bash script into a reusable Claude Code skill called `/ansible-risk-rev
 
 #### Screenshot 12 — `SKILL.md` showing the frontmatter, allowed tools, and safety rules
 
+<<<<<<< HEAD
 ![screeenshot](./screenshots/ass6-screen12.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 13 — Claude Code output after running `/ansible-risk-review`
 
+<<<<<<< HEAD
 ![screeenshot](./screenshots/ass6-screen13.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -298,25 +350,41 @@ Add a small controlled risky change in your lab playbook and confirm the script 
 
 #### Screenshot 14 — The added risky task inside the role file
 
+<<<<<<< HEAD
 ![screeenshot](./screenshots/ass6-screen14.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 15 — Output of `./ansible-check-review.sh`
 
+<<<<<<< HEAD
 ![screeenshot](./screenshots/ass6-screen15.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 16 — Claude Code `/ansible-risk-review` output showing the risky finding
 
+<<<<<<< HEAD
 ![screeenshot](./screenshots/ass6-screen16.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 17 — Output of `cat reports/risky-change-report.txt`
 
+<<<<<<< HEAD
 ![screeenshot](./screenshots/ass6-screen17.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -364,31 +432,51 @@ Review the risky-change report, apply the playbook manually as the human operato
 
 #### Screenshot 18 — Output of the real playbook run showing the final recap with `failed=0`
 
+<<<<<<< HEAD
 ![screeenshot](./screenshots/ass6-screen18.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 19 — Output of `ansible web -i inventory.ini -m ping`
 
+<<<<<<< HEAD
 ![screeenshot](./screenshots/ass6-screen19.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 20 — Second `/ansible-risk-review` output after applying the change
 
+<<<<<<< HEAD
 ![screeenshot](./screenshots/ass6-screen20.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 21 — Output of `ls -lah reports`
 
+<<<<<<< HEAD
 ![screeenshot](./screenshots/ass6-screen21.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 22 — `change-summary.md` showing all required sections and your Full Name
 
+<<<<<<< HEAD
 ![screeenshot](./screenshots/ass6-screen22.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 

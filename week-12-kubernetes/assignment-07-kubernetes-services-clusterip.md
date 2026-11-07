@@ -30,7 +30,11 @@ Create and enter a dedicated directory for the ClusterIP Service lab.
 
 #### Screenshot 1 — Terminal showing that you are working inside `~/k8s-labs/services/clusterip`
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass7-screen1.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -56,13 +60,21 @@ Create an NGINX Deployment with labels, readiness probes, and liveness probes th
 
 #### Screenshot 2 — Completed `00-nginx-deploy.yaml` manifest
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass7-screen2.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 3 — Output showing successful rollout and two ready NGINX Pods
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass7-screen3.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -92,13 +104,21 @@ Create a stable internal Service that routes traffic to the NGINX Pods.
 
 #### Screenshot 4 — Completed `01-nginx-svc-clusterip.yaml` manifest
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass7-screen4.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 5 — Output showing the ClusterIP Service, endpoints, or EndpointSlices
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass7-screen5.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -132,19 +152,31 @@ Create a client Pod and access the NGINX Service using DNS and its ClusterIP.
 
 #### Screenshot 6 — Output showing the `tester` Pod running
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass7-screen6.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 7 — Successful Service request using DNS name and ClusterIP
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass7-screen7.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 8 — Successful DNS lookup for the Service
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass7-screen8.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -174,25 +206,41 @@ Break the Service selector, observe that usable endpoints disappear, and then re
 
 #### Screenshot 9 — `02-nginx-svc-selector-broken.yaml` showing the incorrect selector
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass7-screen9.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 10 — Empty endpoints or EndpointSlice output after applying the broken selector
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass7-screen10.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 11 — Failed request output from the `tester` Pod
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass7-screen11.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 12 — Restored endpoints and successful Service request
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass7-screen12.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -222,31 +270,51 @@ Observe how a new Pod that fails readiness is excluded from ready Service backen
 
 #### Screenshot 13 — Output showing the Deployment scaled to one ready Pod
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass7-screen13.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 14 — Completed `03-readiness-broken.yaml` patch file
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass7-screen14.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 15 — Output showing the expected incomplete rollout or NotReady Pod
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass7-screen15.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 16 — EndpointSlice output showing the healthy Pod with `ready: true` and the new NotReady Pod with `ready: false`
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass7-screen16.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 17 — Service EndpointSlice output showing ready backends after restoring the Deployment
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass7-screen17.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 

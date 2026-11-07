@@ -1,6 +1,10 @@
 # Assignment 1 — Your First Agentic Session
 
+<<<<<<< HEAD
 Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
+=======
+Part of the DevOps Micro Internship (DMI) with Agentic AI
+>>>>>>> upstream/main
 
 ---
 
@@ -20,13 +24,21 @@ Install the Claude Code CLI globally and authenticate it using your Anthropic ac
 
 #### Screenshot 1 — Terminal showing `claude --version` with the version number visible
 
+<<<<<<< HEAD
 <img src="screenshots\Screenshot_A_1.png" alt="Terminal showing `claude --version` with the version number visible">
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 2 — Claude Code authenticated and showing the terminal prompt (your name visible)
 
+<<<<<<< HEAD
 <img src="screenshots\Screenshot_A_2.png" alt="">
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -40,7 +52,12 @@ Fork the provided GitHub repository, clone it to your local machine, and open it
 
 #### Screenshot 3 — VS Code with the project open, file tree visible showing `index.html`, `style.css`, `images/`
 
+<<<<<<< HEAD
 <img src="screenshots\Screenshot_A_3.png" alt="">
+=======
+Add your screenshot here.
+
+>>>>>>> upstream/main
 ---
 
 # Task 3 — Observe the Agentic Loop
@@ -53,14 +70,41 @@ Interact with Claude Code and observe how it performs the Agentic Loop (Gather �
 
 #### Screenshot 4 — Claude's response to the first question, showing it read the files (tool calls visible)
 
+<<<<<<< HEAD
 <img src="screenshots\Screenshot_A_4.png" alt="">
+=======
+Add your screenshot here.
+
+>>>>>>> upstream/main
 ---
 
 #### Screenshot 5 — Claude's response to the second question, showing it ran a command and reported the line count
 
+<<<<<<< HEAD
 <img src="screenshots\Screenshot_A_5.png" alt="">
 ---
 
+=======
+Add your screenshot here.
+
+---
+
+# Task 4 — Share Your First Agentic AI Achievement
+
+## Goal
+
+Share your completed Agentic AI session and DMI Leaderboard progress on LinkedIn.
+
+### Evidence
+
+#### Screenshot 6 — Published LinkedIn post showing the caption and shared DMI Leaderboard progress
+
+Add your screenshot here.
+
+---
+
+
+>>>>>>> upstream/main
 # Submission Instructions
 
 - Add all required screenshots in your GitHub repository submission
@@ -73,8 +117,14 @@ Interact with Claude Code and observe how it performs the Agentic Loop (Gather �
 ## GitHub Repository URL
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 https://github.com/mykofonics/Ultimate-Agentic-DevOps-with-Claude-Code
 `__________________________`
+=======
+Paste your forked repository URL here:
+
+`Add your URL here`
+>>>>>>> upstream/main
 =======
 Paste your forked repository URL here:
 
@@ -114,4 +164,8 @@ It helps learners build strong DevOps foundations with hands-on experience.
 
 ---
 
+<<<<<<< HEAD
 *This submission is part of DevOps Micro Internship (DMI) Cohort 3 — Agentic AI Track.*
+=======
+*This submission is part of DevOps Micro Internship (DMI) — Agentic AI Track.*
+>>>>>>> upstream/main

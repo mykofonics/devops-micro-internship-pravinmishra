@@ -34,7 +34,11 @@ Create and enter a dedicated directory for the auto-scaling lab.
 
 #### Screenshot 1 — Terminal showing that you are working inside `~/k8s-labs/autoscaling`
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass4-screen1.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -62,25 +66,41 @@ Create a Deployment with two replicas, delete one Pod, and observe Kubernetes cr
 
 #### Screenshot 2 — Completed `autohealing-deployment.yaml` manifest
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass4-screen2.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 3 — Output of `kubectl get pods` showing two running Pods before deletion
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass4-screen3.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 4 — Output of the `kubectl delete pod` command
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass4-screen4.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 5 — Output of `kubectl get pods` showing the replacement Pod and two running Pods
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass4-screen5.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -114,13 +134,21 @@ Create a Deployment with CPU resource requests and limits so that HPA can calcul
 
 #### Screenshot 6 — Completed `hpa-deployment.yaml` manifest showing CPU requests and limits
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass4-screen6.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 7 — Output showing `nginx-deployment` and its running Pods
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass4-screen7.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -154,7 +182,11 @@ Ensure the cluster can collect resource metrics for the HPA.
 
 #### Screenshot 8 — Output showing Metrics Server running, or `kubectl top pods` displaying Pod metrics
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass4-screen8.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -188,13 +220,21 @@ Create an HPA that keeps at least two Pods running and can scale up to five Pods
 
 #### Screenshot 9 — The imperative command output OR completed `hpa-nginx.yaml` manifest
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass4-screen9.png).
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 10 — Output of `kubectl get hpa` and the relevant `kubectl describe hpa` command
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass4-screen10.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -238,13 +278,21 @@ Task status: Add your status here.
 
 #### Screenshot 11 — Terminal showing the CPU-load command running inside the selected Pod
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass4-screen11.png)
+=======
+Add your screenshot here if completed.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 12 — Output of `kubectl get hpa` and `kubectl get pods` while HPA evaluates or changes the replica count
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass4-screen12.png)
+=======
+Add your screenshot here if completed.
+>>>>>>> upstream/main
 
 ---
 

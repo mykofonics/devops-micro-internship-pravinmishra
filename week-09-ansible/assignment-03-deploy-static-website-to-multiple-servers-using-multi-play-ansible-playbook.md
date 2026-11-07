@@ -31,7 +31,11 @@ Create the required folders and files for the Ansible project.
 
 ### Screenshot 1 — Terminal or VS Code showing the complete `static-web` project structure
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass3-screen1.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -45,7 +49,11 @@ Add both Ubuntu servers to the Ansible inventory.
 
 ### Screenshot 2 — Output of `ansible-inventory -i inventory.ini --graph` showing `web1` and `web2`
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass3-screen2.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -54,6 +62,7 @@ Add both Ubuntu servers to the Ansible inventory.
 Copy and paste the complete contents of your `inventory.ini` file below:
 
 ```ini
+<<<<<<< HEAD
 [web]
 web1 ansible_host=18.191.150.206
 web2 ansible_host=3.22.216.3
@@ -62,6 +71,9 @@ web2 ansible_host=3.22.216.3
 [all:vars]
 ansible_user=ubuntu
 ansible_ssh_private_key_file=/home/rubi-cloud/.ssh/ansible
+=======
+Add your inventory.ini content here.
+>>>>>>> upstream/main
 ```
 
 ---
@@ -76,7 +88,11 @@ Confirm that the Ansible controller can connect to both servers.
 
 ### Screenshot 3 — Ansible ping output showing `SUCCESS` and `pong` for both servers
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass3-screen3.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -90,7 +106,11 @@ Download `index.html` to the Ansible controller and personalize the website with
 
 ### Screenshot 4 — Edited `files/index.html` showing the footer line with your full name
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass3-screen4.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -105,6 +125,7 @@ Create a single Ansible playbook containing separate plays for installation, dep
 Copy and paste the complete contents of your `site.yml` file below:
 
 ```yaml
+<<<<<<< HEAD
 ---
 - name: Install and Start Nginx Web Server
   hosts: web
@@ -170,6 +191,9 @@ Copy and paste the complete contents of your `site.yml` file below:
         name: nginx
         state: restarted
 
+=======
+Add your site.yml content here.
+>>>>>>> upstream/main
 ```
 
 ---
@@ -184,7 +208,11 @@ Check the playbook for YAML or Ansible syntax errors before running it.
 
 ### Screenshot 5 — Successful syntax-check output showing `playbook: site.yml`
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass3-screen5.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -198,13 +226,21 @@ Install Nginx, deploy the website, and verify both servers in one playbook run.
 
 ### Screenshot 6 — Play 3 verification showing HTTP `200` for both servers
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass3-screen6.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 ### Screenshot 7 — Final play recap showing `unreachable=0` and `failed=0` for `web1`, `web2`, and `localhost`
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass3-screen7.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -218,7 +254,11 @@ Run the playbook again and confirm that it does not make unnecessary changes.
 
 ### Screenshot 8 — Second playbook run showing the play recap with `changed=0`, `unreachable=0`, and `failed=0` for both web servers
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass3-screen8.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -232,19 +272,31 @@ Confirm that the static website is accessible from both public IP addresses.
 
 ### Screenshot 9 — `curl -I` output showing HTTP `200 OK` from both servers
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass3-screen5.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 ### Screenshot 10 — Browser showing the website from Server 1 with the public IP and your full name visible
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass3-screen10.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 ### Screenshot 11 — Browser showing the website from Server 2 with the public IP and your full name visible
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass3-screen11.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -253,8 +305,13 @@ Confirm that the static website is accessible from both public IP addresses.
 Add both deployed website URLs below:
 
 ```text
+<<<<<<< HEAD
 Server 1: http://3.22.216.3
 Server 2: http://18.191.150.206
+=======
+Server 1: http://<SERVER_1_PUBLIC_IP>
+Server 2: http://<SERVER_2_PUBLIC_IP>
+>>>>>>> upstream/main
 ```
 
 ---
@@ -270,6 +327,7 @@ Document how the project works and record what you learned.
 Copy and paste the complete contents of your `README.md` file below:
 
 ```markdown
+<<<<<<< HEAD
 # TITLE: **Multi-Play Ansible Static Website Deployment**
      
 ## Project Overview
@@ -422,6 +480,9 @@ This project helped me understand seveal important Ansible concepts:
 
 
 
+=======
+Add your README.md content here.
+>>>>>>> upstream/main
 ```
 
 ---

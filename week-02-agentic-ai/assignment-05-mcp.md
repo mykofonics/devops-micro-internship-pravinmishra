@@ -1,6 +1,10 @@
 # Assignment 5 — Connecting Claude to the Outside World
 
+<<<<<<< HEAD
 Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
+=======
+Part of the DevOps Micro Internship (DMI) with Agentic AI
+>>>>>>> upstream/main
 
 ---
 
@@ -20,7 +24,11 @@ Generate a GitHub Personal Access Token (PAT) that will be used for MCP authenti
 
 #### Screenshot 1 — GitHub token creation page showing the selected scopes (`repo`, `read:user`) — token value must NOT be visible
 
+<<<<<<< HEAD
 <img src="screenshots\Screenshot_A5_1.png" alt=""> 
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -34,7 +42,12 @@ Create and configure the `.mcp.json` file to define the GitHub MCP server.
 
 #### Screenshot 2 — `.mcp.json` open in VS Code showing the full configuration
 
+<<<<<<< HEAD
 <img src="screenshots\Screenshot_A5_2.png" alt=""> 
+=======
+Add your screenshot here.
+
+>>>>>>> upstream/main
 ---
 
 # Task 3 — Add Your Token to settings.local.json
@@ -47,7 +60,11 @@ Store your GitHub token securely in `.claude/settings.local.json` and ensure it 
 
 #### Screenshot 3 — `settings.local.json` open in VS Code showing the `env` section — **blur or cover the actual GitHub token value**
 
+<<<<<<< HEAD
 <img src="screenshots\Screenshot_A5_3.png" alt=""> 
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -61,7 +78,11 @@ Confirm that the GitHub MCP server is successfully connected inside Claude Code.
 
 #### Screenshot 4 — `/mcp` output showing `github: connected`
 
+<<<<<<< HEAD
 <img src="screenshots\Screenshot_A5_4.png" alt=""> 
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -75,7 +96,25 @@ Verify MCP functionality by retrieving real-time data from your GitHub account u
 
 #### Screenshot 5 — Claude's response showing the GitHub MCP tool call and the retrieved README.md content.
 
+<<<<<<< HEAD
 <img src="screenshots\Screenshot_A5_5.png" alt=""> 
+=======
+Add your screenshot here.
+
+---
+
+# Task 6 — Share Your MCP Achievement
+
+## Goal
+
+Share your MCP achievement on Facebook or WhatsApp Status and provide evidence of the published post/status.
+
+### Evidence
+
+#### Screenshot 6 — Published Facebook post or WhatsApp Status showing your MCP achievement message and leaderboard progress link visible
+
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -92,13 +131,19 @@ Verify MCP functionality by retrieving real-time data from your GitHub account u
 ## GitHub Repository URL
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 https://github.com/mykofonics/Ultimate-Agentic-DevOps-with-Claude-Code.git
 =======
+=======
+>>>>>>> upstream/main
 Paste your forked repository URL here:
 
 `Add your URL here`
 
 ---
+<<<<<<< HEAD
+>>>>>>> upstream/main
+=======
 >>>>>>> upstream/main
 
 ## Security Confirmation
@@ -108,7 +153,11 @@ Confirm below:
 - [ ] `settings.local.json` is added to `.gitignore`
 - [ ] GitHub token is NOT exposed in repository or screenshots
 
+<<<<<<< HEAD
 Yes, I confirm it.
+=======
+---
+>>>>>>> upstream/main
 
 # Completion Checklist
 
@@ -120,6 +169,11 @@ Yes, I confirm it.
 - [ ] Live GitHub query returns real repository data
 - [ ] All required screenshots added
 - [ ] GitHub repository URL included
+<<<<<<< HEAD
+=======
+- [ ] MCP achievement shared on Facebook or WhatsApp Status
+- [ ] Screenshot 6 added showing the published post/status
+>>>>>>> upstream/main
 
 ---
 
@@ -143,4 +197,8 @@ It helps learners build strong DevOps foundations with hands-on experience.
 
 ---
 
+<<<<<<< HEAD
 *This submission is part of DevOps Micro Internship (DMI) Cohort 3 — Agentic AI Track.*
+=======
+*This submission is part of DevOps Micro Internship (DMI) — Agentic AI Track.*
+>>>>>>> upstream/main

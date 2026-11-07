@@ -28,7 +28,11 @@ docker network ls
 
 The output must include the default `bridge`, `host`, and `none` networks.
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass3-screen1.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -40,7 +44,11 @@ Add a screenshot of the terminal showing successful completion of:
 docker pull nginx:alpine
 ```
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass3-screen2.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -58,7 +66,11 @@ The output must show the running `myweb` container with:
 0.0.0.0:80->80/tcp
 ```
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass3-screen3.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -67,12 +79,20 @@ The output must show the running `myweb` container with:
 Add a browser screenshot showing the Nginx Welcome Page at:
 
 ```text
+<<<<<<< HEAD
 http://http://18.188.255.17
+=======
+http://<YOUR-VM-PUBLIC-IP>
+>>>>>>> upstream/main
 ```
 
 Ensure that the VM public IP is visible in the address bar. Add your full name as a clear caption directly below the screenshot.
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass3-screen4.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -92,7 +112,11 @@ Add a screenshot of the terminal showing `mynetwork` in:
 docker network ls
 ```
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass3-screen5.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -106,7 +130,11 @@ docker ps
 
 The output must show both `web` and `client` containers running without published host ports.
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass3-screen6.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -120,7 +148,11 @@ docker exec client wget -qO- http://web
 
 The output must display the Nginx Welcome Page HTML.
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass3-screen1.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -134,7 +166,11 @@ docker network inspect mynetwork
 
 The output must show both `web` and `client` connected to `mynetwork`.
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass3-screen8.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -156,7 +192,11 @@ docker network ls
 
 The output must include both `frontend-network` and `backend-network`.
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass3-screen9.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -174,7 +214,11 @@ The output must show:
 - `backend` without a published host port
 - `db` without a published host port
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass3-screen10.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -188,8 +232,14 @@ docker network inspect frontend-network
 
 The output must show `frontend` and `backend`.
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass3-screen11.png)
 
+=======
+Add your screenshot here.
+
+---
+>>>>>>> upstream/main
 
 #### Screenshot 12 — Backend Network Inspection
 
@@ -201,7 +251,11 @@ docker network inspect backend-network
 
 The output must show `backend` and `db`.
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass3-screen12.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -215,7 +269,11 @@ docker exec frontend wget -qO- http://backend
 
 The output must display the Nginx Welcome Page HTML.
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass3-screen13.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -223,7 +281,11 @@ The output must display the Nginx Welcome Page HTML.
 
 Add a screenshot of the terminal showing a successful connection to `db` on port `27017` from the `backend` container.
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass3-screen14.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -237,7 +299,11 @@ The output must include:
 Expected result: frontend cannot reach db
 ```
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass3-screen15.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -246,12 +312,20 @@ Expected result: frontend cannot reach db
 Add a browser screenshot showing the Nginx Welcome Page from the `frontend` container at:
 
 ```text
+<<<<<<< HEAD
 http://http://18.188.255.176
+=======
+http://<YOUR-VM-PUBLIC-IP>
+>>>>>>> upstream/main
 ```
 
 Ensure that the VM public IP is visible in the address bar. Add your full name as a clear caption directly below the screenshot.
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass3-screen16.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -273,7 +347,11 @@ docker ps
 
 The output must show the running `fastapp` container.
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass3-screen17.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -291,7 +369,11 @@ The output must confirm:
 "NetworkMode": "host"
 ```
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass3-screen18.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -300,12 +382,20 @@ The output must confirm:
 Add a browser screenshot showing the Nginx Welcome Page at:
 
 ```text
+<<<<<<< HEAD
 http://3.15.202.63
+=======
+http://<YOUR-VM-PUBLIC-IP>
+>>>>>>> upstream/main
 ```
 
 Ensure that the VM public IP is visible in the address bar. Add your full name as a clear caption directly below the screenshot.
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass3-screen19.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -318,7 +408,11 @@ docker stop fastapp
 docker rm fastapp
 ```
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass3-screen20.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -333,6 +427,7 @@ Write a short note explaining:
 
 Write your note here.
 
+<<<<<<< HEAD
 Here’s a more natural, human version:
 
 1. Default Bridge Networking  
@@ -346,6 +441,8 @@ The frontend and database were sitting on two separate, isolated networks. The f
 
 4. Difference Between Bridge and Host Networking  
 Bridge networking keeps containers isolated from the host. You have to map ports if you want external access. Host networking removes that isolation — the container shares the host’s network stack and can use the host’s network interfaces directly, so no port mapping is needed. The trade-off is less network isolation.
+=======
+>>>>>>> upstream/main
 ---
 
 # LinkedIn Requirement
@@ -360,14 +457,22 @@ Create a LinkedIn post about the Docker networking modes explored, one key lesso
 
 Paste your LinkedIn post URL here:
 
+<<<<<<< HEAD
 `https://lnkd.in/p/eQpTHYMY
+=======
+`Add your URL here`
+>>>>>>> upstream/main
 
 ---
 
 #### LinkedIn Post Screenshot
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/dockerassig3-linkedInpost shot.png)
 
+=======
+Add a screenshot of the published LinkedIn post here.
+>>>>>>> upstream/main
 
 ---
 

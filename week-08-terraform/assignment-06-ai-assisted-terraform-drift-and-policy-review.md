@@ -1,6 +1,10 @@
 # Assignment 6 — AI-Assisted Terraform Drift and Policy Review
 
+<<<<<<< HEAD
 Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
+=======
+Part of the DevOps Micro Internship (DMI) with Agentic AI
+>>>>>>> upstream/main
 
 ---
 

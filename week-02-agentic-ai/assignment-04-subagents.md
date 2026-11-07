@@ -1,6 +1,10 @@
 # Assignment 4 — Building Your AI Team
 
+<<<<<<< HEAD
 Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
+=======
+Part of the DevOps Micro Internship (DMI) Cohort with Agentic AI
+>>>>>>> upstream/main
 
 ---
 
@@ -20,7 +24,12 @@ Create the `.claude/agents/` directory and add all required agent files.
 
 #### Screenshot 1 — VS Code sidebar showing `.claude/agents/` with all 3 files
 
+<<<<<<< HEAD
 <img src="screenshots\Screenshot_A4_1.png" alt=""> 
+=======
+Add your screenshot here.
+
+>>>>>>> upstream/main
 ---
 
 # Task 2 — Compare the Agent Configurations
@@ -33,32 +42,44 @@ Analyze the configuration differences between the three agents and demonstrate u
 
 #### 1. Why does the cost optimizer use Haiku instead of Sonnet?
 
+<<<<<<< HEAD
 1.	Cost optimization tasks are simple and rule-based.
 2.	They do not need deep reasoning.
 3.	Haiku is faster and cheaper than Sonnet.
 So it saves money on frequent, large scans. 
 
+=======
+Add your answer here...
+>>>>>>> upstream/main
 
 ---
 
 #### 2. Why does the security auditor NOT have Write in its tools list?
 
+<<<<<<< HEAD
 
 1.	The auditor's job is to find problems, not fix them.
 2.	It should only read and report issues.
 3.	No write access keeps it from changing infrastructure by accident.
 This keeps detection separate from repair, as a safety measure. 
 
+=======
+Add your answer here...
+>>>>>>> upstream/main
 
 ---
 
 #### 3. Why does the tf-writer use `inherit` instead of a specific model?
 
+<<<<<<< HEAD
 1.	inherit means the subagent uses the same model as the main session.
 2.	This keeps its ability level matched to the parent session.
 3.	Terraform code needs strong reasoning to get resources and syntax right.
 So inherit avoids locking it to a weaker, fixed model. 
 
+=======
+Add your answer here...
+>>>>>>> upstream/main
 
 ---
 
@@ -66,13 +87,21 @@ So inherit avoids locking it to a weaker, fixed model.
 
 #### Screenshot 2 — `security-auditor.md` frontmatter showing model and tools configuration
 
+<<<<<<< HEAD
 <img src="screenshots\Screenshot_A4_2.png" alt=""> 
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 3 — `cost-optimizer.md` frontmatter showing the model and tools configuration
 
+<<<<<<< HEAD
 <img src="screenshots\Screenshot_A4_3.png" alt=""> 
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -86,13 +115,21 @@ Trigger the security auditor agent and analyze the generated security report for
 
 #### Screenshot 4 — The delegation message showing Claude launched the security-auditor
 
+<<<<<<< HEAD
 <img src="screenshots\Screenshot_A4_4.png" alt=""> 
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 5 — Security audit report output
 
+<<<<<<< HEAD
 <img src="screenshots\Screenshot_A4_5.png" alt=""> 
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -106,7 +143,36 @@ Trigger the cost optimizer agent and review the generated cost optimization repo
 
 #### Screenshot 6 — The full cost optimization report
 
+<<<<<<< HEAD
 <img src="screenshots\Screenshot_A4_6.png" alt=""> 
+=======
+Add your screenshot here.
+
+---
+
+# Task 5 — Share Your AI Team Achievement on LinkedIn
+
+## Goal
+
+Share your AI subagents learning progress on LinkedIn and provide evidence of your published post.
+
+### LinkedIn Post
+
+Use the LinkedIn post template provided in the assignment guideline.
+
+Make sure your published post includes:
+
+- Your AI team achievement
+- The three specialized subagents you created
+- Your GitHub repository URL
+- Your DMI Leaderboard progress link
+
+### Evidence
+
+#### Screenshot 7 — Published LinkedIn post showing your post content and leaderboard progress link visible
+
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -120,6 +186,7 @@ Trigger the cost optimizer agent and review the generated cost optimization repo
 
 ## GitHub Repository URL
 
+<<<<<<< HEAD
 [Paste your forked repository URL here:](https://github.com/mykofonics/Ultimate-Agentic-DevOps-with-Claude-Code.git)
 
 <<<<<<< HEAD
@@ -127,6 +194,13 @@ Trigger the cost optimizer agent and review the generated cost optimization repo
 `Add your URL here`
 >>>>>>> upstream/main
 
+=======
+Paste your forked repository URL here:
+
+`Add your URL here`
+
+---
+>>>>>>> upstream/main
 
 # Completion Checklist
 
@@ -141,6 +215,10 @@ Trigger the cost optimizer agent and review the generated cost optimization repo
 - [ ] All required screenshots added
 - [ ] GitHub repo updated with agents
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/main
 ---
 
 ## 📌 About DMI & CloudAdvisory
@@ -163,4 +241,8 @@ It helps learners build strong DevOps foundations with hands-on experience.
 
 ---
 
+<<<<<<< HEAD
 *This submission is part of DevOps Micro Internship (DMI) Cohort 3 — Agentic AI Track.*
+=======
+*This submission is part of DevOps Micro Internship (DMI) — Agentic AI Track.*
+>>>>>>> upstream/main

@@ -1,6 +1,10 @@
 # Assignment 8 — Week 2 Reflection Blog
 
+<<<<<<< HEAD
 Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
+=======
+Part of the DevOps Micro Internship (DMI) with Agentic AI
+>>>>>>> upstream/main
 
 ---
 
@@ -46,14 +50,24 @@ You can publish your blog on:
 
 #### Screenshot 1 — Blog published and visible
 
+<<<<<<< HEAD
 <img src="screenshots\LinkedIn_post.png" alt=""> 
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 ### Submission Field
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 _https://www.linkedin.com/posts/oyeku-michael-2215a920_reflection-week-2-learning-that-devops-ugcPost-7482955432416960512-9baP/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAARb4_kBmnrqkDDsuuYPPXrVCKNYnevZPAo______________________________________`
+=======
+Blog Link:
+
+`Add your URL here`
+>>>>>>> upstream/main
 =======
 Blog Link:
 
@@ -70,6 +84,7 @@ Share your Week 2 learning publicly on LinkedIn.
 
 ---
 
+<<<<<<< HEAD
 ### LinkedIn Post Requirements
 
 Your post must include:
@@ -92,10 +107,13 @@ Your post must include:
 
 ---
 
+=======
+>>>>>>> upstream/main
 ### Evidence
 
 #### Screenshot 2 — LinkedIn post published
 
+<<<<<<< HEAD
 <img src="screenshots\LinnkedIn_2.png" alt=""> 
 
 ### Submission Field
@@ -110,6 +128,28 @@ Your post must include:
 >>>>>>> upstream/main
 
 https://www.linkedin.com/posts/oyeku-michael-2215a920_dmibypravinmishra-agenticai-claudecode-ugcPost-7482930953905070081-ytuQ/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAARb4_kBmnrqkDDsuuYPPXrVCKNYnevZPAoLinkedIn Post Link:
+=======
+Add your screenshot here.
+
+---
+
+### Submission Field
+
+LinkedIn Post Content (copy-paste here):
+
+```
+Paste your LinkedIn post content here
+```
+
+---
+
+### LinkedIn Post Link:
+
+`Add your URL here`
+
+---
+
+>>>>>>> upstream/main
 # Submission Instructions
 
 * Blog must be publicly accessible
@@ -151,4 +191,10 @@ It helps learners build strong DevOps foundations through hands-on experience.
 * ▶️ YouTube Playlist: [https://www.youtube.com/playlist?list=PLFeSNDtI4Cho](https://www.youtube.com/playlist?list=PLFeSNDtI4Cho)
 * 🔗 Pravin Mishra (LinkedIn): [https://www.linkedin.com/in/pravin-mishra-aws-trainer/](https://www.linkedin.com/in/pravin-mishra-aws-trainer/)
 * 🏢 CloudAdvisory (LinkedIn): [https://www.linkedin.com/company/thecloudadvisory/](https://www.linkedin.com/company/thecloudadvisory/)
+<<<<<<< HEAD
 
+=======
+---
+
+*This submission is part of DevOps Micro Internship (DMI) — Agentic AI Track.*
+>>>>>>> upstream/main

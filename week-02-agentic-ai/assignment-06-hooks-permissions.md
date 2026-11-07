@@ -1,6 +1,10 @@
 # Assignment 6 — Safety Rails for Your AI Agent
 
+<<<<<<< HEAD
 Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
+=======
+Part of the DevOps Micro Internship (DMI) with Agentic AI
+>>>>>>> upstream/main
 
 ---
 
@@ -20,7 +24,11 @@ Create the `.claude` directory structure required for team-level Claude Code con
 
 #### Screenshot 1 — `.claude` folder structure visible in VS Code Explorer
 
+<<<<<<< HEAD
 <img src="screenshots\Screenshot_A6_1.png" alt=""> 
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -34,7 +42,13 @@ Create a hook that checks user prompts before Claude processes them and blocks r
 
 #### Screenshot 2 — `user-prompt-guard.sh` open in VS Code showing the hook script
 
+<<<<<<< HEAD
 <img src="screenshots\Screenshot_A6_2.png" alt=""> 
+=======
+Add your screenshot here.
+
+---
+>>>>>>> upstream/main
 
 # Task 3 — Create the PreToolUse Hook Script
 
@@ -46,7 +60,13 @@ Create a hook that runs before Claude executes Bash commands and blocks dangerou
 
 #### Screenshot 3 — `pre-tool-guard.sh` open in VS Code showing the hook script
 
+<<<<<<< HEAD
 <img src="screenshots\Screenshot_A6_3.png" alt=""> 
+=======
+Add your screenshot here.
+
+---
+>>>>>>> upstream/main
 
 # Task 4 — Create the PostToolUse Hook Script
 
@@ -58,7 +78,13 @@ Create a hook that runs after Claude executes a Bash command and logs selected T
 
 #### Screenshot 4 — `post-tool-logger.sh` open in VS Code showing the hook script
 
+<<<<<<< HEAD
 <img src="screenshots\Screenshot_A6_4.png" alt=""> 
+=======
+Add your screenshot here.
+
+---
+>>>>>>> upstream/main
 
 # Task 5 — Configure settings.json to Connect Hook Scripts
 
@@ -70,7 +96,13 @@ Configure Claude Code permissions and connect the hook scripts created in the pr
 
 #### Screenshot 5 — `settings.json` open in VS Code showing permissions and hooks configuration
 
+<<<<<<< HEAD
 <img src="screenshots\Screenshot_A6_5.png" alt=""> 
+=======
+Add your screenshot here.
+
+---
+>>>>>>> upstream/main
 
 # Task 6 — Test the UserPromptSubmit Hook
 
@@ -82,7 +114,11 @@ Prove the prompt-level hook works by typing a destructive prompt and verifying i
 
 #### Screenshot 6 — UserPromptSubmit hook blocking the destructive prompt
 
+<<<<<<< HEAD
 <img src="screenshots\Screenshot_A6_6.png" alt=""> 
+=======
+---
+>>>>>>> upstream/main
 
 # Task 7 — Test the PreToolUse Hook
 
@@ -94,7 +130,11 @@ Prove the tool-level hook works by asking Claude to execute a dangerous Bash com
 
 #### Screenshot 7 — PreToolUse hook blocking terraform destroy
 
+<<<<<<< HEAD
 <img src="screenshots\Screenshot_A6_7.png" alt=""> 
+=======
+---
+>>>>>>> upstream/main
 
 # Task 8 — Test the PostToolUse Logging Hook
 
@@ -106,18 +146,42 @@ Prove the logging hook runs after a successful command execution and records Ter
 
 #### Screenshot 8 — Claude running terraform validate successfully
 
+<<<<<<< HEAD
 <img src="screenshots\Screenshot_A6_8.png" alt=""> 
 
 #### Screenshot 9 — `.claude/deploy.log` showing the logged command
 
 <img src="screenshots\Screenshot_A6_9.png" alt=""> 
+=======
+#### Screenshot 9 — `.claude/deploy.log` showing the logged command
+
+---
+
+# Task 9 — Share Your AI Safety Achievement
+
+## Goal
+
+Share how you built safety controls that prevent an AI agent from performing destructive actions.
+
+### Evidence
+
+#### Screenshot 10 — Published post on X or LinkedIn showing your AI safety achievement message and leaderboard progress link visible
+
+Add your screenshot here.
+
+---
+>>>>>>> upstream/main
 
 # Submission Instructions
 
 Complete all tasks in sequence.
 
 Your submission must include:
+<<<<<<< HEAD
 - All 9 required screenshots
+=======
+- All 10 required screenshots
+>>>>>>> upstream/main
 
 ---
 
@@ -135,6 +199,11 @@ Your submission must include:
 - [ ] Destructive prompt test shows UserPromptSubmit blocked the request
 - [ ] Terraform destroy command test shows PreToolUse intercepted the command
 - [ ] Terraform validate test shows PostToolUse created the log entry
+<<<<<<< HEAD
+=======
+- [ ] AI safety achievement shared on X or LinkedIn
+- [ ] Screenshot of published post with leaderboard progress link visible
+>>>>>>> upstream/main
 - [ ] All required screenshots are captured
 
 ---
@@ -159,4 +228,8 @@ It helps learners build strong DevOps foundations with hands-on experience.
 
 ---
 
+<<<<<<< HEAD
 *This submission is part of DevOps Micro Internship (DMI) Cohort 3 — Agentic AI Track.*
+=======
+*This submission is part of DevOps Micro Internship (DMI) — Agentic AI Track.*
+>>>>>>> upstream/main

@@ -70,7 +70,11 @@ Add a screenshot of the Infrastructure Pipeline run showing:
 * `backend_private_ip`
 * `mysql_fqdn`
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass4-screen1.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 > Do not expose the MySQL password, Client Secret, Terraform state, SSH private key, or another sensitive value.
 
@@ -86,7 +90,11 @@ Add a screenshot of the Azure Portal Resource Group overview showing:
 * Azure Database for MySQL Flexible Server
 * Related EpicBook resources
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass4-screen2.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 > Hide sensitive IDs, credentials, and database details.
 
@@ -124,7 +132,11 @@ Run the Application Pipeline to configure the VMs, deploy EpicBook, and verify t
 
 Add a screenshot of the Application Pipeline run summary showing all required stages or jobs succeeded.
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass4-screen3.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -137,7 +149,11 @@ Add a screenshot of the Application Pipeline log showing:
 * Zero failed hosts
 * Zero unreachable hosts
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass4-screen4.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 > Do not expose the SSH private key, MySQL password, Client Secret, or complete database connection string.
 
@@ -162,7 +178,11 @@ Add a browser screenshot showing:
 
 The screenshot may show a product, cart, or successful order view.
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass4-screen5.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 > Do not expose credentials or sensitive information.
 
@@ -172,6 +192,7 @@ The screenshot may show a product, cart, or successful order view.
 
 ## Frontend Application URL
 
+<<<<<<< HEAD
 [http://3.133.143.74/]
 
 ## Infrastructure Repository URL
@@ -181,6 +202,17 @@ The screenshot may show a product, cart, or successful order view.
 ## Application Repository URL
 
 [https://github.com/Tobilee10/epicbook-app.git]
+=======
+[Paste your final EpicBook application URL here.]
+
+## Infrastructure Repository URL
+
+[Paste your Infrastructure Repository URL here.]
+
+## Application Repository URL
+
+[Paste your Application Repository URL here.]
+>>>>>>> upstream/main
 
 ---
 

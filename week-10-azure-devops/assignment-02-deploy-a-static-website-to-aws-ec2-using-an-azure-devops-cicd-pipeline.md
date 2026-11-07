@@ -36,7 +36,11 @@ Add a screenshot of Azure Repos showing:
 * Project files
 * `index.html`
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass2-screen1.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -65,7 +69,11 @@ Add a screenshot of the saved SSH Service Connection **Overview** page showing:
 * Service Connection name
 * SSH connection type
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass2-screen2.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 > Do not expose a password, SSH private key, passphrase, or another credential.
 
@@ -91,7 +99,11 @@ Add a screenshot of `azure-pipelines.yml` open in the Azure Repos editor showing
 * `CopyFilesOverSSH@0` task
 * `SSH@0` verification task
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass2-screen3.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 > Ensure that no password, SSH private key, PAT, or AWS credential is visible.
 
@@ -115,7 +127,11 @@ Add a screenshot of the successful pipeline run and log summary showing:
 * Remote-verification step completed
 * Your Full Name visible in the pipeline output
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass2-screen4.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -136,7 +152,11 @@ Add a browser screenshot showing:
 * Your Full Name
 * Updated website content after the automatic deployment
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass2-screen5.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ## Final Website URL
 

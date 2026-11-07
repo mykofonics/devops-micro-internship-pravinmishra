@@ -28,7 +28,11 @@ Add a screenshot of the cloud console showing:
 - SSH port 22 enabled from your IP address
 - HTTP port 80 enabled from Anywhere
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass1-screen1.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -50,7 +54,11 @@ cat /var/log/cloud-init-output.log
 
 The visible output must show Docker installation activity.
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass1-screen2.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -76,7 +84,11 @@ and
 docker ps
 ```
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass1-screen3.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -92,7 +104,11 @@ Download the static website source code.
 
 Add a screenshot of the terminal showing the contents of the `Azure-Static-Website` project directory after cloning the repository.
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass1-screen4.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -114,7 +130,11 @@ cat Dockerfile
 
 The Dockerfile must use `nginx:alpine`, copy the website files to the Nginx web root, and expose port 80.
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass1-screen5.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -136,7 +156,11 @@ docker images
 
 The output must include the `static-site` image with the `latest` tag.
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass1-screen6.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -162,7 +186,11 @@ The output must show the running `static-site` container with the port mapping:
 0.0.0.0:80->80/tcp
 ```
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass1-screen7.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -182,7 +210,11 @@ Add a screenshot of the terminal showing the output of:
 curl ifconfig.me
 ```
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass1-screen8.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -192,13 +224,21 @@ Add a screenshot of the browser showing the deployed static website.
 
 Ensure that the VM public IP address is visible in the browser address bar.
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass1-screen9.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 # Public Application URL
 
+<<<<<<< HEAD
 **VM Public IP / Application URL:** `http://3.15.206.43`
+=======
+**VM Public IP / Application URL:** `Add your application URL here`
+>>>>>>> upstream/main
 
 ---
 

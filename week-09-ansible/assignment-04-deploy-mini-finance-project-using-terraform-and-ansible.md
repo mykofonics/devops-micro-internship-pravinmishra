@@ -22,7 +22,11 @@ Create separate directories and files for the Terraform infrastructure and Ansib
 
 #### Screenshot 1 — Terminal or VS Code showing the complete `mini-finance` project structure
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass4-screen1.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -42,13 +46,21 @@ Use Terraform to provision an Ubuntu Virtual Machine with the required Azure net
 
 #### Screenshot 2 — Terraform code showing the `Allow-SSH` rule for port `22` and the `Allow-HTTP` rule for port `80`
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass4-screen2.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 3 — Terraform code showing the association between `nsg-mini-finance` and `nic-mini-finance`
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass4-screen3.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -68,13 +80,21 @@ Format and validate the Terraform configuration, review the execution plan, and 
 
 #### Screenshot 4 — End of the `terraform apply` output showing `Apply complete!` with no errors
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass4-screen4.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 5 — Output of `terraform output public_ip` showing the VM’s public IP address
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass4-screen5.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -94,7 +114,11 @@ Confirm that the Ansible controller can connect to the Terraform-provisioned Azu
 
 #### Screenshot 6 — Passwordless SSH command and the returned `mini-finance` hostname
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass4-screen6.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -114,7 +138,11 @@ Add the Terraform-provisioned Azure VM to the Ansible inventory and confirm that
 
 #### Screenshot 7 — Ansible ping output showing `SUCCESS` and `pong` from the Azure VM
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass4-screen7.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -145,7 +173,11 @@ Screenshot must show:
 - Nginx service configured as started and enabled
 - Beginning of Play 2 with the Git repository URL and synchronization task
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass4-screen8.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -159,7 +191,11 @@ Screenshot must show:
 - Play 3 targeting `localhost`
 - The `uri` verification and `assert` condition
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass4-screen9.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -168,6 +204,7 @@ Screenshot must show:
 Copy and paste the complete contents of your `ansible/site.yml` file below:
 
 ```yaml
+<<<<<<< HEAD
 - name: Apply Common System Updates
   hosts: web
   become: yes
@@ -175,6 +212,9 @@ Copy and paste the complete contents of your `ansible/site.yml` file below:
     - common
     - nginx
     - mini_finance
+=======
+Add your site.yml content here.
+>>>>>>> upstream/main
 ```
 
 ---
@@ -189,19 +229,31 @@ Validate the syntax of the multi-play Ansible playbook and run it to install Ngi
 
 #### Screenshot 10 — Successful playbook syntax check showing `playbook: site.yml`
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass4-screen10.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 11 — Play 3 output showing the successful HTTP verification and assertion
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass4-screen11.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 12 — Final `PLAY RECAP` showing `failed=0` and `unreachable=0`
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass4-screen12.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -221,7 +273,11 @@ Confirm that the Mini Finance website is publicly accessible through the Azure V
 
 #### Screenshot 13 — Mini Finance website successfully loading in the browser, with the Azure VM’s public IP address visible in the address bar
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass4-screen13.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -230,7 +286,11 @@ Confirm that the Mini Finance website is publicly accessible through the Azure V
 Add your deployed website URL below:
 
 ```text
+<<<<<<< HEAD
 http://16.59.27.127
+=======
+http://<PUBLIC_IP>
+>>>>>>> upstream/main
 ```
 
 ---
@@ -245,7 +305,11 @@ Create a `README.md` file to document the Mini Finance infrastructure and deploy
 
 #### Screenshot 14 — Completed `README.md` displayed in the VS Code Markdown preview or terminal
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass4-screen14.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -254,6 +318,7 @@ Create a `README.md` file to document the Mini Finance infrastructure and deploy
 Copy and paste the complete contents of your `README.md` file below:
 
 ```markdown
+<<<<<<< HEAD
 # Project Title: Deploy Mini Finance on AWS Using Terraform and Ansible
 
 ## Project Objective
@@ -437,6 +502,9 @@ Ansible answers:
 
 Together, they create a more automated and repeatable deployment process. 
     
+=======
+Add your README.md content here.
+>>>>>>> upstream/main
 ```
 
 ---

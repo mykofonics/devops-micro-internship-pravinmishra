@@ -1,6 +1,10 @@
 # Assignment 2 — Teaching Claude Your Project
 
+<<<<<<< HEAD
 Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
+=======
+Part of the DevOps Micro Internship (DMI) with Agentic AI
+>>>>>>> upstream/main
 
 ---
 
@@ -19,7 +23,12 @@ Capture Claude’s response before `CLAUDE.md` exists in the project to establis
 ### Evidence
 
 #### Screenshot 1 — Claude’s generic response before CLAUDE.md exists (project contains only `index.html`, `style.css`, `images/`, `README.MD`, `privacy.html`, `terms.html`)
+<<<<<<< HEAD
 <img src="screenshots\Screenshot_A2_1.png" alt=""> 
+=======
+
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -33,7 +42,11 @@ Generate an initial `CLAUDE.md` file using the `/init` command and review the au
 
 #### Screenshot 2 — The auto-generated CLAUDE.md open in VS Code showing its content
 
+<<<<<<< HEAD
 <img src="screenshots\Screenshot_A2_2.png" alt=""> 
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -47,7 +60,11 @@ Update the generated `CLAUDE.md` file by adding project-specific instructions ac
 
 #### Screenshot 3 — Your customized CLAUDE.md in VS Code showing all 5 sections (scroll to show the full file)
 
+<<<<<<< HEAD
 <img src="screenshots\Screenshot_A2_3.png" alt=""> 
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -61,13 +78,21 @@ Verify that Claude’s behavior changes after adding `CLAUDE.md` by running a ne
 
 #### Screenshot 4 — Claude's specific, detailed answer after reading CLAUDE.md (Claude mentioning S3, CloudFront and Terraform)
 
+<<<<<<< HEAD
 <img src="screenshots\Screenshot_A2_4.png" alt=""> 
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 5 — Claude refusing or warning against adding React because of the "No JavaScript" convention defined in CLAUDE.md
 
+<<<<<<< HEAD
 <img src="screenshots\Screenshot_A2_5.png" alt=""> 
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -81,7 +106,26 @@ Commit the `CLAUDE.md` file and push it to your GitHub fork so the project instr
 
 #### Screenshot 6 — `CLAUDE.md` visible in your GitHub repository after pushing the commit
 
+<<<<<<< HEAD
 <img src="screenshots\Screenshot_A2_6.png" alt=""> 
+=======
+Add your screenshot here.
+
+---
+
+# Task 6 — Share Your Progress on WhatsApp
+
+## Goal
+
+Celebrate your progress and share your DMI Leaderboard achievement on WhatsApp.
+
+### Evidence
+
+#### Screenshot 7 — Your shared WhatsApp Status or community message showing the automatically generated leaderboard rank and personal progress link
+
+Add your screenshot here.
+
+>>>>>>> upstream/main
 ---
 
 # Submission Instructions
@@ -95,8 +139,14 @@ Commit the `CLAUDE.md` file and push it to your GitHub fork so the project instr
 ## GitHub Repository URL
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 https://github.com/mykofonics/Ultimate-Agentic-DevOps-with-Claude-Code
 `__________________________`
+=======
+Paste your forked repository URL here:
+
+`Add your URL here`
+>>>>>>> upstream/main
 =======
 Paste your forked repository URL here:
 
@@ -113,6 +163,10 @@ Paste your forked repository URL here:
 [ ] Screenshot 4 shows Claude mentioning S3, CloudFront, and Terraform <br>
 [ ] Screenshot 5 shows Claude refusing the React request <br>
 [ ] Screenshot 6 shows `CLAUDE.md` committed and visible in your GitHub repository <br>
+<<<<<<< HEAD
+=======
+[ ] Screenshot 7 shows your shared WhatsApp Status with the automatically generated DMI Leaderboard rank and personal progress link<br>
+>>>>>>> upstream/main
 [ ] GitHub repository URL is included in the submission <br>
 
 ---
@@ -137,4 +191,8 @@ It helps learners build strong DevOps foundations with hands-on experience.
 
 ---
 
+<<<<<<< HEAD
 *This submission is part of DevOps Micro Internship (DMI) Cohort 3 — Agentic AI Track.*
+=======
+*This submission is part of DevOps Micro Internship (DMI)— Agentic AI Track.*
+>>>>>>> upstream/main

@@ -1,6 +1,10 @@
 # Assignment 7 — A Claude That Remembers
 
+<<<<<<< HEAD
 Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
+=======
+Part of the DevOps Micro Internship (DMI) with Agentic AI
+>>>>>>> upstream/main
 
 ---
 
@@ -20,7 +24,13 @@ Discover exactly where Claude Code stores memory for this project.
 
 #### Screenshot 1 — Memory file path shown by Claude
 
+<<<<<<< HEAD
 <img src="screenshots\Screenshot_A7_1.png" alt=""> 
+=======
+Add your screenshot here.
+
+---
+>>>>>>> upstream/main
 
 # Task 2 — Give Claude Information to Remember
 
@@ -32,11 +42,23 @@ Teach Claude three specific facts about the project and instruct it to save them
 
 #### Screenshot 2 — Claude confirming the memory was saved
 
+<<<<<<< HEAD
 <img src="screenshots\Screenshot_A7_2.png" alt=""> 
 
 #### Screenshot 3 — The `MEMORY.md` file open in VS Code showing the saved content
 
 <img src="screenshots\Screenshot_A7_3.png" alt=""> 
+=======
+Add your screenshot here.
+
+---
+
+#### Screenshot 3 — The `MEMORY.md` file open in VS Code showing the saved content
+
+Add your screenshot here.
+
+---
+>>>>>>> upstream/main
 
 # Task 3 — Close the Session Completely
 
@@ -48,7 +70,13 @@ Terminate the current Claude Code session and restart it to ensure memory is the
 
 #### Screenshot 4 — VS Code reopened with a fresh Claude Code session showing no previous conversation
 
+<<<<<<< HEAD
 <img src="screenshots\Screenshot_A7_4.png" alt=""> 
+=======
+Add your screenshot here.
+
+---
+>>>>>>> upstream/main
 
 # Task 4 — Prove Memory Recall Across Sessions
 
@@ -60,11 +88,23 @@ Run three tests that prove Claude remembers what you told it — without you say
 
 #### Screenshot 5 — Claude recalling hero section colors
 
+<<<<<<< HEAD
 <img src="screenshots\Screenshot_A7_5.png" alt=""> 
 
 #### Screenshot 6 — Claude refusing JavaScript request based on memory rule
 
 <img src="screenshots\Screenshot_A7_6.png" alt=""> 
+=======
+Add your screenshot here.
+
+---
+
+#### Screenshot 6 — Claude refusing JavaScript request based on memory rule
+
+Add your screenshot here.
+
+---
+>>>>>>> upstream/main
 
 # Submission Instructions
 
@@ -78,7 +118,13 @@ Run three tests that prove Claude remembers what you told it — without you say
 ## Linkedin Post Link
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 https://www.linkedin.com/posts/oyeku-michael-2215a920_dmibypravinmishra-agenticai-claudecode-activity-7482930954634833922-imsr?utm_source=share&utm_medium=member_desktop&rcm=ACoAAARb4_kBmnrqkDDsuuYPPXrVCKNYnevZPAo_______________________`
+=======
+Paste your Linkedin post link here:
+
+`Add your URL here`
+>>>>>>> upstream/main
 =======
 Paste your Linkedin post link here:
 
@@ -89,10 +135,18 @@ Paste your Linkedin post link here:
 
 ## GitHub Repository URL
 
+<<<<<<< HEAD
 https://github.com/mykofonics/Ultimate-Agentic-DevOps-with-Claude-Code.git
 
 <<<<<<< HEAD
 =======
+`Add your URL here`
+
+---
+>>>>>>> upstream/main
+=======
+Paste your forked repository URL here:
+
 `Add your URL here`
 
 ---
@@ -131,4 +185,8 @@ It helps learners build strong DevOps foundations with hands-on experience.
 
 ---
 
+<<<<<<< HEAD
 *This submission is part of DevOps Micro Internship (DMI) Cohort 3 — Agentic AI Track.*
+=======
+*This submission is part of DevOps Micro Internship (DMI) — Agentic AI Track.*
+>>>>>>> upstream/main

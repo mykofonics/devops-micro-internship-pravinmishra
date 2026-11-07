@@ -1,6 +1,10 @@
 # Assignment 2 — Deploy a React App on an Azure VM (Ubuntu + Nginx)
 
+<<<<<<< HEAD
 Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
+=======
+Part of the DevOps Micro Internship (DMI) with Agentic AI
+>>>>>>> upstream/main
 
 ---
 
@@ -20,7 +24,11 @@ Create the Azure Resource Group `react-app-rg` in a region close to you.
 
 #### Screenshot 1 — Resource Group overview showing the name and region
 
+<<<<<<< HEAD
 ![alt text](<screenshots/Screenshot_1_Assign_2_1.png>)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -34,13 +42,23 @@ Create an Ubuntu 20.04 LTS VM (size B1s) with a Network Security Group allowing 
 
 #### Screenshot 2 — Azure VM overview page showing the VM name, Resource Group, and region
 
+<<<<<<< HEAD
 ![alt text](screenshots/Screenshot2-Assignment2-1-week7.png>)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 3 — Network Security Group inbound rules showing ports 22 and 80 allowed
 
+<<<<<<< HEAD
 ![alt text](screenshots/Screenshot3-Assignment2-2-week7.png)
+=======
+Add your screenshot here.
+
+---
+>>>>>>> upstream/main
 
 # Task 3 — SSH into the Azure VM
 
@@ -132,6 +150,41 @@ Add your screenshot here.
 
 ---
 
+<<<<<<< HEAD
+=======
+# LinkedIn Post (Required)
+
+## Goal
+
+Publish a LinkedIn post sharing your experience deploying the React application on an Azure VM using Ubuntu and Nginx.
+
+Include:
+
+- A screenshot of the live React application showing your full name and deployment date
+- Your application URL: `http://<AZURE_VM_PUBLIC_IP>`
+- A caption in your own words explaining what you deployed, what you learned about Azure VMs, Network Security Groups, SSH, building React applications, and Nginx, and any challenge you resolved
+
+Include these hashtags:
+
+#DMIByPravinMishra #Azure #DevOps #CloudComputing
+
+Add the credit note for your track, replace `YOUR-GITHUB-USERNAME` with your GitHub username, and include the tags specified in the assignment guidelines.
+
+### Evidence
+
+#### LinkedIn Post URL
+
+Paste your LinkedIn post URL here:
+
+`Add your URL here`
+
+---
+
+#### Screenshot 11 — Published LinkedIn post showing your caption, application URL, and live React application screenshot
+
+Add your screenshot here.
+
+>>>>>>> upstream/main
 # Submission Instructions
 
 - Add all required screenshots in your submission
@@ -173,4 +226,8 @@ It helps learners build strong DevOps foundations with hands-on experience.
 
 ---
 
+<<<<<<< HEAD
 *This submission is part of DevOps Micro Internship (DMI) Cohort 3 — Agentic AI Track.*
+=======
+*This submission is part of DevOps Micro Internship (DMI) — Agentic AI Track.*
+>>>>>>> upstream/main

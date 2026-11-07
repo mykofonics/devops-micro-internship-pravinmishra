@@ -30,7 +30,11 @@ cat .dockerignore
 
 The file must exclude `node_modules`, `build`, and `.env`.
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass2-screen1.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -46,7 +50,11 @@ Create a baseline single-stage Docker image and run the application on port 3000
 
 Add a screenshot showing the completed `Dockerfile.single`.
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass2-screen2.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -60,7 +68,11 @@ http://localhost:3000
 
 Ensure that your full name is visible in the application.
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass2-screen3.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -76,7 +88,11 @@ Create an optimized multi-stage Docker image with separate builder and Nginx run
 
 Add a screenshot showing the completed multi-stage `Dockerfile`.
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass2-screen4.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -90,7 +106,11 @@ http://localhost
 
 Ensure that your full name is visible in the application.
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass2-screen5.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -117,7 +137,11 @@ react-single:latest
 react-multistage:latest
 ```
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass2-screen6.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -126,6 +150,7 @@ react-multistage:latest
 Record the image sizes and calculate the reduction using the same unit for both images.
 
 ```text
+<<<<<<< HEAD
 Single-stage image size: 505MB
 
 Multi-stage image size: 26.6MB
@@ -135,6 +160,17 @@ Percentage reduction =
 ÷ 505) × 100
 
 Percentage reduction: 98.7%
+=======
+Single-stage image size: Add size here
+
+Multi-stage image size: Add size here
+
+Percentage reduction =
+((Single-stage image size − Multi-stage image size)
+÷ Single-stage image size) × 100
+
+Percentage reduction: Add result here
+>>>>>>> upstream/main
 ```
 
 ---
@@ -158,6 +194,7 @@ Write a short analysis of 5–8 lines covering:
 
 Write your analysis here.
 
+<<<<<<< HEAD
 The single-stage Docker image was 505 MB. The optimized multi-stage image was only 26.6 MB — a 98.7% reduction in size.  
 
 We got this big drop by separating the React build environment from the production runtime. The multi-stage approach leaves out development dependencies, build tools, and source files from the final image. That shrinks the attack surface and improves security. Smaller images also use less storage and speed up image pulls and deployments.  
@@ -165,6 +202,8 @@ We got this big drop by separating the React build environment from the producti
 One useful Docker build-caching trick is to copy `package.json` and the lock file first, then install the dependencies. This lets Docker reuse the dependency layer whenever the application source files change.
 
 
+=======
+>>>>>>> upstream/main
 ---
 
 # Task 6 — Explore Additional Production Optimizations (Optional)
@@ -182,7 +221,11 @@ You may choose to:
 - Experiment with a lighter runtime image
 - Compare the resulting image size with your original multi-stage image
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass2-screen7.png)
+=======
+Screenshots are optional.
+>>>>>>> upstream/main
 
 ---
 
@@ -198,15 +241,23 @@ Create a LinkedIn post describing what you built, what a multi-stage Docker buil
 
 Paste your LinkedIn post URL here:
 
+<<<<<<< HEAD
 `https://lnkd.in/p/eytMM2Um
+=======
+`Add your URL here`
+>>>>>>> upstream/main
 
 ---
 
 #### LinkedIn Post Screenshot
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/dockerpostlinkedIn-assign.png)
 
 
+=======
+Add a screenshot of the published LinkedIn post here.
+>>>>>>> upstream/main
 
 ---
 

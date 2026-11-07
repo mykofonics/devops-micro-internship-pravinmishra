@@ -43,6 +43,9 @@ Write a short explanation (**100–150 words**) that includes:
 * HTTP/HTTPS
 
 💡 **Tip:** You may use ChatGPT (as demonstrated in Task 1) to refine your explanation.
+![alt text](screenshots/Task_2.png)
+
+![alt text](screenshots/task.png)
 
 After a successful launch of the website, when a user anywhere in the world visits EpicReads, their request is sent across the Internet using packet switching, where the data is divided into small packets that travel through different routes before being reassembled at the destination. The website hosted in Finland is like a house on the street, which can be located with a unique number. The website is an entity on the network which is identified by a unique IP address, which enables devices to locate and communicate with the server. The TCP/IP protocol suite ensures that the packets are delivered accurately, in the correct order, and without data loss. Once the connection is established, HTTP (Hypertext Transfer Protocol) is the path used to request and deliver web pages. In practice, HTTPS is preferred because it encrypts the communication between the user's browser and the server, protecting sensitive information such as login credentials and payment details from unauthorised access.
 
@@ -68,7 +71,7 @@ EpicReads bookstore has two application versions:
 ## Diagram Screenshot / Photo
 
 
-<img src="screenshots/task_3.png" alt="">
+![alt text](screenshots/Task_3.png)
 
 ## Technologies Used
 
@@ -145,7 +148,7 @@ ls
 
 * Your selected VS Code theme clearly visible
 
-<img src="screenshots/task_5.png" alt="">
+![alt text](screenshots/Task_5.png)
 
 # 🔗 Task 6: Publish Your Assignment as a LinkedIn Post
 

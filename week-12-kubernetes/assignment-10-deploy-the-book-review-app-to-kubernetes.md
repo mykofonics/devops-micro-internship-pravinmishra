@@ -12,15 +12,25 @@ Deploy the Book Review App as a production-style three-tier application using Ku
 
 ## Submission Details
 
+<<<<<<< HEAD
 **Full Name:** Michael Oyeku.
 
 **Kubernetes Platform:**AWS
+=======
+**Full Name:** Add your full name here.
+
+**Kubernetes Platform:** Add your platform here.
+>>>>>>> upstream/main
 
 **Namespace:** book-review
 
 **Frontend URL or IP:** Add the working endpoint here.
 
+<<<<<<< HEAD
 **Access Method:** Public LoadBalancer, 
+=======
+**Access Method:** Public LoadBalancer, Ingress, or documented local access.
+>>>>>>> upstream/main
 
 **GitHub Manifests or Helm Chart URL:** Add your repository link here.
 
@@ -38,7 +48,11 @@ Prepare the cluster, application source, container images, and tooling needed fo
 
 #### Screenshot 1 — Active Kubernetes context and Ready nodes
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass10-screen1.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -60,7 +74,11 @@ Document the workloads, networking, configuration, storage, and permitted commun
 
 #### Screenshot 3 — Completed Kubernetes architecture diagram
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass10-screen3.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -74,13 +92,21 @@ Provide application configuration and credentials without embedding sensitive va
 
 #### Screenshot 4 — ConfigMap configuration or describe output showing non-sensitive values
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass10-screen4.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 5 — Secret references or describe output showing names and keys without sensitive values
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass10-screen5.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -94,13 +120,21 @@ Provide persistent MySQL storage and allow the backend to connect without exposi
 
 #### Screenshot 6 — Managed MySQL status or MySQL StatefulSet and PVC status
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass10-screen6.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 7 — Successful database connectivity or schema verification with credentials hidden
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass10-screen7.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -114,7 +148,11 @@ Run one or two Node.js/Express backend replicas on port 3001 and expose them thr
 
 #### Screenshot 8 — Backend Deployment, ready Pods, and internal Service
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass10-screen8.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -122,7 +160,11 @@ Run one or two Node.js/Express backend replicas on port 3001 and expose them thr
 
 If the application does not log successful database connections, provide a successful database-backed request alongside the startup logs.
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass10-screen9.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -136,13 +178,21 @@ Run the Next.js frontend behind Nginx on port 80 and proxy API requests to the i
 
 #### Screenshot 10 — Frontend Deployment and Ready Pods
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass10-screen10.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 11 — Nginx reverse-proxy configuration showing the internal backend Service name and port 3001
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass10-screen11.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -156,13 +206,21 @@ Expose the frontend and enforce the intended communication path between applicat
 
 #### Screenshot 12 — Frontend LoadBalancer or Ingress configuration and assigned endpoint, or documented local access method
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass10-screen12.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 13 — Internal backend Service and NetworkPolicy or equivalent restriction, with access-test evidence
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass10-screen13.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -176,25 +234,41 @@ Prove that the frontend, backend, and MySQL database work together and collect o
 
 #### Screenshot 14 — `kubectl get all` output for the book-review namespace
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass10-screen14.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 15 — Functional Book Review App in the browser with the URL visible, including evidence of a successful user flow
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass10-screen15.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 16 — Frontend or Nginx container logs
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass10-screen16.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 17 — Backend logs and evidence of a successful database-backed operation
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass10-screen17.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -216,7 +290,11 @@ Add selected improvements without breaking the required three-tier architecture.
 
 #### Screenshot 19 — Optional: Evidence of selected Helm, HPA, probe, or TLS improvements
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass10-screen19.png) or write “Not attempted.”
+=======
+Add your screenshot here, or write “Not attempted.”
+>>>>>>> upstream/main
 
 ---
 

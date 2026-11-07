@@ -20,7 +20,11 @@ Create a small AKS cluster for this lab, or connect to an existing approved AKS 
 
 #### Screenshot 1 — Output of `kubectl get nodes` showing ready AKS node(s)
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass9-screen1.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ### Notes
 
@@ -48,7 +52,11 @@ Create and enter a dedicated directory for the LoadBalancer Service manifests.
 
 #### Screenshot 2 — Terminal showing the output of `pwd` confirming that you are working inside `~/k8s-labs/services/loadbalancer`
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass9-screen2.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ### Notes
 
@@ -72,13 +80,21 @@ Create a healthy NGINX Deployment with readiness and liveness probes.
 
 #### Screenshot 3 — Completed `00-nginx-deploy.yaml` manifest
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass9-screen3.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 4 — Output showing successful rollout and two ready NGINX Pods
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass9-screen4.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ### Notes
 
@@ -106,19 +122,31 @@ Create a public LoadBalancer Service and verify that the NGINX application is re
 
 #### Screenshot 5 — Completed `01-nginx-svc-loadbalancer.yaml` manifest
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass9-screen5.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 6 — Output showing the Service with an assigned EXTERNAL-IP
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass9-screen6.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 7 — Successful curl output from the public IP
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass9-screen7.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ### Notes
 
@@ -150,25 +178,41 @@ Intentionally break readiness and observe how Kubernetes excludes unready Pods f
 
 #### Screenshot 8 — Completed `02-readiness-broken.yaml` patch file
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass9-screen8.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 9 — Output showing the expected incomplete rollout or readiness failure
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass9-screen9.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 10 — EndpointSlice output showing ready healthy backends and the effect of the readiness failure
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass9-screen11.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 11 — Successful public curl response after recovery
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass9-screen12.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ### Notes
 
@@ -200,13 +244,21 @@ Scale the NGINX Deployment and confirm that more ready Pods become available beh
 
 #### Screenshot 12 — Two ready NGINX Pods verified initially; four ready Pods verified after scaling
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass9-screen12.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
 #### Screenshot 13 — Successful public curl response after scaling
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass9-screen13.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ### Notes
 

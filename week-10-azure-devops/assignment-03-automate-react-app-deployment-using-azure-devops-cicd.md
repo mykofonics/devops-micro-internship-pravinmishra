@@ -37,7 +37,11 @@ Add a screenshot of Azure Repos showing:
 * `main` branch
 * Project files
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass3-screen1.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -81,7 +85,11 @@ Add a screenshot of the Azure Pipeline YAML open in the editor showing:
 * Publish stage
 * Deploy stage
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass3-screen2.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 > Do not expose passwords, private keys, tokens, or cloud credentials.
 
@@ -104,7 +112,11 @@ Add a screenshot of one Azure DevOps pipeline run showing all four stages succee
 * Publish
 * Deploy
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass3-screen3.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -122,7 +134,11 @@ Add a screenshot of the pipeline SSH verification log or VM terminal showing the
 
 `/var/www/html`
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass3-screen4.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ---
 
@@ -143,7 +159,11 @@ Add a browser screenshot showing:
 * Your Full Name
 * Deployment date
 
+<<<<<<< HEAD
 ![screenshot](./screenshots/ass3-screen5.png)
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ## Final Application URL
 
@@ -151,7 +171,11 @@ Add a browser screenshot showing:
 
 Replace the placeholder and paste your final application URL below:
 
+<<<<<<< HEAD
 [http://18.191.250.117/]
+=======
+[Paste your final application URL here.]
+>>>>>>> upstream/main
 
 ---
 
